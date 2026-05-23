@@ -2,7 +2,7 @@
   "name": "Cooking OS",
   "short_name": "Cooking OS",
   "description": "Your personal Nigerian cuisine cooking execution system",
-  "start_url": "/cooking-os.html",
+  "start_url": "/cooking-os/cooking-os.html",
   "display": "standalone",
   "background_color": "#0d0d0d",
   "theme_color": "#0d0d0d",
