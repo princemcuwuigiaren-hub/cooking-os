@@ -1,0 +1,88 @@
+{
+  "dish": "Dodo (Fried Plantain)",
+  "description": "Fried ripe plantain — caramelised, golden, slightly crispy on the outside, soft and sweet inside. Served as a side, a snack, or a party staple. The ripeness of the plantain and the oil temperature are the entire game.",
+  "emoji": "🍌",
+  "tags": ["side-dish", "beginner-friendly", "20-30min", "snack", "party"],
+  "serves": "4",
+
+  "ingredients": [
+    { "name": "ripe plantain", "quantity": "3 large", "essential": true, "note": "Ripeness is everything. The skin should be mostly black — at least 70% black with some yellow. Fully yellow plantain is not sweet enough and will not caramelise properly. Bright green plantain is for boiling, not frying." },
+    { "name": "vegetable oil", "quantity": "1 cup (for shallow frying)", "essential": true, "note": "Enough oil to come at least halfway up the plantain pieces in the pan. Do not use too little — the plantain will stick and cook unevenly." },
+    { "name": "salt", "quantity": "a pinch", "essential": false, "note": "Some Nigerians add a tiny pinch of salt to the plantain before frying — it heightens the sweetness. Optional but worth trying." }
+  ],
+
+  "steps": [
+    {
+      "title": "Select and Peel the Plantain",
+      "instruction": "Press the plantain gently — it should feel soft and yielding, not firm. The skin should be mostly black. Peel by cutting off both ends, slicing along the length of the skin, and peeling it back. The flesh should be deep yellow-orange, not pale or white. If it is pale and firm, it is not ripe enough — wait another day or two.",
+      "duration_min": 60,
+      "duration_max": 120,
+      "heat": "none",
+      "uses_ingredients": ["ripe plantain"],
+      "sensory_cue": "Ripe plantain flesh is deep yellow to orange, fragrant, and slightly sticky to the touch. It should smell sweet — like banana with more depth. If it smells of nothing or smells starchy, it needs more ripening time.",
+      "failure_risk": "Under-ripe plantain does not caramelise — it fries up pale, starchy, and bland with no sweetness. There is no technique that rescues under-ripe plantain. The ripeness must be right before you start.",
+      "stir_interval": null,
+      "skill_tags": ["prep", "selection", "plantain"]
+    },
+    {
+      "title": "Cut the Plantain",
+      "instruction": "Cut the peeled plantain into diagonal slices about 1.5–2cm thick. Diagonal cuts give more surface area for caramelisation and a more elegant shape. You can also cut into rounds — thicker rounds give a softer centre, thinner rounds give more crispness. Sprinkle a tiny pinch of salt over the pieces if using and toss lightly.",
+      "duration_min": 60,
+      "duration_max": 120,
+      "heat": "none",
+      "uses_ingredients": ["ripe plantain", "salt"],
+      "sensory_cue": "The cut surfaces should look moist and deeply yellow-orange. You can smell the sweetness strongly once the flesh is exposed.",
+      "failure_risk": "Cutting too thin — less than 1cm — means the plantain will crisp through completely before the interior gets soft and creamy. Cutting too thick — over 2.5cm — means the outside may burn before the inside cooks. 1.5–2cm is the sweet spot.",
+      "stir_interval": null,
+      "skill_tags": ["cutting", "prep", "technique"]
+    },
+    {
+      "title": "Heat the Oil",
+      "instruction": "Pour enough oil into a wide, heavy pan to come at least halfway up the height of your plantain slices. Heat over medium-high until the oil is hot but not smoking — test by dropping a tiny piece of plantain into the oil. It should sizzle immediately and float to the surface. If it sinks and sits, the oil is not hot enough. If it turns dark immediately, the oil is too hot.",
+      "duration_min": 180,
+      "duration_max": 240,
+      "heat": "medium",
+      "uses_ingredients": ["vegetable oil"],
+      "sensory_cue": "The oil should shimmer and move slightly when you tilt the pan. It should look alive and fluid — not still and cold. The plantain test piece should sizzle actively and float.",
+      "failure_risk": "Cold oil causes the plantain to absorb oil instead of frying — you end up with soggy, greasy dodo. Hot enough oil seals the surface immediately and keeps the plantain from absorbing excess oil.",
+      "stir_interval": null,
+      "skill_tags": ["oil", "temperature", "heat-control"]
+    },
+    {
+      "title": "Fry the First Side",
+      "instruction": "Carefully lower plantain slices into the hot oil in a single layer — do not crowd the pan. Work in batches if needed. Fry the first side without touching for 2–3 minutes until deep golden-brown and caramelised. You will see the edges start to brown and caramelise — this is exactly right. Do not move or press the pieces.",
+      "duration_min": 120,
+      "duration_max": 180,
+      "heat": "medium",
+      "uses_ingredients": ["ripe plantain"],
+      "sensory_cue": "The sizzling should be active and consistent. The edges of the plantain should turn golden, then deepen to a rich caramel-brown. The kitchen will smell of caramelising sugar — warm, sweet, and irresistible.",
+      "failure_risk": "Moving the plantain too soon breaks the caramelised surface before it has set — you lose the golden crust and get a sticky, pale result. Let it sit untouched until the edges are clearly golden.",
+      "stir_interval": null,
+      "skill_tags": ["frying", "caramelisation", "patience", "heat-control"]
+    },
+    {
+      "title": "Flip and Fry the Second Side",
+      "instruction": "Flip each piece carefully with tongs or a fork. The cooked side should be deep golden-brown — not pale, not black. Fry the second side for 2 minutes until evenly golden-brown. The total frying time per piece should be 4–5 minutes. Remove with a slotted spoon and drain on paper towels. Taste one — adjust heat if subsequent batches are getting too dark too fast.",
+      "duration_min": 120,
+      "duration_max": 180,
+      "heat": "medium",
+      "uses_ingredients": ["ripe plantain"],
+      "sensory_cue": "Both sides should be a deep, even golden-brown — caramelised and slightly crispy at the edges. The inside, when you press gently, should feel soft and yielding. The smell should be intensely sweet and caramelised.",
+      "failure_risk": "The second side cooks faster than the first because the oil is now hotter and the plantain is already partially cooked. Watch it closely — it can go from golden to burnt in under 30 seconds. Reduce heat slightly if it is browning too fast.",
+      "stir_interval": null,
+      "skill_tags": ["frying", "flipping", "timing", "monitoring"]
+    },
+    {
+      "title": "Drain and Serve",
+      "instruction": "Remove dodo from oil and drain on paper towels for 1–2 minutes — this removes excess surface oil. Serve immediately while hot and slightly crispy. Dodo is best eaten fresh out of the oil — it softens as it sits and loses the contrast between the crispy exterior and soft interior. Serve as a side with rice and stew, beans, or simply on its own.",
+      "duration_min": 60,
+      "duration_max": 120,
+      "heat": "none",
+      "uses_ingredients": [],
+      "sensory_cue": "Perfect dodo is deep golden-brown, caramelised at the surface, slightly crispy at the edges, and soft and sweet in the centre. When you bite in, the outside gives way to a creamy, sweet interior. The caramel smell should be strong and appetising.",
+      "failure_risk": "Covering hot dodo traps steam and softens the exterior completely — never cover it before serving. Eat it as fresh as possible.",
+      "stir_interval": null,
+      "skill_tags": ["draining", "serving", "plating"]
+    }
+  ]
+}

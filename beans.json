@@ -1,0 +1,97 @@
+{
+  "dish": "Nigerian Beans (Ewa)",
+  "description": "A full standalone pot of Nigerian honey beans — creamy, deeply seasoned with palm oil, crayfish, and smoked fish. The kind that makes people scrape the bottom of the pot. Pairs with anything or stands alone.",
+  "emoji": "🫘",
+  "tags": ["everyday", "beginner-friendly", "90-120min", "protein"],
+  "serves": "6–8",
+
+  "ingredients": [
+    { "name": "honey beans (oloyin)", "quantity": "3 cups", "essential": true, "note": "Honey beans are the gold standard — naturally sweet and creamy. Brown beans work but are earthier. Black-eyed peas cook faster but the flavour is milder." },
+    { "name": "palm oil", "quantity": "4 tbsp", "essential": true, "note": "This is non-negotiable. Do not substitute. The palm oil is the soul of Nigerian beans." },
+    { "name": "onion", "quantity": "2 large", "essential": true, "note": "1 roughly chopped for cooking the beans, 1 sliced for frying the base." },
+    { "name": "scotch bonnet pepper (ata rodo)", "quantity": "2", "essential": false, "note": "Blend or roughly pound and add with the beans. 1 for mild, 2 for proper heat." },
+    { "name": "ground crayfish", "quantity": "3 tbsp", "essential": true, "note": "The defining flavour of Nigerian beans. Use generously — do not skip or reduce." },
+    { "name": "smoked fish", "quantity": "1 medium piece (mackerel or catfish)", "essential": false, "note": "Debone completely, flake into pieces, and add to the beans. Adds deep umami that cannot be replicated any other way." },
+    { "name": "stockfish (okporoko)", "quantity": "1 small piece, pre-soaked", "essential": false, "note": "Soak in hot water for 30 minutes to soften. Adds a funky, deep flavour. Debone before adding." },
+    { "name": "ponmo (cow skin)", "quantity": "150g, pre-cooked and diced", "essential": false, "note": "Must be already cooked soft before adding. Adds texture and richness." },
+    { "name": "seasoning cubes", "quantity": "2 cubes", "essential": true, "note": "Crush before adding. Add only when beans are fully soft." },
+    { "name": "salt", "quantity": "to taste", "essential": true, "note": "Add ONLY when beans are fully soft and creamy. Salt before softness = beans that never fully soften." },
+    { "name": "water", "quantity": "as needed", "essential": true, "note": "Use hot water to top up during cooking. Cold water slows the cooking and can cause uneven texture." },
+    { "name": "locust beans (iru/dawadawa)", "quantity": "1 tbsp", "essential": false, "note": "Fermented locust beans. Pungent and polarising but adds extraordinary depth to the beans. Rinse briefly before use." }
+  ],
+
+  "steps": [
+    {
+      "title": "Sort, Wash and Soak",
+      "instruction": "Spread the beans on a flat surface and pick out any stones, debris, or shrivelled beans. Rinse thoroughly under cold water 3 times. Transfer to a bowl and soak in cold water for a minimum of 1 hour — 4 hours is better, overnight is best. The beans will swell noticeably. Drain before cooking.",
+      "duration_min": 3600,
+      "duration_max": 28800,
+      "heat": "none",
+      "uses_ingredients": ["honey beans (oloyin)"],
+      "sensory_cue": "Soaked beans should look plump and their skins slightly loosened. The soaking water will darken — discard it completely. The beans should nearly double in size after a good soak.",
+      "failure_risk": "Stones in beans are a real hazard — take the sorting seriously. The soaking step is not optional if you want creamy, even-textured beans in a reasonable time.",
+      "stir_interval": null,
+      "skill_tags": ["prep", "sorting", "soaking"]
+    },
+    {
+      "title": "First Parboil and Drain",
+      "instruction": "Place soaked beans in a pot. Cover with plenty of cold water. Bring to a hard rolling boil over high heat. Cook for 15 minutes. The water will foam and darken. Drain completely and discard this water. This step removes gas-causing compounds and the raw, slightly bitter bean taste. Return beans to the pot.",
+      "duration_min": 900,
+      "duration_max": 1200,
+      "heat": "high",
+      "uses_ingredients": ["honey beans (oloyin)", "water"],
+      "sensory_cue": "The discarded water should be dark, foamy, and slightly murky. After draining, the beans should look swollen and slightly softened on the outside.",
+      "failure_risk": "Skipping this step is the primary cause of bean-related digestive discomfort. It also leaves a bitterness in the final dish. Do not skip it.",
+      "stir_interval": null,
+      "skill_tags": ["parboiling", "prep"]
+    },
+    {
+      "title": "Cook Beans Until Completely Soft",
+      "instruction": "Cover drained beans with fresh hot water — at least 5cm above the beans. Add the roughly chopped onion and scotch bonnet pepper. Cook over medium-high heat, covered. Check every 20 minutes and top up with hot water whenever the level drops below the beans. Do not add salt. Cook until the beans are completely, thoroughly soft — press one between two fingers and it should crush to a smooth paste with zero resistance.",
+      "duration_min": 3600,
+      "duration_max": 5400,
+      "heat": "medium",
+      "uses_ingredients": ["honey beans (oloyin)", "onion", "scotch bonnet pepper (ata rodo)", "water"],
+      "sensory_cue": "A perfectly cooked bean is creamy and smooth when pressed — not chalky, not grainy, no hard centre whatsoever. The cooking liquid should look thick and starchy, like a thin porridge. The pot should smell nutty and earthy.",
+      "failure_risk": "This is the most critical step. Salt, tomatoes, or palm oil added before the beans are fully soft will permanently prevent them from softening — even hours of additional cooking will not fix it. Test multiple beans before proceeding.",
+      "stir_interval": 1200,
+      "skill_tags": ["boiling", "patience", "testing", "monitoring"]
+    },
+    {
+      "title": "Reduce to Desired Consistency",
+      "instruction": "Once beans are fully soft, check the liquid level. For a thick, almost mashed consistency — cook uncovered on medium heat, stirring regularly, until the liquid reduces and the beans start to break down into a thick, creamy mass. For whole-bean style — reduce until the liquid is saucy but the beans hold their shape. Stir and partially mash some beans against the pot wall to naturally thicken the liquid.",
+      "duration_min": 600,
+      "duration_max": 1200,
+      "heat": "medium",
+      "uses_ingredients": ["honey beans (oloyin)"],
+      "sensory_cue": "Thick, creamy texture — the beans and the liquid should be coming together into a cohesive mass. The smell is sweet, nutty, and intensely bean-forward at this point.",
+      "failure_risk": "Reducing too far without stirring causes the bottom to scorch. Stir every 2 minutes during the reduction. If it gets too thick before you have added flavour, add a splash of hot water.",
+      "stir_interval": 120,
+      "skill_tags": ["reduction", "texture", "consistency"]
+    },
+    {
+      "title": "Fry the Palm Oil Base",
+      "instruction": "In a separate small pan, heat the palm oil over medium heat — do not let it smoke. Add the sliced onion and fry until soft and translucent, 3–4 minutes. Add locust beans if using and fry for 1 minute — the smell will be intense and funky, which is correct. Add ground crayfish and stir for 30 seconds. Remove from heat and pour this entire mixture into the beans pot. Stir in well.",
+      "duration_min": 300,
+      "duration_max": 360,
+      "heat": "medium",
+      "uses_ingredients": ["palm oil", "onion", "locust beans (iru/dawadawa)", "ground crayfish"],
+      "sensory_cue": "Palm oil should melt to a clear orange — not dark, not smoking. The onion in palm oil smells distinctly different from onion in vegetable oil — richer, more aromatic. The crayfish hitting the oil releases a sharp, savoury seafood aroma.",
+      "failure_risk": "Overheated palm oil turns dark and develops a harsh, unpleasant taste that permeates the entire pot of beans. Medium heat only — you are softening the onion, not deep frying.",
+      "stir_interval": null,
+      "skill_tags": ["frying", "palm-oil", "flavour-building"]
+    },
+    {
+      "title": "Add Fish, Season and Finish",
+      "instruction": "Add deboned smoked fish and pre-cooked ponmo if using. Add stockfish if using. Stir gently. Add crushed seasoning cubes. Now add salt — start small, stir, taste, adjust. Cook on low heat for 15 minutes, stirring occasionally, until all the flavours have fully merged and the beans look glossy from the palm oil. Final taste and adjust.",
+      "duration_min": 900,
+      "duration_max": 1200,
+      "heat": "low",
+      "uses_ingredients": ["smoked fish", "ponmo (cow skin)", "stockfish (okporoko)", "seasoning cubes", "salt"],
+      "sensory_cue": "The finished beans should be deep orange-red from the palm oil, smell layered and complex — crayfish, palm oil, smoked fish all present. The texture should be thick and creamy with the beans and additions evenly distributed. One spoonful should be a full flavour experience.",
+      "failure_risk": "Adding too much salt in one go cannot be undone. The smoked fish and stockfish both contribute saltiness — add salt in small increments and taste between each addition.",
+      "stir_interval": 300,
+      "skill_tags": ["seasoning", "finishing", "tasting", "balancing"]
+    }
+  ]
+}

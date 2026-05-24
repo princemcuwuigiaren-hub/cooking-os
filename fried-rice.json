@@ -1,0 +1,103 @@
+{
+  "dish": "Nigerian Fried Rice",
+  "description": "Nigerian party fried rice — colourful, fragrant, loaded with liver, mixed vegetables, and seasoned with curry and thyme. Not Chinese fried rice. This is its own thing entirely and it demands respect.",
+  "emoji": "🍛",
+  "tags": ["party-style", "intermediate", "75-90min", "one-wok"],
+  "serves": "6–8",
+
+  "ingredients": [
+    { "name": "parboiled long grain rice", "quantity": "4 cups", "essential": true, "note": "Cook the rice separately first — plain, slightly undercooked. Fried rice is always made with pre-cooked rice. Hot freshly cooked rice turns mushy. Ideally cook the rice the day before and refrigerate overnight." },
+    { "name": "chicken liver", "quantity": "300g, diced small", "essential": true, "note": "The defining protein of Nigerian fried rice. Cook separately in seasoned butter or oil before adding. Do not skip — it is what makes it Nigerian fried rice." },
+    { "name": "chicken stock", "quantity": "3 cups", "essential": true, "note": "Used to cook the rice initially and as the liquid base. Rich stock only — this is where the flavour of the rice comes from." },
+    { "name": "vegetable oil", "quantity": "4 tbsp", "essential": true, "note": "For frying everything. Some cooks use a mix of oil and butter for richness." },
+    { "name": "butter", "quantity": "2 tbsp", "essential": false, "note": "For cooking the liver and adds richness. Margarine is a common Nigerian substitute." },
+    { "name": "carrots", "quantity": "2 medium, finely diced", "essential": true, "note": "Classic. Cut to a uniform small dice — about 5mm. They should stay slightly firm in the final rice." },
+    { "name": "green beans", "quantity": "150g, finely sliced", "essential": true, "note": "Slice at an angle, thinly. Do not overcook — they should have a slight bite." },
+    { "name": "green pepper (capsicum)", "quantity": "1 medium, finely diced", "essential": true, "note": "Adds colour, freshness, and a slight bitterness that balances the richness." },
+    { "name": "sweet corn", "quantity": "1 cup (fresh, frozen or canned)", "essential": false, "note": "Adds sweetness and colour contrast. Canned — drain well. Frozen — thaw first." },
+    { "name": "green peas", "quantity": "½ cup (frozen)", "essential": false, "note": "Thaw before use. Classic Nigerian fried rice component." },
+    { "name": "onion", "quantity": "2 large", "essential": true, "note": "1 for cooking the rice in stock, 1 finely diced for frying in the rice." },
+    { "name": "spring onions (scallions)", "quantity": "4 stalks", "essential": false, "note": "Slice finely. Add at the very end — they are a finishing ingredient, not a cooking one." },
+    { "name": "curry powder", "quantity": "2 tsp", "essential": true, "note": "This is what gives Nigerian fried rice its colour and its identity. Do not reduce." },
+    { "name": "thyme", "quantity": "1 tsp dried", "essential": true, "note": "Part of the classic Nigerian spice pairing with curry." },
+    { "name": "seasoning cubes", "quantity": "2 cubes", "essential": true, "note": "Crush before adding." },
+    { "name": "soy sauce", "quantity": "1 tbsp", "essential": false, "note": "A small amount adds depth and a touch of colour without making it taste Chinese. Optional but recommended." },
+    { "name": "white pepper", "quantity": "½ tsp", "essential": false, "note": "For the liver and the rice. Adds warmth." },
+    { "name": "salt", "quantity": "to taste", "essential": true, "note": "Season carefully — the stock, seasoning cubes, and soy sauce all contribute salt." }
+  ],
+
+  "steps": [
+    {
+      "title": "Cook the Rice in Stock",
+      "instruction": "Bring the chicken stock to a boil in a large pot. Add 1 roughly chopped onion, curry powder, thyme, and 1 crushed seasoning cube. Add the washed parboiled rice. Stir once. Cook on medium heat until the rice absorbs all the stock and is just barely cooked — slightly firm, not fully done. Spread on a wide tray or baking sheet and leave to cool completely. The rice must be cold and dry before frying. Refrigerate for at least 1 hour, overnight is best.",
+      "duration_min": 1800,
+      "duration_max": 3600,
+      "heat": "medium",
+      "uses_ingredients": ["parboiled long grain rice", "chicken stock", "onion", "curry powder", "thyme", "seasoning cubes"],
+      "sensory_cue": "The rice should be a beautiful golden-yellow from the curry and stock. Each grain separate and slightly firm. It should smell savoury and fragrant. If it clumps when cold, that is fine — it will separate when fried.",
+      "failure_risk": "Fully cooked, hot rice in a wok turns into mush instantly. The rice must be slightly undercooked and completely cold before it goes into the frying pan. This is not optional.",
+      "stir_interval": null,
+      "skill_tags": ["rice", "stock-cooking", "prep", "timing"]
+    },
+    {
+      "title": "Cook the Liver",
+      "instruction": "Wash and dice the chicken liver into small, uniform pieces — about 1cm cubes. Season with white pepper, a pinch of curry, salt, and a tiny pinch of thyme. Heat butter and a little oil in a pan over high heat until very hot. Add liver in a single layer — do not crowd. Fry for 2 minutes per side until browned on the outside but still slightly pink inside. Remove immediately. It will finish cooking when added to the rice later.",
+      "duration_min": 300,
+      "duration_max": 360,
+      "heat": "high",
+      "uses_ingredients": ["chicken liver", "butter", "vegetable oil", "white pepper", "curry powder", "salt"],
+      "sensory_cue": "Liver should be deeply browned on the outside with a slight pink interior when cut. It should smell rich and savoury — not grey or steamed. Overcooked liver turns grainy and chalky.",
+      "failure_risk": "Overcooked liver is the number one Nigerian fried rice complaint. It happens when heat is too low or the pan is crowded — the liver steams instead of sears and turns grey and rubbery. High heat, small batches, stop while still slightly pink.",
+      "stir_interval": null,
+      "skill_tags": ["liver", "searing", "heat-control", "timing"]
+    },
+    {
+      "title": "Blanch the Vegetables",
+      "instruction": "Bring a small pot of salted water to a hard boil. Add diced carrots and cook for 2 minutes. Add green beans and cook for 1 more minute. Drain immediately and plunge into cold water to stop cooking — this keeps the colour vivid. Drain again and pat dry. Have all vegetables — carrots, green beans, green pepper, sweet corn, peas — prepped, drained, and dry before starting the frying stage.",
+      "duration_min": 300,
+      "duration_max": 360,
+      "heat": "high",
+      "uses_ingredients": ["carrots", "green beans", "sweet corn", "green peas"],
+      "sensory_cue": "Blanched carrots should be bright orange, slightly tender but firm. Green beans should be vivid bright green — not dark or dull. Both should snap slightly when bent.",
+      "failure_risk": "Skipping the cold water plunge after blanching continues cooking the vegetables in residual heat — by the time they hit the wok they are already overcooked and will turn mushy and grey.",
+      "stir_interval": null,
+      "skill_tags": ["blanching", "vegetables", "colour", "prep"]
+    },
+    {
+      "title": "First Fry — Aromatics and Vegetables",
+      "instruction": "Heat 2 tbsp of oil in a large wok or wide heavy pan over the highest heat possible. Add the finely diced onion — it should sizzle loudly and immediately. Stir-fry for 2 minutes until translucent. Add the green pepper and stir-fry for 1 minute. Add blanched carrots and green beans. Add sweet corn and peas. Stir-fry vigorously for 2 minutes — keep everything moving. Add soy sauce if using. Season with salt.",
+      "duration_min": 300,
+      "duration_max": 360,
+      "heat": "high",
+      "uses_ingredients": ["vegetable oil", "onion", "green pepper (capsicum)", "carrots", "green beans", "sweet corn", "green peas", "soy sauce", "salt"],
+      "sensory_cue": "Everything should be sizzling aggressively in the wok. The vegetables should look glossy, slightly charred at the edges, and vividly colourful. The smell should be hot, savoury, and slightly smoky from the high heat.",
+      "failure_risk": "Low heat in a wok means steaming, not frying — you lose colour, texture, and the characteristic wok fragrance. The heat must be as high as possible throughout this step.",
+      "stir_interval": null,
+      "skill_tags": ["stir-frying", "wok", "heat-control", "vegetables"]
+    },
+    {
+      "title": "Add Rice and Fry",
+      "instruction": "Add the cold cooked rice to the wok with the vegetables. Break up any clumps immediately with a spatula or wooden spoon. Toss and fold the rice with the vegetables over high heat — keep it moving constantly. Add the remaining crushed seasoning cube. Add a small pinch more curry powder if the colour looks pale. Fry for 4–5 minutes, tossing continuously, until every grain is hot, separated, and coated with the vegetable flavours and oil.",
+      "duration_min": 300,
+      "duration_max": 360,
+      "heat": "high",
+      "uses_ingredients": ["parboiled long grain rice", "seasoning cubes", "curry powder"],
+      "sensory_cue": "The rice should look vibrant golden-yellow, with colourful vegetable pieces distributed evenly throughout. Each grain should be separate — no clumping. The wok should be producing wisps of steam and a slightly smoky, toasted rice aroma.",
+      "failure_risk": "Stopping the stirring even briefly at high heat causes the rice to stick and burn at the bottom. Keep it moving constantly. If the rice starts sticking, add a tiny drizzle of oil around the edges of the wok.",
+      "stir_interval": null,
+      "skill_tags": ["fried-rice", "tossing", "heat-control", "technique"]
+    },
+    {
+      "title": "Add Liver, Finish and Serve",
+      "instruction": "Add the cooked liver pieces to the rice. Fold in gently — do not stir aggressively or the liver will break up. Add sliced spring onions and fold in. Taste — adjust salt if needed. Fry together for 1 final minute. Remove from heat immediately. Serve hot. Nigerian fried rice does not hold well — serve as soon as it comes off the heat.",
+      "duration_min": 60,
+      "duration_max": 120,
+      "heat": "high",
+      "uses_ingredients": ["chicken liver", "spring onions (scallions)", "salt"],
+      "sensory_cue": "The finished rice should be a vivid landscape — golden rice, orange carrots, green beans and peas, yellow corn, dark liver pieces, and bright spring onion. It should smell fragrant, savoury, and deeply appetising. One mouthful should have multiple textures — firm rice, slightly firm vegetables, tender liver.",
+      "failure_risk": "Leaving Nigerian fried rice on the heat after it is done dries it out and overcooks the liver. Off the heat and serve immediately.",
+      "stir_interval": null,
+      "skill_tags": ["finishing", "plating", "serving"]
+    }
+  ]
+}

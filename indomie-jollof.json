@@ -1,0 +1,74 @@
+{
+  "dish": "Indomie Jollof",
+  "pack_version": "1.0",
+  "description": "Indomie cooked directly in a tomato and pepper base instead of plain water. The noodles absorb the sauce as they cook — every strand is stained red and deeply flavoured. A Nigerian innovation that deserves more respect.",
+  "emoji": "🍜",
+  "tags": ["quick", "beginner-friendly", "15-20min", "jollof-style"],
+  "serves": "1–2",
+
+  "ingredients": [
+    { "name": "Indomie instant noodles", "quantity": "2 packs", "essential": true, "note": "Chicken or Original flavour works best for jollof style. Keep the seasoning sachets." },
+    { "name": "plum tomatoes", "quantity": "2 medium", "essential": true, "note": "Blended or very finely chopped. This is the sauce the noodles cook in." },
+    { "name": "scotch bonnet pepper", "quantity": "1", "essential": false, "note": "Blend with the tomatoes. Adjust to your heat tolerance." },
+    { "name": "onion", "quantity": "1 small", "essential": true, "note": "Half blended into the tomato base, half sliced for frying." },
+    { "name": "vegetable oil", "quantity": "2 tbsp", "essential": true, "note": "For frying the tomato base." },
+    { "name": "eggs", "quantity": "2 large", "essential": false, "note": "Fried separately as a topping or scrambled directly into the jollof at the end." },
+    { "name": "indomie seasoning sachets", "quantity": "from the packs", "essential": true, "note": "Added to the tomato base for layered flavour. Use powder sachets — skip the liquid." },
+    { "name": "curry powder", "quantity": "¼ tsp", "essential": false, "note": "A tiny amount deepens the jollof colour and flavour." },
+    { "name": "spring onions", "quantity": "2 stalks", "essential": false, "note": "Garnish at the end." },
+    { "name": "sausage or hotdog", "quantity": "2, sliced", "essential": false, "note": "Fry first and add to the finished jollof." },
+    { "name": "water", "quantity": "½ cup", "essential": true, "note": "To loosen the tomato base enough to cook the noodles through." }
+  ],
+
+  "steps": [
+    {
+      "title": "Blend the Tomato Base",
+      "instruction": "Blend tomatoes, half the onion, and scotch bonnet until smooth. The blend should be fairly thick — do not add water. You want a concentrated sauce, not a watery one, because the noodles will cook in it.",
+      "duration_min": 120,
+      "duration_max": 180,
+      "heat": "none",
+      "uses_ingredients": ["plum tomatoes", "scotch bonnet pepper", "onion"],
+      "sensory_cue": "Smooth, bright red-orange liquid. Thick enough to coat the back of a spoon.",
+      "failure_risk": "A watery blend produces watery jollof noodles with no flavour concentration. Blend without adding water.",
+      "stir_interval": null,
+      "prep_notes": ["Slice sausage if using", "Slice remaining onion half into rings"],
+      "skill_tags": ["blending", "prep"]
+    },
+    {
+      "title": "Fry the Base",
+      "instruction": "Heat oil in a wide pan over medium-high heat. Add the sliced onion and fry until soft and golden, about 2 minutes. Pour in the blended tomato mix. Fry, stirring regularly, for 5–7 minutes until the liquid reduces, the colour deepens, and the oil floats to the surface. Add curry powder. Add the seasoning powder sachets and stir in.",
+      "duration_min": 360,
+      "duration_max": 480,
+      "heat": "medium",
+      "uses_ingredients": ["vegetable oil", "onion", "plum tomatoes", "scotch bonnet pepper", "curry powder", "indomie seasoning sachets"],
+      "sensory_cue": "The base should look thick, darker red, and the oil should be visibly floating on top. The raw tomato smell should be completely gone — it should smell rich and cooked.",
+      "failure_risk": "Underfried tomato base leaves a raw, sour taste in the finished noodles. The oil rising to the surface is your confirmation that it is properly fried.",
+      "stir_interval": 90,
+      "skill_tags": ["frying", "base", "reduction"]
+    },
+    {
+      "title": "Cook the Noodles in the Base",
+      "instruction": "Add half a cup of water to the fried base and stir to combine. Bring to a simmer. Add the dry uncooked noodles directly into the sauce — break them slightly if needed to fit. Press them down gently into the sauce. Cover with a lid and cook on medium-low heat for 2 minutes. Open, toss gently to coat all strands, cover again for 1 more minute.",
+      "duration_min": 180,
+      "duration_max": 240,
+      "heat": "medium",
+      "uses_ingredients": ["Indomie instant noodles", "water"],
+      "sensory_cue": "The noodles should absorb the tomato sauce and turn a deep red-orange colour — every strand stained. The sauce should be mostly absorbed, not watery. The noodles should smell like jollof rice.",
+      "failure_risk": "Too much water makes the noodles soggy and the sauce thin. Too little and they burn before cooking through. Half a cup is the sweet spot for 2 packs.",
+      "stir_interval": null,
+      "skill_tags": ["noodles", "absorption", "timing"]
+    },
+    {
+      "title": "Add Protein and Finish",
+      "instruction": "If using sausage — fry slices in a separate small pan until browned and add now. If adding eggs — push noodles to the side, crack eggs in, scramble gently, then fold into the noodles. Toss everything together. Taste — add a tiny splash of the liquid seasoning sachet only if it needs more salt. Garnish with spring onions and serve immediately.",
+      "duration_min": 60,
+      "duration_max": 120,
+      "heat": "medium",
+      "uses_ingredients": ["eggs", "sausage or hotdog", "spring onions", "indomie seasoning sachets"],
+      "sensory_cue": "Finished jollof noodles should be deeply red-orange, glossy, and fragrant. Every strand coated. Protein distributed throughout. It should smell like a miniature pot of jollof rice.",
+      "failure_risk": "Over-stirring at this stage breaks the noodles into small pieces. Fold gently — one or two turns is enough.",
+      "stir_interval": null,
+      "skill_tags": ["finishing", "folding", "serving"]
+    }
+  ]
+}

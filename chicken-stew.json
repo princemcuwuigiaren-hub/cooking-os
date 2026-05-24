@@ -1,0 +1,101 @@
+{
+  "dish": "Nigerian Chicken Stew",
+  "description": "The everyday Nigerian stew — deeply fried tomato and pepper base with well-seasoned chicken pieces. The foundation of Nigerian home cooking. Gets better the next day.",
+  "emoji": "🍗",
+  "tags": ["everyday", "intermediate", "75-90min", "storable"],
+  "serves": "6–8",
+
+  "ingredients": [
+    { "name": "whole chicken or chicken pieces", "quantity": "1.5kg", "essential": true, "note": "Skin-on pieces give the best flavour. Drumsticks, thighs, and wings hold up best during frying. Breast dries out faster — watch it closely." },
+    { "name": "plum tomatoes", "quantity": "6 medium (or 800g canned)", "essential": true, "note": "Fresh tomatoes for the base. Canned is acceptable but fry longer to remove the tinny taste." },
+    { "name": "red bell pepper (tatashe)", "quantity": "2 large", "essential": true, "note": "Gives body, sweetness, and the deep red-orange colour. Essential." },
+    { "name": "scotch bonnet pepper (ata rodo)", "quantity": "2–3", "essential": false, "note": "1 for background warmth, 3 for serious heat. Adjust to preference." },
+    { "name": "onion", "quantity": "3 large", "essential": true, "note": "1 for parboiling the chicken, 1 into the blend, 1 sliced for frying." },
+    { "name": "vegetable oil", "quantity": "½ cup (120ml)", "essential": true, "note": "You need enough oil to properly shallow-fry the chicken pieces. Do not reduce." },
+    { "name": "tomato paste", "quantity": "2 tbsp", "essential": true, "note": "Deepens colour and concentrates flavour. Fry it before adding the blended pepper." },
+    { "name": "curry powder", "quantity": "2 tsp", "essential": true, "note": "Nigerian curry powder. Used both in the chicken seasoning and the stew base." },
+    { "name": "thyme", "quantity": "1½ tsp dried", "essential": true, "note": "For seasoning the chicken and flavouring the stew." },
+    { "name": "seasoning cubes", "quantity": "3 cubes", "essential": true, "note": "Maggi or Knorr. 1 for chicken seasoning, 2 for the stew base." },
+    { "name": "bay leaves", "quantity": "2 leaves", "essential": false, "note": "Add during parboiling. Adds a subtle, herby background note." },
+    { "name": "white pepper", "quantity": "1 tsp", "essential": false, "note": "For the chicken marinade. Black pepper substitutes fine." },
+    { "name": "garlic", "quantity": "3 cloves, minced", "essential": false, "note": "For the chicken marinade. Adds aromatic depth. Fresh only — powder is a weak substitute here." },
+    { "name": "ginger", "quantity": "1 tsp freshly grated", "essential": false, "note": "For the chicken marinade alongside the garlic." },
+    { "name": "salt", "quantity": "to taste", "essential": true, "note": "Season the chicken well before parboiling. Season the stew base separately at the end." },
+    { "name": "chicken stock", "quantity": "1½ cups (from parboiling)", "essential": true, "note": "This is the liquid from parboiling the chicken. Do not throw it away — it is your stew liquid." }
+  ],
+
+  "steps": [
+    {
+      "title": "Season the Chicken",
+      "instruction": "Clean and wash the chicken pieces. Pat dry with paper towels. Season generously with curry powder, thyme, white pepper, garlic, ginger, 1 crushed seasoning cube, and salt. Rub the seasoning into every piece — get under the skin where possible. Leave to marinate for at least 15 minutes. Overnight in the fridge is ideal.",
+      "duration_min": 900,
+      "duration_max": 3600,
+      "heat": "none",
+      "uses_ingredients": ["whole chicken or chicken pieces", "curry powder", "thyme", "white pepper", "garlic", "ginger", "seasoning cubes", "salt"],
+      "sensory_cue": "Every piece should be coated in the seasoning mix. The chicken should smell aromatic and savoury, not raw and bland.",
+      "failure_risk": "Under-seasoned chicken at this stage produces a flat stew. The seasoning needs to penetrate the meat — rushing the marinade time is a real cost.",
+      "stir_interval": null,
+      "skill_tags": ["marinating", "seasoning", "prep"]
+    },
+    {
+      "title": "Parboil the Chicken",
+      "instruction": "Place seasoned chicken in a pot. Add 1 roughly chopped onion, bay leaves, and just enough water to barely cover the chicken. Cook over medium-high heat until the chicken is about 80% cooked through — the meat should be white with no pink but still have some firmness. Remove chicken pieces and KEEP the stock — this is liquid gold for your stew.",
+      "duration_min": 900,
+      "duration_max": 1500,
+      "heat": "medium",
+      "uses_ingredients": ["whole chicken or chicken pieces", "onion", "bay leaves"],
+      "sensory_cue": "The stock should look golden-brown and smell deeply savoury. Chicken should be mostly cooked — test the thickest piece by cutting to the bone.",
+      "failure_risk": "Using too much water dilutes the stock. Barely covering is the goal. Over-boiling at this stage means the chicken will fall apart when fried later.",
+      "stir_interval": null,
+      "skill_tags": ["parboiling", "stock", "chicken"]
+    },
+    {
+      "title": "Fry the Chicken Pieces",
+      "instruction": "Heat half the oil in a wide pan over high heat until shimmering. Fry the parboiled chicken pieces in batches — do not crowd the pan. Fry each side for 3–4 minutes until golden-brown and the skin is slightly crisp. Remove and set aside. This step seals the flavour in and gives the stew its body.",
+      "duration_min": 600,
+      "duration_max": 900,
+      "heat": "high",
+      "uses_ingredients": ["vegetable oil", "whole chicken or chicken pieces"],
+      "sensory_cue": "The chicken should sizzle aggressively the moment it hits the oil. Golden-brown colour on the skin, slightly crisp edges. The kitchen should smell amazing at this point.",
+      "failure_risk": "Crowding the pan causes the chicken to steam instead of fry — you get pale, soggy chicken with no colour. Work in batches. Do not move the pieces constantly — let them sear.",
+      "stir_interval": null,
+      "skill_tags": ["frying", "searing", "heat-control", "batching"]
+    },
+    {
+      "title": "Blend and Fry the Stew Base",
+      "instruction": "Blend plum tomatoes, red bell pepper, scotch bonnet, and 1 onion until smooth. In the same pot (with the remaining oil from frying chicken — add more if needed), fry sliced onions until soft and golden. Add tomato paste, fry 3 minutes. Pour in the blended mix over high heat. Fry, stirring every 90 seconds, until the mix is thick, dark, and the oil has risen to the surface.",
+      "duration_min": 1200,
+      "duration_max": 1800,
+      "heat": "high",
+      "uses_ingredients": ["plum tomatoes", "red bell pepper (tatashe)", "scotch bonnet pepper (ata rodo)", "onion", "tomato paste", "vegetable oil"],
+      "sensory_cue": "Base should be thick and paste-like. Oil floating clearly on top. Colour: dark brick-red. The raw tomato smell must be completely gone — it should smell rich and fried.",
+      "failure_risk": "Not frying the base long enough is the single most common Nigerian stew mistake. A properly fried base takes 20–30 minutes. Sour-tasting stew always traces back to this step.",
+      "stir_interval": 90,
+      "skill_tags": ["frying", "reduction", "base"]
+    },
+    {
+      "title": "Season the Base and Add Stock",
+      "instruction": "Reduce heat to medium. Add the remaining curry powder, thyme, and 2 crushed seasoning cubes. Add salt. Stir well. Pour in the reserved chicken stock. Stir to combine. Bring to a simmer. Taste — the base should be bold, rich, and fully seasoned.",
+      "duration_min": 180,
+      "duration_max": 300,
+      "heat": "medium",
+      "uses_ingredients": ["curry powder", "thyme", "seasoning cubes", "salt", "chicken stock"],
+      "sensory_cue": "The stew base with stock should look like a thick, rich, dark orange-red sauce. Taste it like you mean it — this is the flavour backbone of the whole dish.",
+      "failure_risk": "Weak seasoning at this stage cannot be rescued later. The chicken pieces will absorb some but also dilute the stew. Be bold.",
+      "stir_interval": null,
+      "skill_tags": ["seasoning", "tasting"]
+    },
+    {
+      "title": "Add Chicken and Simmer",
+      "instruction": "Add the fried chicken pieces back into the stew base. Stir gently to coat every piece. Cover and simmer on low heat for 15–20 minutes, stirring occasionally, until the chicken is fully cooked through, the stew has thickened, and the oil has settled on top. Taste one final time and adjust salt.",
+      "duration_min": 900,
+      "duration_max": 1200,
+      "heat": "low",
+      "uses_ingredients": ["whole chicken or chicken pieces"],
+      "sensory_cue": "Chicken pieces should look deeply coated and glossy. The stew should be thick enough to coat a spoon. Oil sitting on the surface is correct — this is not a problem, it is a sign of a properly made Nigerian stew.",
+      "failure_risk": "High heat at this stage dries out the chicken and splits the stew. Low and slow is the rule from here. If the stew gets too thick, add a splash of water — not stock.",
+      "stir_interval": 300,
+      "skill_tags": ["simmering", "finishing", "patience"]
+    }
+  ]
+}

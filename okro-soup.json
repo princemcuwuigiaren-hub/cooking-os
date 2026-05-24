@@ -1,0 +1,100 @@
+{
+  "dish": "Nigerian Okro Soup",
+  "description": "Fresh okro cooked quickly in a palm oil and pepper base with assorted meat and fish. The draw — that signature slippery, stretchy texture — is the goal. Overcook it and you lose everything. Timing is everything with okro.",
+  "emoji": "🥬",
+  "tags": ["classic", "intermediate", "60-75min", "swallow-soup", "timing-critical"],
+  "serves": "6–8",
+
+  "ingredients": [
+    { "name": "fresh okro", "quantity": "500g", "essential": true, "note": "Fresh only — frozen okro loses the draw significantly. Buy firm, bright green pods with no soft spots. Wash, top and tail, then chop finely or grate depending on texture preference. Finely chopped gives more draw. Grated gives maximum slime — for those who want full draw." },
+    { "name": "palm oil", "quantity": "⅓ cup (80ml)", "essential": true, "note": "Do not substitute. Palm oil is integral to the flavour of okro soup." },
+    { "name": "beef or assorted meat", "quantity": "800g, parboiled and fried", "essential": true, "note": "Parboil, fry, and set aside before starting the soup. Ponmo and beef chunks work particularly well." },
+    { "name": "stockfish (okporoko)", "quantity": "1 small piece, pre-soaked", "essential": false, "note": "Soak 30 minutes in hot water, debone, break into pieces." },
+    { "name": "smoked fish", "quantity": "1 medium piece", "essential": false, "note": "Debone and flake. Adds depth and a smoky layer." },
+    { "name": "fresh or frozen prawns", "quantity": "200g, peeled", "essential": false, "note": "Optional but spectacular in okro soup. Add in the last 5 minutes — they cook fast." },
+    { "name": "plum tomatoes", "quantity": "3 medium", "essential": false, "note": "Optional — some cooks skip tomatoes entirely in okro soup for a purer flavour. Your choice." },
+    { "name": "scotch bonnet pepper (ata rodo)", "quantity": "2–3", "essential": false, "note": "Blend or roughly chop. Okro soup handles heat well." },
+    { "name": "onion", "quantity": "2 medium", "essential": true, "note": "1 for parboiling meat, 1 finely chopped into the soup base." },
+    { "name": "ground crayfish", "quantity": "3 tbsp", "essential": true, "note": "Critical to okro soup. The crayfish flavour and the okro draw work in harmony — do not reduce." },
+    { "name": "locust beans (iru/dawadawa)", "quantity": "1 tbsp", "essential": false, "note": "Rinse briefly. Adds extraordinary depth. Particularly good in okro soup." },
+    { "name": "meat stock", "quantity": "1½ cups", "essential": true, "note": "From parboiling the meat. Rich stock only." },
+    { "name": "seasoning cubes", "quantity": "2 cubes", "essential": true, "note": "Crush before adding." },
+    { "name": "salt", "quantity": "to taste", "essential": true, "note": "Season carefully — smoked fish and stockfish contribute salt." },
+    { "name": "pumpkin leaf (ugwu) or spinach", "quantity": "200g, shredded", "essential": false, "note": "Some versions include a handful of leafy greens. Add with the okro or just after." }
+  ],
+
+  "steps": [
+    {
+      "title": "Prepare All Proteins",
+      "instruction": "Parboil meat with seasoning, onion, and salt. Reserve stock. Fry parboiled meat until golden-brown. Set aside. Soak and debone stockfish. Debone and flake smoked fish. If using prawns, peel and devein. Have everything ready and within reach before you start the soup — okro moves fast once you begin.",
+      "duration_min": 2400,
+      "duration_max": 3600,
+      "heat": "high",
+      "uses_ingredients": ["beef or assorted meat", "stockfish (okporoko)", "smoked fish", "fresh or frozen prawns"],
+      "sensory_cue": "Fried meat: golden-brown, well-coloured. Stock: dark and rich. All proteins deboned, organised, and ready.",
+      "failure_risk": "Okro soup is a fast soup — if your proteins are not prepped and ready, the okro will overcook while you scramble. Organisation at this stage is the entire game.",
+      "stir_interval": null,
+      "skill_tags": ["prep", "organisation", "stock", "frying"]
+    },
+    {
+      "title": "Prepare the Okro",
+      "instruction": "Wash okro pods thoroughly. Top and tail each one. For maximum draw — grate using the coarse side of a box grater or use a food processor to chop very finely. For less draw but more texture — chop into small rounds about 5mm thick. Do not prepare the okro until just before you need it — it oxidises and darkens quickly once cut.",
+      "duration_min": 300,
+      "duration_max": 600,
+      "heat": "none",
+      "uses_ingredients": ["fresh okro"],
+      "sensory_cue": "Freshly cut okro should be bright, vivid green and slightly sticky to the touch — that stickiness is the draw that will develop into the signature texture. If it looks dry or smells off, the okro is past its best.",
+      "failure_risk": "Preparing okro too far in advance causes oxidation — it turns dark and loses some of its draw potential. Cut it last, just before it goes into the pot.",
+      "stir_interval": null,
+      "skill_tags": ["prep", "okro", "timing"]
+    },
+    {
+      "title": "Build the Base",
+      "instruction": "Heat palm oil in a large heavy pot over medium heat until clear. Add locust beans if using and fry 1 minute. Add finely chopped onion and fry until soft, 3 minutes. Add scotch bonnet and tomatoes if using — fry for 5 minutes until softened and slightly reduced. Add ground crayfish and stir. Pour in the meat stock and bring to a boil.",
+      "duration_min": 540,
+      "duration_max": 720,
+      "heat": "medium",
+      "uses_ingredients": ["palm oil", "locust beans (iru/dawadawa)", "onion", "scotch bonnet pepper (ata rodo)", "plum tomatoes", "ground crayfish", "meat stock"],
+      "sensory_cue": "The base should look rich orange-red, smell deeply savoury, and be actively boiling before the okro goes in. The crayfish hitting the palm oil creates a sharp, pungent umami smell that is the backbone of this soup.",
+      "failure_risk": "The base must be properly boiling before adding okro. Adding okro to a barely simmering base means it sits in warm liquid and loses its draw before it has a chance to cook properly.",
+      "stir_interval": null,
+      "skill_tags": ["palm-oil", "base", "building"]
+    },
+    {
+      "title": "Add Meat and Fish",
+      "instruction": "Add fried meat, stockfish, and smoked fish to the boiling base. Stir gently. Add crushed seasoning cubes. Season with a small amount of salt — hold back, you will adjust at the end. Let this simmer together for 5 minutes so the proteins flavour the base.",
+      "duration_min": 300,
+      "duration_max": 360,
+      "heat": "medium",
+      "uses_ingredients": ["beef or assorted meat", "stockfish (okporoko)", "smoked fish", "seasoning cubes", "salt"],
+      "sensory_cue": "The soup base with meat and fish should look rich and full. The smell should be layered — palm oil, crayfish, stock, and the smoky fish all present. It should be actively simmering.",
+      "failure_risk": null,
+      "stir_interval": null,
+      "skill_tags": ["combining", "simmering"]
+    },
+    {
+      "title": "Add Okro — The Critical Step",
+      "instruction": "Add the prepared okro into the simmering soup. Stir to distribute evenly throughout the pot. Add shredded pumpkin leaf or spinach if using. Cook uncovered over medium heat for exactly 5–7 minutes — no more. Stir gently twice during this window. If using prawns, add them now — they need only 3–4 minutes. Do not cover the pot. Do not overcook.",
+      "duration_min": 300,
+      "duration_max": 420,
+      "heat": "medium",
+      "uses_ingredients": ["fresh okro", "pumpkin leaf (ugwu) or spinach", "fresh or frozen prawns"],
+      "sensory_cue": "The soup should visibly thicken as the okro cooks — you will see it becoming more viscous and stretchy. The okro should be bright green and just cooked through — not dark, not mushy. When you lift a spoon and let the soup fall back, it should have a noticeable pull and stretch. That is the draw.",
+      "failure_risk": "This is the most timing-critical step in any soup pack. Overcooking okro — even by 3–4 minutes — breaks down the draw completely and turns it into a slimy, dark green mush with no texture. Set a timer. Pull it off the heat the moment the draw is present.",
+      "stir_interval": null,
+      "skill_tags": ["timing", "okro", "draw", "critical"]
+    },
+    {
+      "title": "Final Seasoning and Serve",
+      "instruction": "Remove from heat immediately once the okro is done. Taste and adjust salt now — the soup continues to cook in the residual heat. Serve immediately. Okro soup does not hold well — the draw diminishes the longer it sits. Serve with eba, fufu, amala, or pounded yam.",
+      "duration_min": 60,
+      "duration_max": 120,
+      "heat": "none",
+      "uses_ingredients": ["salt"],
+      "sensory_cue": "The finished soup should be thick, stretchy, deeply coloured orange-green from the palm oil and okro. The draw should be visible when you lift a spoon — the soup pulls and stretches before falling. This is correct. This is the goal.",
+      "failure_risk": "Leaving okro soup on low heat while you finish other things continues to cook the okro and destroys the draw. Serve immediately.",
+      "stir_interval": null,
+      "skill_tags": ["seasoning", "finishing", "timing", "serving"]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "dish": "Nigerian Jollof Rice and Beans",
+  "description": "Jollof rice and beans cooked together in one pot — the beans parboiled first, then merged into the tomato base with the rice. Bold, filling, and deeply flavoured.",
+  "emoji": "🫘",
+  "tags": ["one-pot", "intermediate", "90-120min", "filling"],
+  "serves": "6–8",
+
+  "ingredients": [
+    { "name": "parboiled long grain rice", "quantity": "3 cups", "essential": true, "note": "Wash until water runs clear. Parboiled only — regular rice will go mushy before beans finish cooking." },
+    { "name": "honey beans (oloyin)", "quantity": "1½ cups", "essential": true, "note": "Must be parboiled and partially cooked before going into the jollof. Brown beans or black-eyed peas work too." },
+    { "name": "plum tomatoes", "quantity": "5 medium (or 600g canned)", "essential": true, "note": null },
+    { "name": "red bell pepper (tatashe)", "quantity": "2 large", "essential": true, "note": "Essential for the deep red colour and body of the jollof base." },
+    { "name": "scotch bonnet pepper (ata rodo)", "quantity": "1–2", "essential": false, "note": "Adjust to your heat tolerance. The beans absorb heat well so do not over-pepper." },
+    { "name": "onion", "quantity": "3 medium", "essential": true, "note": "1 for parboiling beans, 1 into the blend, 1 sliced for frying the base." },
+    { "name": "vegetable oil", "quantity": "⅓ cup (80ml)", "essential": true, "note": "Neutral oil for frying the base." },
+    { "name": "palm oil", "quantity": "2 tbsp", "essential": false, "note": "Optional addition to deepen the beans flavour within the jollof. Stir in with the beans." },
+    { "name": "tomato paste", "quantity": "2 tbsp", "essential": true, "note": "Deepens colour and tomato intensity." },
+    { "name": "chicken stock", "quantity": "2 cups (500ml)", "essential": true, "note": "Or beef stock. Cube dissolved in water is acceptable." },
+    { "name": "ground crayfish", "quantity": "1½ tbsp", "essential": false, "note": "Bridges the beans and jollof flavours beautifully. Highly recommended." },
+    { "name": "curry powder", "quantity": "1½ tsp", "essential": true, "note": "Nigerian curry powder for the authentic jollof base flavour." },
+    { "name": "thyme", "quantity": "1 tsp dried", "essential": true, "note": null },
+    { "name": "bay leaves", "quantity": "2 leaves", "essential": false, "note": "Add with the stock. Remove before serving." },
+    { "name": "seasoning cubes", "quantity": "2 cubes", "essential": true, "note": "Crush before adding." },
+    { "name": "white pepper", "quantity": "½ tsp", "essential": false, "note": "Subtle warmth. Black pepper substitutes fine." },
+    { "name": "salt", "quantity": "to taste", "essential": true, "note": "Season carefully — beans absorbs salt slowly so taste after every addition." },
+    { "name": "foil / heavy lid", "quantity": "to seal pot", "essential": true, "note": "For the steam-finish. Foil under lid creates the smoky base." }
+  ],
+
+  "steps": [
+    {
+      "title": "Parboil the Beans",
+      "instruction": "Sort and wash the beans. Place in a pot, cover with water, and boil on high heat for 15 minutes. Drain and discard this first water. Return to pot with fresh water and one roughly chopped onion. Cook on medium-high until beans are about 70% done — they should have some give when pressed but still hold their shape. Drain and set aside.",
+      "duration_min": 2400,
+      "duration_max": 3000,
+      "heat": "high",
+      "uses_ingredients": ["honey beans (oloyin)", "onion", "water"],
+      "sensory_cue": "At 70% done, a bean pressed between fingers should feel soft on the outside but have a slightly firm centre. It should not be chalky but not fully creamy either.",
+      "failure_risk": "Under-cooked beans going into jollof will stay hard — the tomato acid in the jollof base slows bean softening. Getting them 70% done first is critical. Over-cooked beans will dissolve into the jollof and become mush.",
+      "stir_interval": null,
+      "skill_tags": ["parboiling", "testing", "prep"]
+    },
+    {
+      "title": "Blend the Tomato Base",
+      "instruction": "Blend plum tomatoes, red bell pepper, scotch bonnet, and 1 onion until completely smooth. Set aside. Slice the remaining onion into rings.",
+      "duration_min": 180,
+      "duration_max": 360,
+      "heat": "none",
+      "uses_ingredients": ["plum tomatoes", "red bell pepper (tatashe)", "scotch bonnet pepper (ata rodo)", "onion"],
+      "sensory_cue": "Smooth, deep red liquid. No chunks. Should smell sharp and fresh.",
+      "failure_risk": "A watery blend takes much longer to fry down. Strain if it seems very liquid.",
+      "stir_interval": null,
+      "skill_tags": ["blending", "prep"]
+    },
+    {
+      "title": "Fry the Base",
+      "instruction": "Heat vegetable oil in a heavy pot over medium-high. Fry sliced onions until golden and soft. Add tomato paste and fry for 3 minutes until it darkens. Pour in the blended mix. Increase to high heat and fry, stirring every 90 seconds, until the mix is thick, deeply coloured, and the oil has risen to the surface. This takes time — do not rush it.",
+      "duration_min": 1200,
+      "duration_max": 1800,
+      "heat": "high",
+      "uses_ingredients": ["vegetable oil", "onion", "tomato paste", "plum tomatoes", "red bell pepper (tatashe)"],
+      "sensory_cue": "Base should look thick and paste-like, not liquid. Oil visibly floating on top. Colour: dark brick-red. Raw tomato smell completely gone.",
+      "failure_risk": "Insufficient frying leaves a raw, sour tomato taste in the finished dish. The oil rising is your signal that it is done.",
+      "stir_interval": 90,
+      "skill_tags": ["frying", "reduction", "heat-control"]
+    },
+    {
+      "title": "Season the Base",
+      "instruction": "Reduce heat to medium. Add curry powder, thyme, white pepper, ground crayfish, and crushed seasoning cubes. Stir thoroughly. Add palm oil if using — stir it in now. Taste and season with salt. The base should be bold and slightly over-seasoned at this stage.",
+      "duration_min": 120,
+      "duration_max": 180,
+      "heat": "medium",
+      "uses_ingredients": ["curry powder", "thyme", "white pepper", "ground crayfish", "seasoning cubes", "salt", "palm oil"],
+      "sensory_cue": "Base smells layered and complex — curry, thyme, crayfish all distinct. Colour is warm dark orange-red. Bold on the palate.",
+      "failure_risk": "This is your last real seasoning window. The rice and beans will absorb flavour but dilute it — season generously here.",
+      "stir_interval": null,
+      "skill_tags": ["seasoning", "tasting", "layering"]
+    },
+    {
+      "title": "Add Stock and Beans",
+      "instruction": "Pour in the chicken stock. Add bay leaves. Stir and bring to a boil. Now add the parboiled beans. Stir gently to combine — do not mash. Taste the liquid again. It should be rich and well-seasoned. Let it return to a boil.",
+      "duration_min": 240,
+      "duration_max": 360,
+      "heat": "medium",
+      "uses_ingredients": ["chicken stock", "bay leaves", "honey beans (oloyin)"],
+      "sensory_cue": "The pot should be bubbling actively with the beans suspended in the deep red broth. Smell should be full, rich, and savoury.",
+      "failure_risk": "If beans are not evenly distributed and the liquid is not boiling before the rice goes in, cooking will be uneven — some parts soggy, some crunchy.",
+      "stir_interval": null,
+      "skill_tags": ["building", "combining"]
+    },
+    {
+      "title": "Add Rice and Set Heat",
+      "instruction": "Add the washed parboiled rice. Stir well so every grain is coated and the beans are evenly distributed throughout. The liquid should just barely cover the rice and beans. If it falls short, add a small splash of hot stock or water. Reduce heat to low.",
+      "duration_min": 120,
+      "duration_max": 180,
+      "heat": "low",
+      "uses_ingredients": ["parboiled long grain rice"],
+      "sensory_cue": "Every grain should look stained orange-red. Beans should be visible throughout, evenly spaced. Liquid at the surface level of the rice mixture.",
+      "failure_risk": "Too much liquid = wet, soggy result. Too little = rice does not cook through before the base burns. The rice should be level with the surface of the liquid.",
+      "stir_interval": null,
+      "skill_tags": ["rice", "liquid-ratio", "precision"]
+    },
+    {
+      "title": "Seal and Steam — First Cook",
+      "instruction": "Place foil directly on the surface of the rice and beans mixture, then put the lid on tightly. Cook on the lowest heat possible for 25 minutes. Do NOT open the lid. The steam inside is cooking both the rice and finishing the beans simultaneously.",
+      "duration_min": 1500,
+      "duration_max": 1800,
+      "heat": "low",
+      "uses_ingredients": ["foil / heavy lid"],
+      "sensory_cue": "Steam should escape from the sides of the lid. A faint smoky aroma from the bottom after 15–20 minutes is the jollof signature — expected and desirable.",
+      "failure_risk": "Opening the lid releases steam and creates uneven cooking. You will get hard, crunchy rice on one side and mush on the other. Stay out of it.",
+      "stir_interval": null,
+      "skill_tags": ["steam", "patience", "heat-control"]
+    },
+    {
+      "title": "Check, Fold and Finish",
+      "instruction": "Open the lid carefully. Check if the rice and beans are fully cooked — press a grain of rice and a bean between your fingers. Both should be completely soft. Gently fold from the bottom using a wooden spoon — do this once, slowly. Re-seal and cook for a final 10 minutes on the lowest heat. Remove bay leaves. Rest for 5 minutes before serving.",
+      "duration_min": 600,
+      "duration_max": 900,
+      "heat": "low",
+      "uses_ingredients": [],
+      "sensory_cue": "Finished rice and beans should be fully cooked, each grain and bean separate and identifiable. Deep orange-red, glossy, rich aroma. The bottom layer should carry the smoky char.",
+      "failure_risk": "Rough folding breaks the rice grains and mashes the beans. One gentle fold only. If the rice is still hard at the check stage, add 2 tbsp of hot water, re-seal and give it 10 more minutes.",
+      "stir_interval": null,
+      "skill_tags": ["finishing", "folding", "testing"]
+    }
+  ]
+}

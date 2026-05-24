@@ -1,0 +1,100 @@
+{
+  "dish": "Indomie Stir Fry",
+  "pack_version": "1.0",
+  "description": "The Nigerian classic. Indomie noodles stir fried with egg, vegetables, and protein in a hot wok or pan. Fast, satisfying, and infinitely better than just boiling it.",
+  "emoji": "🍜",
+  "tags": ["quick", "beginner-friendly", "15-20min", "everyday"],
+  "serves": "1–2",
+
+  "ingredients": [
+    { "name": "Indomie instant noodles", "quantity": "2 packs", "essential": true, "note": "Any variant works — Original, Chicken, or Onion Chicken. Keep the seasoning sachets." },
+    { "name": "eggs", "quantity": "2 large", "essential": true, "note": "Beaten lightly before adding to the pan." },
+    { "name": "vegetable oil", "quantity": "2 tbsp", "essential": true, "note": "Or any neutral oil. Enough to coat the pan well." },
+    { "name": "onion", "quantity": "1 small, thinly sliced", "essential": true, "note": "Sliced into thin rings or half moons. Fries fast — don't walk away." },
+    { "name": "spring onions (scallions)", "quantity": "2 stalks, sliced", "essential": false, "note": "Adds freshness. Add half during cooking, half at the end as garnish." },
+    { "name": "scotch bonnet pepper", "quantity": "1, finely sliced", "essential": false, "note": "For heat. Remove seeds for less intensity. Skip entirely for mild." },
+    { "name": "green pepper (capsicum)", "quantity": "½, thinly sliced", "essential": false, "note": "Adds colour and a slight bitterness that balances the seasoning." },
+    { "name": "carrot", "quantity": "1 small, julienned", "essential": false, "note": "Cut into thin matchsticks. Blanch briefly or add early so it softens." },
+    { "name": "cabbage", "quantity": "small handful, shredded", "essential": false, "note": "Adds crunch. Add late — it wilts fast." },
+    { "name": "sausage or hotdog", "quantity": "2, sliced into rounds", "essential": false, "note": "Fry until the edges brown slightly before adding noodles." },
+    { "name": "indomie seasoning sachets", "quantity": "from the packs", "essential": true, "note": "Use both seasoning powder sachets. Use the liquid sachet sparingly — it is very salty." },
+    { "name": "soy sauce", "quantity": "1 tsp", "essential": false, "note": "Adds depth and a slight umami boost. Optional but recommended." },
+    { "name": "butter", "quantity": "1 tsp", "essential": false, "note": "Add at the very end for richness. A Nigerian stir fry secret." }
+  ],
+
+  "steps": [
+    {
+      "title": "Boil the Noodles",
+      "instruction": "Bring a small pot of water to a rolling boil. Add the noodles — no seasoning yet. Boil for exactly 2 minutes. You want them slightly undercooked — they will finish in the pan. Drain immediately and rinse briefly with cold water to stop cooking. Toss with a few drops of oil to prevent sticking. Set aside.",
+      "duration_min": 120,
+      "duration_max": 180,
+      "heat": "high",
+      "uses_ingredients": ["Indomie instant noodles"],
+      "sensory_cue": "Noodles should be pliable and separated but still have a slight firmness. Not soft, not crunchy. They will finish cooking in the wok.",
+      "failure_risk": "Overcooked noodles turn to mush in the pan. 2 minutes maximum — they finish in the stir fry. Rinsing with cold water stops the cooking immediately.",
+      "stir_interval": null,
+      "prep_notes": ["Beat eggs in a small bowl and set aside", "Slice all vegetables before starting — stir fry moves fast"],
+      "skill_tags": ["boiling", "noodles", "timing"]
+    },
+    {
+      "title": "Fry the Protein",
+      "instruction": "Heat oil in a wide pan or wok over high heat. Add sausage slices if using. Fry for 2 minutes, stirring occasionally, until the edges are lightly browned. Push to the side of the pan.",
+      "duration_min": 120,
+      "duration_max": 180,
+      "heat": "high",
+      "uses_ingredients": ["vegetable oil", "sausage or hotdog"],
+      "sensory_cue": "Sausage edges should be golden and slightly caramelised. The pan should be hot enough that they sizzle loudly on contact.",
+      "failure_risk": "Low heat makes the sausage steam instead of fry — you get pale, rubbery pieces with no colour. High heat only.",
+      "stir_interval": null,
+      "skill_tags": ["frying", "protein", "heat-control"]
+    },
+    {
+      "title": "Fry Aromatics and Vegetables",
+      "instruction": "In the same pan, add onion and scotch bonnet. Stir fry for 1 minute until the onion softens slightly. Add carrot first — it needs the most time. Stir fry 1 minute. Add green pepper and half the spring onions. Stir fry everything together for 1 more minute. Keep everything moving — nothing should sit still in a stir fry.",
+      "duration_min": 120,
+      "duration_max": 180,
+      "heat": "high",
+      "uses_ingredients": ["onion", "scotch bonnet pepper", "carrot", "green pepper (capsicum)", "spring onions (scallions)"],
+      "sensory_cue": "Vegetables should be slightly softened but still vivid in colour. Onion should look translucent at the edges. The pan should smell aromatic and slightly smoky.",
+      "failure_risk": "Overcooking the vegetables at this stage makes them mushy by the time the noodles are done. They should be 70% cooked here — the noodles bring residual heat.",
+      "stir_interval": null,
+      "skill_tags": ["stir-frying", "vegetables", "sequencing"]
+    },
+    {
+      "title": "Add Eggs",
+      "instruction": "Push everything to the side of the pan. Pour beaten eggs into the empty space. Let them set for 15 seconds, then scramble them gently. Once just set but still slightly wet, break them up and mix into the vegetables. Do not fully cook the eggs before mixing — they finish with the noodles.",
+      "duration_min": 30,
+      "duration_max": 60,
+      "heat": "high",
+      "uses_ingredients": ["eggs"],
+      "sensory_cue": "Eggs should be scrambled in large, soft curds — not dry, not runny. Slightly underdone is correct at this stage.",
+      "failure_risk": "Fully cooking the eggs before adding noodles makes them dry and rubbery in the final dish. Pull them off the direct heat slightly early.",
+      "stir_interval": null,
+      "skill_tags": ["eggs", "timing", "technique"]
+    },
+    {
+      "title": "Add Noodles and Season",
+      "instruction": "Add the drained noodles to the pan. Toss everything together vigorously — use tongs or two spoons to lift and fold, not stir. Add the seasoning powder sachets. Add soy sauce if using. Add cabbage now if using — it needs only 30 seconds. Toss continuously for 1–2 minutes until the noodles are hot, evenly coated, and slightly dried out at the edges.",
+      "duration_min": 90,
+      "duration_max": 120,
+      "heat": "high",
+      "uses_ingredients": ["Indomie instant noodles", "indomie seasoning sachets", "soy sauce", "cabbage"],
+      "sensory_cue": "The noodles should look glossy, evenly coloured, and slightly caramelised at the edges where they touch the pan. Every strand should be coated. The smell should be deeply savoury and slightly smoky.",
+      "failure_risk": "Adding the liquid seasoning sachet too generously makes the dish watery and over-salted. Use the powder sachets first, taste, then decide if you need the liquid at all.",
+      "stir_interval": null,
+      "skill_tags": ["tossing", "seasoning", "stir-frying"]
+    },
+    {
+      "title": "Finish and Serve",
+      "instruction": "Turn off the heat. Add butter if using — toss until melted and coating the noodles. Add remaining spring onions. Taste and adjust — if it needs more salt, add a tiny splash of soy sauce, not more seasoning powder. Serve immediately. Indomie stir fry does not hold — eat it straight from the pan.",
+      "duration_min": 30,
+      "duration_max": 60,
+      "heat": "none",
+      "uses_ingredients": ["butter", "spring onions (scallions)"],
+      "sensory_cue": "Finished stir fry should be glossy, fragrant, and deeply savoury. Noodles should be separate — not clumped. Every bite should have a mix of noodle, egg, and vegetable.",
+      "failure_risk": "Leaving it in the pan after turning off the heat continues to cook and dry out the noodles. Plate immediately.",
+      "stir_interval": null,
+      "skill_tags": ["finishing", "seasoning", "serving"]
+    }
+  ]
+}

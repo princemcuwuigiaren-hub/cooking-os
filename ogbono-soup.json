@@ -1,0 +1,99 @@
+{
+  "dish": "Nigerian Ogbono Soup",
+  "description": "Ogbono — ground bush mango seeds — dissolved in hot palm oil to create a thick, dark, sticky soup with an unmistakable draw. Deep, earthy, and intensely savoury. The soup that holds its own against any swallow.",
+  "emoji": "🍵",
+  "tags": ["classic", "intermediate", "75-90min", "swallow-soup", "draw-soup"],
+  "serves": "6–8",
+
+  "ingredients": [
+    { "name": "ground ogbono (bush mango seeds)", "quantity": "1 cup (about 150g)", "essential": true, "note": "Buy pre-ground or grind at home. The finer the grind, the smoother and thicker the draw. Ogbono must be dissolved in hot oil before any liquid is added — this is the foundational technique." },
+    { "name": "palm oil", "quantity": "½ cup (120ml)", "essential": true, "note": "The ogbono is dissolved directly in the hot palm oil. This step is non-negotiable and cannot be replicated with any other oil." },
+    { "name": "beef or assorted meat", "quantity": "1kg, parboiled and fried", "essential": true, "note": "Parboil with seasoning, fry until coloured, set aside with stock. Ponmo, tripe, and beef all work beautifully in ogbono." },
+    { "name": "stockfish (okporoko)", "quantity": "1 medium piece, pre-soaked", "essential": false, "note": "Soak in hot water 30 minutes. Debone thoroughly — stockfish bones are small and numerous." },
+    { "name": "smoked fish", "quantity": "1 medium piece", "essential": false, "note": "Debone and flake into large pieces." },
+    { "name": "scotch bonnet pepper (ata rodo)", "quantity": "2–3, blended", "essential": false, "note": "Blend separately. Ogbono soup is not a tomato-based soup — the pepper adds heat without tomato flavour." },
+    { "name": "onion", "quantity": "2 medium", "essential": true, "note": "1 for parboiling meat, 1 finely chopped for the soup base." },
+    { "name": "ground crayfish", "quantity": "3 tbsp", "essential": true, "note": "Non-negotiable. Crayfish carries the flavour of ogbono soup the way seasoning cubes carry stock — it is the backbone." },
+    { "name": "locust beans (iru/dawadawa)", "quantity": "1 tbsp", "essential": false, "note": "Particularly complementary to ogbono. The earthiness of both work together." },
+    { "name": "fresh or frozen okro", "quantity": "200g, finely chopped", "essential": false, "note": "Many Nigerians add a small amount of okro to ogbono for additional draw. Optional but popular." },
+    { "name": "pumpkin leaf (ugwu) or bitter leaf", "quantity": "200g", "essential": false, "note": "Pumpkin leaf: shred finely. Bitter leaf: wash thoroughly and squeeze repeatedly to reduce bitterness. Add at the very end." },
+    { "name": "meat stock", "quantity": "2 cups", "essential": true, "note": "From parboiling the meat. The stock is added after the ogbono is dissolved — never before." },
+    { "name": "seasoning cubes", "quantity": "3 cubes", "essential": true, "note": "Crush before adding." },
+    { "name": "salt", "quantity": "to taste", "essential": true, "note": "Add at the end — smoked fish and stockfish contribute salt." }
+  ],
+
+  "steps": [
+    {
+      "title": "Prepare All Proteins and Stock",
+      "instruction": "Season beef and other meats generously with curry, thyme, onion, seasoning cube, and salt. Parboil until 75% tender — use minimal water to concentrate the stock. Reserve stock. Fry parboiled meat in hot oil until golden-brown. Set aside. Soak stockfish in boiling water for 30 minutes, debone carefully, and break into pieces. Debone and flake smoked fish. Blend scotch bonnet separately with a little water — set aside.",
+      "duration_min": 2400,
+      "duration_max": 3600,
+      "heat": "high",
+      "uses_ingredients": ["beef or assorted meat", "stockfish (okporoko)", "smoked fish", "scotch bonnet pepper (ata rodo)"],
+      "sensory_cue": "Fried meat: deep golden-brown. Stock: dark, gelatinous, intensely savoury. All proteins ready and organised before the soup begins.",
+      "failure_risk": "Rich stock is the liquid that carries the ogbono soup. Thin, watery stock from too much water during parboiling results in a flat, disappointing soup regardless of technique.",
+      "stir_interval": null,
+      "skill_tags": ["prep", "stock", "frying", "organisation"]
+    },
+    {
+      "title": "The Ogbono Dissolution — The Foundation Step",
+      "instruction": "Heat the palm oil in a large heavy pot over medium heat until it melts and turns clear-orange. Do not let it smoke or darken. Reduce heat to low. Add the ground ogbono directly into the hot palm oil. Stir continuously and vigorously — the ogbono will absorb the oil and begin to thicken immediately, forming a thick, dark, sticky paste that pulls away from the sides of the pot. This takes 3–4 minutes of continuous stirring. Do not add any liquid yet.",
+      "duration_min": 180,
+      "duration_max": 240,
+      "heat": "low",
+      "uses_ingredients": ["ground ogbono (bush mango seeds)", "palm oil"],
+      "sensory_cue": "The ogbono paste should look dark brownish-black, thick and sticky, pulling away from the pot walls like toffee. It should smell deeply earthy, slightly nutty, and intensely savoury. If it smells burnt, your heat was too high.",
+      "failure_risk": "This is the most technique-defining step in ogbono soup. Adding liquid before the ogbono is fully dissolved in the oil causes lumps that never dissolve and a grainy soup. Adding too much heat scorches the ogbono and creates bitterness. Low heat, constant stirring, no liquid until the paste is fully formed.",
+      "stir_interval": null,
+      "skill_tags": ["ogbono", "dissolution", "technique", "critical", "heat-control"]
+    },
+    {
+      "title": "Add Crayfish and Aromatics",
+      "instruction": "With the dissolved ogbono still on low heat, add ground crayfish and locust beans if using. Stir into the paste for 1 minute — the crayfish will sizzle slightly in the hot paste. Add the finely chopped onion. Stir for 1 more minute. The paste will smell intensely savoury at this point.",
+      "duration_min": 120,
+      "duration_max": 180,
+      "heat": "low",
+      "uses_ingredients": ["ground crayfish", "locust beans (iru/dawadawa)", "onion"],
+      "sensory_cue": "The crayfish hitting the hot ogbono paste releases a sharp, deeply umami aroma. The paste should now smell layered — earthy ogbono, savoury crayfish, aromatic locust beans.",
+      "failure_risk": "Do not increase heat at this stage. The paste is very concentrated and will burn quickly on high heat. Keep it low.",
+      "stir_interval": null,
+      "skill_tags": ["flavour-building", "ogbono", "aromatics"]
+    },
+    {
+      "title": "Add Stock and Develop the Soup",
+      "instruction": "Now — increase heat to medium. Add the meat stock gradually, one cup at a time, stirring vigorously after each addition. The ogbono paste will begin to loosen and stretch into the liquid, creating the characteristic thick, dark, drawing soup. Add the blended scotch bonnet. Add crushed seasoning cubes. Stir continuously as the soup comes to a simmer — it will look stringy and uneven at first, then smooth out as it heats through.",
+      "duration_min": 480,
+      "duration_max": 600,
+      "heat": "medium",
+      "uses_ingredients": ["meat stock", "scotch bonnet pepper (ata rodo)", "seasoning cubes"],
+      "sensory_cue": "The soup should be thick, dark brown-black, and visibly stretchy as you stir. When you lift the spoon, the soup should pull and draw significantly. It should smell earthy, deeply savoury, and complex. If it looks very thin, let it simmer a few more minutes before adding proteins.",
+      "failure_risk": "Adding all the stock at once before the paste is incorporated causes separation — you get oil floating on watery stock with lumps of ogbono. Add slowly, stir vigorously, let each addition incorporate before adding more.",
+      "stir_interval": null,
+      "skill_tags": ["stock", "building", "consistency", "ogbono"]
+    },
+    {
+      "title": "Add Meats and Simmer",
+      "instruction": "Add fried meat, stockfish, and smoked fish to the soup. Stir to coat everything in the thick base. If adding okro, add it now — stir in gently. Cover and simmer on low heat for 20 minutes, stirring every 5 minutes. The soup will thicken further as it cooks. If it becomes too thick, add a small splash of hot water. Season with salt — carefully.",
+      "duration_min": 1200,
+      "duration_max": 1500,
+      "heat": "low",
+      "uses_ingredients": ["beef or assorted meat", "stockfish (okporoko)", "smoked fish", "fresh or frozen okro", "salt"],
+      "sensory_cue": "The soup should be thick, dark, and coat every piece of meat heavily. The draw should be significant — stirring should feel like stirring something that wants to hold together. The smell should be intensely savoury and deeply earthy.",
+      "failure_risk": "Ogbono soup thickens as it sits — do not panic if it looks very thick at this stage. Add hot water in small splashes if needed. Stirring from the bottom is important — ogbono settles and can scorch if left unstirred.",
+      "stir_interval": 300,
+      "skill_tags": ["simmering", "consistency", "patience"]
+    },
+    {
+      "title": "Add Leaves and Finish",
+      "instruction": "Add shredded pumpkin leaf or washed bitter leaf. Stir in and cook uncovered for 5 minutes maximum. Taste and make the final salt adjustment. Remove from heat. Let rest for 3 minutes before serving. Serve with eba, fufu, pounded yam, or amala.",
+      "duration_min": 300,
+      "duration_max": 420,
+      "heat": "low",
+      "uses_ingredients": ["pumpkin leaf (ugwu) or bitter leaf"],
+      "sensory_cue": "Finished ogbono soup is dark, thick, stretchy, and deeply savoury. Leaves should be bright and just wilted. The draw when you lift a spoon should be significant — long, stretching threads of soup. This is the mark of a properly made ogbono.",
+      "failure_risk": "Bitter leaf must be thoroughly washed and squeezed multiple times before adding — unwashed bitter leaf will make the entire soup aggressively bitter in a way that cannot be fixed.",
+      "stir_interval": null,
+      "skill_tags": ["finishing", "leaves", "seasoning"]
+    }
+  ]
+}

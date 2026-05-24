@@ -1,0 +1,102 @@
+{
+  "dish": "Nigerian Beef Stew",
+  "description": "Rich, thick Nigerian beef stew with deeply fried tomato base and well-seasoned tender beef. Slower and bolder than chicken stew — the beef fat enriches the base in a way nothing else does.",
+  "emoji": "🥩",
+  "tags": ["classic", "intermediate", "90-120min", "storable"],
+  "serves": "6–8",
+
+  "ingredients": [
+    { "name": "beef (chuck, shank or stew cuts)", "quantity": "1.5kg", "essential": true, "note": "Tougher cuts like chuck and shank have more connective tissue — they break down beautifully in the stew and give it body. Avoid lean cuts like sirloin, they dry out." },
+    { "name": "plum tomatoes", "quantity": "6 medium (or 800g canned)", "essential": true, "note": "Base of the stew. Fresh preferred, canned works." },
+    { "name": "red bell pepper (tatashe)", "quantity": "2 large", "essential": true, "note": "For body, sweetness and colour. Essential." },
+    { "name": "scotch bonnet pepper (ata rodo)", "quantity": "2–3", "essential": false, "note": "Beef absorbs heat well — 2 is a good middle ground." },
+    { "name": "onion", "quantity": "3 large", "essential": true, "note": "1 for parboiling the beef, 1 into the blend, 1 sliced for frying the base." },
+    { "name": "vegetable oil", "quantity": "½ cup (120ml)", "essential": true, "note": "You need enough oil to fry the base properly. Beef fat will also render into the pot during frying." },
+    { "name": "tomato paste", "quantity": "3 tbsp", "essential": true, "note": "Beef stew takes more paste than chicken — the beef flavour is stronger and needs a deeper tomato base to match it." },
+    { "name": "curry powder", "quantity": "2 tsp", "essential": true, "note": "For both the beef seasoning and the stew base." },
+    { "name": "thyme", "quantity": "1½ tsp dried", "essential": true, "note": null },
+    { "name": "bay leaves", "quantity": "3 leaves", "essential": false, "note": "Add during parboiling. Remove before serving. Particularly good with beef." },
+    { "name": "seasoning cubes", "quantity": "3 cubes", "essential": true, "note": "1 for beef marinade, 2 for the stew. Crush before adding." },
+    { "name": "garlic", "quantity": "4 cloves, minced", "essential": false, "note": "Particularly recommended for beef stew. Adds depth the beef carries beautifully." },
+    { "name": "ginger", "quantity": "1½ tsp freshly grated", "essential": false, "note": "Pairs well with beef. Helps tenderise slightly during marination." },
+    { "name": "white pepper", "quantity": "1 tsp", "essential": false, "note": "For the beef marinade. Black pepper works too." },
+    { "name": "ground crayfish", "quantity": "1 tbsp", "essential": false, "note": "Optional in beef stew but adds a layer of umami depth underneath the beef flavour." },
+    { "name": "salt", "quantity": "to taste", "essential": true, "note": "Season the beef well before parboiling. Taste and season the stew base separately." },
+    { "name": "beef stock", "quantity": "1½ cups (from parboiling)", "essential": true, "note": "The liquid from parboiling the beef. Richer and more gelatinous than chicken stock — use every drop." }
+  ],
+
+  "steps": [
+    {
+      "title": "Season and Marinate the Beef",
+      "instruction": "Cut beef into large bite-sized chunks if not already portioned. Wash and pat dry. Season with curry powder, thyme, white pepper, garlic, ginger, 1 crushed seasoning cube, and salt. Mix thoroughly so every piece is coated. Rest for at least 20 minutes. Overnight in the fridge gives significantly better results.",
+      "duration_min": 1200,
+      "duration_max": 7200,
+      "heat": "none",
+      "uses_ingredients": ["beef (chuck, shank or stew cuts)", "curry powder", "thyme", "white pepper", "garlic", "ginger", "seasoning cubes", "salt"],
+      "sensory_cue": "Every piece should be evenly coated. Smell should be aromatic and savoury — garlic and thyme prominent.",
+      "failure_risk": "Beef is denser than chicken and needs longer marination to absorb seasoning properly. Rushing this step produces bland beef in an otherwise well-seasoned stew.",
+      "stir_interval": null,
+      "skill_tags": ["marinating", "seasoning", "prep"]
+    },
+    {
+      "title": "Parboil the Beef",
+      "instruction": "Place seasoned beef in a pot with 1 roughly chopped onion and bay leaves. Add just enough water to barely cover the beef. Cook on medium-high heat until the beef is about 75% tender — it should yield to a fork but still have some resistance. Tougher cuts will take longer. Remove beef and reserve ALL the stock. It will be darker and more gelatinous than chicken stock — that is the goal.",
+      "duration_min": 1800,
+      "duration_max": 3600,
+      "heat": "medium",
+      "uses_ingredients": ["beef (chuck, shank or stew cuts)", "onion", "bay leaves", "water"],
+      "sensory_cue": "The stock should look deep golden-brown and smell intensely beefy. The surface will have a layer of fat — leave it in. The beef should be significantly softer than raw but not falling apart.",
+      "failure_risk": "Under-cooked beef going into stew will be tough and chewy in the final dish. Give it enough time here. Chuck and shank cuts need the full 60 minutes.",
+      "stir_interval": null,
+      "skill_tags": ["parboiling", "stock", "patience"]
+    },
+    {
+      "title": "Fry the Beef Pieces",
+      "instruction": "Heat half the vegetable oil in a wide heavy pot over high heat. Fry parboiled beef in batches — do not crowd. Fry each piece for 3–4 minutes per side until deep brown on the outside. The beef fat will render and add extra flavour to the oil. Remove and set aside. Do not discard the oil left in the pot — it now carries beef flavour.",
+      "duration_min": 720,
+      "duration_max": 1080,
+      "heat": "high",
+      "uses_ingredients": ["vegetable oil", "beef (chuck, shank or stew cuts)"],
+      "sensory_cue": "Deep golden-brown crust on the outside of each piece. The rendered fat in the pan should look slightly golden. The kitchen smell at this point should be intense and deeply savoury.",
+      "failure_risk": "Crowding the pan drops the temperature and you get grey steamed beef with no sear. Work in small batches. Let each side sit undisturbed for a proper crust.",
+      "stir_interval": null,
+      "skill_tags": ["searing", "frying", "heat-control", "batching"]
+    },
+    {
+      "title": "Build and Fry the Stew Base",
+      "instruction": "In the same pot with the beef-flavoured oil, fry sliced onions over medium-high until golden. Add tomato paste and fry 3–4 minutes until it darkens. Pour in blended tomatoes, tatashe, and scotch bonnet. Increase to high heat. Fry the base, stirring every 90 seconds, until thick, dark, and oil rises to the surface. This is a 25–30 minute process for beef stew — the base needs to be drier and more concentrated than for chicken.",
+      "duration_min": 1500,
+      "duration_max": 2100,
+      "heat": "high",
+      "uses_ingredients": ["plum tomatoes", "red bell pepper (tatashe)", "scotch bonnet pepper (ata rodo)", "onion", "tomato paste"],
+      "sensory_cue": "Very thick, almost paste-like base. Oil clearly floating on top. Colour: deep dark brick-red. Any raw tomato smell must be completely gone. The base should look almost dry at the edges of the pot.",
+      "failure_risk": "Beef stew requires a drier, more concentrated base than chicken stew because the beef stock you will add is already very rich. An insufficiently fried base makes the stew greasy and sour.",
+      "stir_interval": 90,
+      "skill_tags": ["frying", "reduction", "base", "concentration"]
+    },
+    {
+      "title": "Season the Base and Add Stock",
+      "instruction": "Reduce to medium heat. Add remaining curry powder, thyme, ground crayfish, and 2 crushed seasoning cubes. Season with salt. Stir well. Pour in the reserved beef stock. Stir to incorporate. Bring to a simmer and taste — it should be rich, bold, and deeply savoury. Adjust seasoning now.",
+      "duration_min": 180,
+      "duration_max": 300,
+      "heat": "medium",
+      "uses_ingredients": ["curry powder", "thyme", "ground crayfish", "seasoning cubes", "salt", "beef stock"],
+      "sensory_cue": "The stew with stock should be noticeably thicker than chicken stew at this stage because the beef stock is gelatinous. Dark orange-red, rich aroma, bold flavour.",
+      "failure_risk": "The beef stock is much richer than chicken stock — you may need less salt than you expect. Taste carefully before adding.",
+      "stir_interval": null,
+      "skill_tags": ["seasoning", "tasting", "adjusting"]
+    },
+    {
+      "title": "Add Beef and Finish",
+      "instruction": "Add the fried beef pieces back into the stew. Stir gently to coat. Cover and simmer on low heat for 20–25 minutes, stirring occasionally. The beef should finish cooking through, absorb the stew flavour, and become completely tender. The stew should thicken around the beef. Taste one last time — adjust salt. Oil on the surface is correct.",
+      "duration_min": 1200,
+      "duration_max": 1500,
+      "heat": "low",
+      "uses_ingredients": ["beef (chuck, shank or stew cuts)"],
+      "sensory_cue": "Beef pieces should be tender enough to cut with a spoon. The stew should be thick, glossy, deeply coloured, and coat every piece of beef heavily. Oil sitting on top is the sign of a properly made stew.",
+      "failure_risk": "High heat dries out the beef and causes the stew to split. Low and slow from this point. If the stew is too thick, add a small splash of water — not stock.",
+      "stir_interval": 300,
+      "skill_tags": ["simmering", "finishing", "patience"]
+    }
+  ]
+}

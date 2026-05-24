@@ -1,0 +1,121 @@
+{
+  "dish": "Loaded Indomie",
+  "pack_version": "1.0",
+  "description": "The full party version. Indomie stir fried with everything — sausage, shrimp, egg, carrots, cabbage, green beans, peppers. The kind that makes people ask who made this. Every component cooked separately and brought together at the end.",
+  "emoji": "🍜",
+  "tags": ["party-style", "intermediate", "25-35min", "loaded", "celebration"],
+  "serves": "2–3",
+
+  "ingredients": [
+    { "name": "Indomie instant noodles", "quantity": "3 packs", "essential": true, "note": "Chicken flavour works best for loaded style. Keep all seasoning sachets." },
+    { "name": "eggs", "quantity": "3 large", "essential": true, "note": "Scrambled separately and folded in at the end." },
+    { "name": "sausage or hotdog", "quantity": "3, sliced into rounds", "essential": false, "note": "Fry until edges are browned and slightly caramelised." },
+    { "name": "shrimp (prawns)", "quantity": "150g, peeled and deveined", "essential": false, "note": "Season with a pinch of salt and pepper before cooking. Cook last — they go in 2 minutes before serving." },
+    { "name": "chicken breast or thigh", "quantity": "150g, thinly sliced", "essential": false, "note": "Season and stir fry separately. Slice thinly so it cooks fast." },
+    { "name": "vegetable oil", "quantity": "3 tbsp", "essential": true, "note": "You need enough oil for the volume of ingredients." },
+    { "name": "butter", "quantity": "1 tbsp", "essential": false, "note": "Added at the very end. Gives the loaded Indomie its glossy, rich finish." },
+    { "name": "onion", "quantity": "1 medium, thinly sliced", "essential": true, "note": null },
+    { "name": "spring onions (scallions)", "quantity": "3 stalks, sliced", "essential": false, "note": "Half during cooking, half as garnish at the end." },
+    { "name": "scotch bonnet pepper", "quantity": "1–2, finely sliced", "essential": false, "note": "Adjust to heat preference." },
+    { "name": "red bell pepper", "quantity": "½, thinly sliced", "essential": false, "note": "Adds colour and sweetness." },
+    { "name": "green pepper (capsicum)", "quantity": "½, thinly sliced", "essential": false, "note": "Adds colour and slight bitterness." },
+    { "name": "carrot", "quantity": "1 medium, julienned", "essential": false, "note": "Cut into thin matchsticks. Goes in early as it needs the most time." },
+    { "name": "green beans", "quantity": "handful, trimmed and halved", "essential": false, "note": "Blanch briefly before adding to the wok." },
+    { "name": "cabbage", "quantity": "small handful, shredded", "essential": false, "note": "Add very late — it wilts in under a minute." },
+    { "name": "sweet corn", "quantity": "3 tbsp", "essential": false, "note": "Drained if canned. Adds sweetness and colour." },
+    { "name": "indomie seasoning sachets", "quantity": "from the packs", "essential": true, "note": "Use all powder sachets. Use liquid sachets very sparingly — taste first." },
+    { "name": "soy sauce", "quantity": "1 tbsp", "essential": false, "note": "Adds depth and colour to the noodles." },
+    { "name": "oyster sauce", "quantity": "1 tsp", "essential": false, "note": "Optional but adds an incredible savoury gloss. Available in most Nigerian markets." },
+    { "name": "curry powder", "quantity": "¼ tsp", "essential": false, "note": "Just a touch for colour and warmth." },
+    { "name": "white pepper", "quantity": "¼ tsp", "essential": false, "note": "For seasoning the chicken and shrimp." },
+    { "name": "salt", "quantity": "to taste", "essential": true, "note": "Season proteins separately before cooking. Taste before adding more at the end — the sachets are already salty." }
+  ],
+
+  "steps": [
+    {
+      "title": "Prep Everything Before You Start",
+      "instruction": "This is the most important step. Loaded Indomie moves fast — you cannot stop to chop once the wok is hot. Slice all vegetables. Season chicken with salt, white pepper, and a pinch of curry. Season shrimp with salt and white pepper. Beat eggs in a bowl. Slice sausage. Blanch green beans in boiling water for 1 minute, drain, and set aside. Have everything in separate bowls within reach of the stove.",
+      "duration_min": 600,
+      "duration_max": 900,
+      "heat": "none",
+      "uses_ingredients": ["carrot", "green beans", "green pepper (capsicum)", "red bell pepper", "onion", "spring onions (scallions)", "scotch bonnet pepper", "cabbage", "sweet corn", "chicken breast or thigh", "shrimp (prawns)", "eggs"],
+      "sensory_cue": "Everything prepped, everything within reach. This is a professional mindset — mise en place. The cooking will take 15 minutes once you start. The prep is what makes it possible.",
+      "failure_risk": "Starting to cook before everything is prepped is the number one loaded Indomie mistake. Something will burn while you are chopping. Prep completely before lighting the stove.",
+      "stir_interval": null,
+      "prep_notes": ["Blanch green beans first", "Season chicken and shrimp separately", "Beat eggs and set aside", "Have all bowls lined up by the stove"],
+      "skill_tags": ["prep", "mise-en-place", "organisation"]
+    },
+    {
+      "title": "Boil the Noodles",
+      "instruction": "Bring a large pot of water to a rolling boil. Add all 3 packs of noodles. Boil for exactly 2 minutes — undercooked. Drain immediately, rinse with cold water, toss with a few drops of oil to prevent sticking. Spread on a wide plate to cool and dry while you cook everything else.",
+      "duration_min": 120,
+      "duration_max": 180,
+      "heat": "high",
+      "uses_ingredients": ["Indomie instant noodles"],
+      "sensory_cue": "Noodles should be pliable and separated but still firm. Surface should not be wet — shake the sieve well and spread to dry.",
+      "failure_risk": "Overcooked noodles disintegrate when tossed with this volume of ingredients. 2 minutes — no more.",
+      "stir_interval": null,
+      "skill_tags": ["boiling", "timing", "noodles"]
+    },
+    {
+      "title": "Cook the Proteins",
+      "instruction": "Heat 1 tbsp oil in a large wok or wide pan over high heat. Add chicken — spread in a single layer, do not stir for 1 minute. Toss and cook for 2 more minutes until cooked through and golden. Remove and set aside. In the same pan, add sausage slices and fry until edges are browned, about 2 minutes. Remove and set aside. Do not add shrimp yet.",
+      "duration_min": 300,
+      "duration_max": 360,
+      "heat": "high",
+      "uses_ingredients": ["vegetable oil", "chicken breast or thigh", "sausage or hotdog"],
+      "sensory_cue": "Chicken should be golden on the outside, fully white inside. Sausage edges should be caramelised and slightly crispy. Both should smell deeply savoury from the high heat sear.",
+      "failure_risk": "Cooking all proteins together drops the pan temperature and causes steaming instead of searing. Cook them separately in batches.",
+      "stir_interval": null,
+      "skill_tags": ["searing", "batching", "protein", "heat-control"]
+    },
+    {
+      "title": "Stir Fry the Vegetables",
+      "instruction": "Add another tbsp of oil to the same pan over high heat. Add onion and scotch bonnet — stir fry 1 minute. Add carrot — stir fry 1 minute. Add green beans, red and green pepper — stir fry 1 minute. Add sweet corn. Keep everything moving constantly. Add half the spring onions. Total vegetable stir fry time is 3–4 minutes — they should be vivid, slightly softened but still have crunch.",
+      "duration_min": 180,
+      "duration_max": 240,
+      "heat": "high",
+      "uses_ingredients": ["vegetable oil", "onion", "scotch bonnet pepper", "carrot", "green beans", "red bell pepper", "green pepper (capsicum)", "sweet corn", "spring onions (scallions)"],
+      "sensory_cue": "Vegetables should be bright, glossy, and slightly charred at the edges. The wok should be smoking slightly — this is good. The smell should be hot, savoury, and aromatic.",
+      "failure_risk": "Pausing the stir fry causes vegetables to steam in their own moisture and go limp. Keep them moving. Add vegetables in order of cooking time — hardest first.",
+      "stir_interval": null,
+      "skill_tags": ["stir-frying", "sequencing", "heat-control", "vegetables"]
+    },
+    {
+      "title": "Add Eggs",
+      "instruction": "Push vegetables to the side. Pour beaten eggs into the empty space. Let set for 15 seconds then scramble gently into large soft curds. Before fully set, fold into the vegetables. The eggs should still look slightly wet when you combine them — they finish with the noodles.",
+      "duration_min": 30,
+      "duration_max": 60,
+      "heat": "high",
+      "uses_ingredients": ["eggs"],
+      "sensory_cue": "Large, soft, golden egg curds folded through the vegetables. Slightly underdone — they will finish cooking when the noodles are added.",
+      "failure_risk": "Dry, overcooked eggs at this stage become rubbery in the final dish. Pull them while still slightly wet.",
+      "stir_interval": null,
+      "skill_tags": ["eggs", "timing", "technique"]
+    },
+    {
+      "title": "Add Noodles, Proteins and Sauce",
+      "instruction": "Add the drained noodles to the wok. Add the cooked chicken and sausage back in. Add all seasoning powder sachets, soy sauce, oyster sauce if using, and curry powder. Toss everything together vigorously for 2 minutes — use tongs to lift and fold rather than stir. Every strand should be coated. Add cabbage now — toss for 30 seconds.",
+      "duration_min": 120,
+      "duration_max": 180,
+      "heat": "high",
+      "uses_ingredients": ["Indomie instant noodles", "chicken breast or thigh", "sausage or hotdog", "indomie seasoning sachets", "soy sauce", "oyster sauce", "curry powder", "cabbage"],
+      "sensory_cue": "The noodles should be golden-yellow from the curry, glossy from the sauces, and have visible bits of egg, vegetable, and protein throughout. The smell should be complex, deeply savoury, and slightly smoky from the wok.",
+      "failure_risk": "Adding liquid sachet without tasting first is a common over-salting mistake at this volume. The powder sachets from 3 packs plus soy sauce is usually enough. Taste before adding more.",
+      "stir_interval": null,
+      "skill_tags": ["combining", "tossing", "seasoning"]
+    },
+    {
+      "title": "Add Shrimp, Butter and Finish",
+      "instruction": "Add shrimp to the wok. Toss continuously for exactly 2 minutes — shrimp cooks fast and goes rubbery if overcooked. The moment they turn pink and curl into a C shape, they are done. Add butter and toss until melted and coating everything. Add remaining spring onions. Taste one final time. Remove from heat immediately and serve.",
+      "duration_min": 120,
+      "duration_max": 150,
+      "heat": "high",
+      "uses_ingredients": ["shrimp (prawns)", "butter", "spring onions (scallions)", "salt"],
+      "sensory_cue": "Shrimp should be pink, curled into a C shape, and slightly glossy. The entire dish should look vibrant — golden noodles, colourful vegetables, pink shrimp, golden egg. The butter gives everything a final gloss that makes it look professional.",
+      "failure_risk": "Overcooked shrimp curls into a tight O shape and becomes rubbery. C shape means done. O shape means overcooked. Watch them closely — 2 minutes is the maximum.",
+      "stir_interval": null,
+      "skill_tags": ["shrimp", "timing", "finishing", "butter"]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "dish": "Nigerian Pepper Soup",
+  "description": "A light, intensely spiced broth built entirely on the pepper soup spice blend — no palm oil, no tomato base. Clear, hot, deeply aromatic. Works with chicken, goat, catfish, or offal. The spice blend is everything.",
+  "emoji": "🌶️",
+  "tags": ["light", "beginner-friendly", "60-75min", "spicy", "medicinal"],
+  "serves": "4–6",
+
+  "ingredients": [
+    { "name": "chicken pieces or goat meat or catfish", "quantity": "1.2kg", "essential": true, "note": "Choose one protein — each produces a different soup. Chicken: lighter, quicker. Goat: deeper, richer, the classic choice. Catfish: requires less time but very different technique — do not over-stir or it breaks apart." },
+    { "name": "pepper soup spice mix", "quantity": "3 tbsp", "essential": true, "note": "Buy pre-mixed Nigerian pepper soup spice from a Nigerian grocery store. Or blend your own: ehuru (calabash nutmeg), uda (negro pepper), utazi leaves, uziza seeds, and coriander seeds. The blend is the entire identity of this soup." },
+    { "name": "scotch bonnet pepper (ata rodo)", "quantity": "3–4", "essential": true, "note": "Pepper soup is supposed to be hot. 3 minimum for the authentic experience. Blend or pound." },
+    { "name": "onion", "quantity": "2 medium", "essential": true, "note": "1 roughly chopped for cooking the meat, 1 finely chopped for the broth." },
+    { "name": "ground crayfish", "quantity": "2 tbsp", "essential": false, "note": "Optional in pepper soup but adds a savoury depth underneath the spice blend." },
+    { "name": "uziza leaves", "quantity": "small handful, shredded", "essential": false, "note": "Fresh or dried. A peppery, aromatic leaf that is traditional in pepper soup. Add at the end." },
+    { "name": "utazi leaves", "quantity": "3–4 leaves, shredded finely", "essential": false, "note": "Slightly bitter leaf that adds an authentic medicinal note. A little goes a long way. Skip if unavailable." },
+    { "name": "seasoning cubes", "quantity": "2 cubes", "essential": true, "note": "Crush before adding." },
+    { "name": "salt", "quantity": "to taste", "essential": true, "note": "Pepper soup is lightly seasoned compared to other Nigerian soups. Taste carefully." },
+    { "name": "water", "quantity": "6–8 cups", "essential": true, "note": "Pepper soup is a broth — it should be clear, not thick. Enough water to fully submerge the protein with room." }
+  ],
+
+  "steps": [
+    {
+      "title": "Clean and Prepare the Protein",
+      "instruction": "For chicken — wash pieces, pat dry, and cut into medium portions. For goat — wash chunks, trim excess fat. For catfish — wash thoroughly with hot water and salt or lemon juice to remove slime. Cut into steaks about 5cm thick. Season everything with half the pepper soup spice, salt, and 1 crushed seasoning cube. Mix well and rest for 20 minutes.",
+      "duration_min": 1200,
+      "duration_max": 1800,
+      "heat": "none",
+      "uses_ingredients": ["chicken pieces or goat meat or catfish", "pepper soup spice mix", "seasoning cubes", "salt"],
+      "sensory_cue": "The seasoned meat or fish should smell immediately of the pepper soup spice — warm, aromatic, slightly medicinal. This pre-seasoning penetrates the protein before cooking.",
+      "failure_risk": "Catfish is extremely slippery and must be washed very thoroughly with hot water, salt, or lime juice before seasoning. Improperly cleaned catfish gives the entire soup an unpleasant slimy aftertaste.",
+      "stir_interval": null,
+      "skill_tags": ["prep", "cleaning", "seasoning"]
+    },
+    {
+      "title": "Start the Broth",
+      "instruction": "Place the seasoned protein in a large pot. Add the roughly chopped onion. Add 6–8 cups of water — enough to generously submerge everything. Bring to a boil over high heat. Skim off any grey foam that rises to the surface in the first 5 minutes — discard it. This is proteins and impurities releasing — skimming keeps the broth clear.",
+      "duration_min": 600,
+      "duration_max": 900,
+      "heat": "high",
+      "uses_ingredients": ["chicken pieces or goat meat or catfish", "onion", "water"],
+      "sensory_cue": "The broth will start clear, then foam grey-brown at the surface — skim this off. After skimming, the broth should begin to look clearer. The kitchen should smell of the pepper soup spice already beginning to bloom.",
+      "failure_risk": "Not skimming the foam produces a cloudy, slightly bitter broth. It only takes 2–3 minutes at the beginning — do not skip it.",
+      "stir_interval": null,
+      "skill_tags": ["broth", "skimming", "clarity"]
+    },
+    {
+      "title": "Add the Pepper Soup Spice and Pepper",
+      "instruction": "Once the broth is skimmed and simmering, add the remaining pepper soup spice, blended scotch bonnet, finely chopped onion, and ground crayfish if using. Add the remaining crushed seasoning cube. Stir well. Reduce heat to medium and cook at a steady simmer — not a rolling boil. A rolling boil makes the meat tough and clouds the broth.",
+      "duration_min": 300,
+      "duration_max": 360,
+      "heat": "medium",
+      "uses_ingredients": ["pepper soup spice mix", "scotch bonnet pepper (ata rodo)", "onion", "ground crayfish", "seasoning cubes"],
+      "sensory_cue": "The moment the full spice blend hits the simmering broth the aroma will be extraordinary — warming, aromatic, slightly medicinal, deeply Nigerian. The broth will begin to turn a light golden-orange from the spices.",
+      "failure_risk": "Rolling boil toughens meat and makes the broth murky. Once the initial skim is done, reduce to a gentle, steady simmer and keep it there.",
+      "stir_interval": null,
+      "skill_tags": ["spice", "simmering", "broth"]
+    },
+    {
+      "title": "Cook Until Tender",
+      "instruction": "Continue simmering until the protein is completely tender. Chicken: 25–35 minutes total. Goat: 45–60 minutes total. Catfish: 15–20 minutes total — check often, it cooks fast and breaks apart if overcooked. For catfish, do not stir — gently tilt and swirl the pot instead. Taste the broth regularly as it cooks — the spice flavour develops and deepens significantly over time.",
+      "duration_min": 900,
+      "duration_max": 3600,
+      "heat": "medium",
+      "uses_ingredients": ["chicken pieces or goat meat or catfish"],
+      "sensory_cue": "The broth should be golden-orange, clear, and deeply aromatic. Chicken and goat: meat should fall easily from the bone. Catfish: flesh should be opaque all the way through and flake gently when pressed.",
+      "failure_risk": "Overcooked catfish disintegrates into the broth and becomes impossible to serve properly. Check it at 15 minutes and gently press with a finger — if it flakes, it is done. Stop the heat immediately.",
+      "stir_interval": null,
+      "skill_tags": ["simmering", "timing", "testing", "patience"]
+    },
+    {
+      "title": "Season, Add Leaves and Serve",
+      "instruction": "Taste the broth and add salt now. It should be lightly but distinctly seasoned — pepper soup is a broth, not a thick soup, so the seasoning should be lighter than you would use for egusi or vegetable soup. Add shredded uziza leaves and utazi leaves if using. Simmer for 3 more minutes. Serve immediately, very hot, in deep bowls with the protein submerged in the broth.",
+      "duration_min": 180,
+      "duration_max": 240,
+      "heat": "low",
+      "uses_ingredients": ["uziza leaves", "utazi leaves", "salt"],
+      "sensory_cue": "Finished pepper soup should be clear to light golden in colour, very hot, deeply aromatic, and fiery from the scotch bonnet and spice blend. The leaves should be fresh and bright. One sip of the broth should warm your chest immediately.",
+      "failure_risk": "Utazi leaves are very bitter — add just 3–4 leaves, shredded finely. Too much and the bitterness overwhelms the spice blend completely. Taste after adding and before serving.",
+      "stir_interval": null,
+      "skill_tags": ["seasoning", "finishing", "leaves", "serving"]
+    }
+  ]
+}
