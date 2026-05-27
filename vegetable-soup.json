@@ -1,0 +1,182 @@
+{
+  "dish": "Nigerian Vegetable Soup",
+  "pack_version": "2.0",
+  "tier": "free",
+  "description": "A rich, leafy soup built on a palm oil and crayfish base with generous assorted meats and fish. Two leaves — pumpkin leaf and waterleaf — cooked down into a thick, intensely savoury soup. The soup that looks simple but demands respect.",
+  "emoji": "🥬",
+  "image_url": "https://source.unsplash.com/800x600/?nigerian,vegetable,soup,leafy,greens",
+  "tags": ["classic", "intermediate", "75-90min", "swallow-soup", "leaf-soup"],
+  "occasions": ["everyday", "weekend", "celebration"],
+  "category": "soup",
+  "difficulty": "intermediate",
+  "serves": "6–8",
+  "author": null,
+  "community": false,
+
+  "ingredients": [
+    { "name": "pumpkin leaf (ugwu)", "quantity": "600g fresh, shredded", "essential": true, "note": "The primary leaf. Wash thoroughly, remove tough stems, and shred finely. Fresh only — frozen loses too much texture and colour." },
+    { "name": "waterleaf (gbure)", "quantity": "400g fresh", "essential": false, "note": "The secondary leaf. Reduces dramatically when cooked — do not be alarmed. If unavailable, increase ugwu to 800g or use spinach as a substitute." },
+    { "name": "palm oil", "quantity": "½ cup (120ml)", "essential": true, "note": "Do not substitute. The palm oil is the base that carries everything." },
+    { "name": "beef or assorted meat", "quantity": "800g, parboiled and fried", "essential": true, "note": "Parboil, fry, and set aside. Ponmo and beef chunks particularly good here." },
+    { "name": "stockfish (okporoko)", "quantity": "1 medium piece, pre-soaked", "essential": false, "note": "Soak 30 minutes in hot water. Debone carefully." },
+    { "name": "smoked fish", "quantity": "1 medium piece", "essential": false, "note": "Debone and flake into large pieces." },
+    { "name": "periwinkle (isam)", "quantity": "200g, cleaned", "essential": false, "note": "Traditional addition. The briny, oceanic flavour of periwinkle transforms the soup. Clean thoroughly." },
+    { "name": "fresh or frozen prawns", "quantity": "200g, peeled", "essential": false, "note": "Add in the last 5 minutes. Adds sweetness and depth." },
+    { "name": "scotch bonnet pepper (ata rodo)", "quantity": "2–3, blended", "essential": false, "note": "Blend separately. Vegetable soup uses pepper for background heat, not as a primary flavour." },
+    { "name": "onion", "quantity": "2 medium", "essential": true, "note": "1 for parboiling meat, 1 finely chopped for the base." },
+    { "name": "ground crayfish", "quantity": "4 tbsp", "essential": true, "note": "This is the highest amount in any of these soup packs — vegetable soup leans heavily on crayfish for its umami base. Do not reduce." },
+    { "name": "locust beans (iru/dawadawa)", "quantity": "1½ tbsp", "essential": false, "note": "Rinse briefly. Particularly important in vegetable soup — adds the fermented depth that rounds out the crayfish." },
+    { "name": "meat stock", "quantity": "1 cup", "essential": true, "note": "From parboiling the meat. Vegetable soup uses less liquid than other soups — the leaves release significant water." },
+    { "name": "seasoning cubes", "quantity": "2 cubes", "essential": true, "note": "Crush before adding." },
+    { "name": "salt", "quantity": "to taste", "essential": true, "note": "The waterleaf releases a lot of water as it cooks — this dilutes the salt. Taste and adjust only at the very end." }
+  ],
+
+  "steps": [
+    {
+      "title": "Prepare All Proteins",
+      "instruction": "This soup cannot be paused once the leaves go in — the moment they hit the pot the clock is running and stopping to prep anything means overcooked leaves. Every protein must be fully ready before the base goes on the heat. Season the beef and assorted meats, parboil until 75% tender in minimal water, reserve the concentrated stock, and fry until golden-brown. Soak the stockfish in boiling water for 30 minutes then debone carefully — run your fingers through every piece. Debone and flake the smoked fish. Peel and devein the prawns if using. Clean periwinkle thoroughly under cold running water. Blend the scotch bonnet with minimal water until smooth.",
+      "micro_steps": [
+        "Season meat with salt, seasoning cube, and 1 roughly chopped onion — parboil in minimal water until 75% tender",
+        "Reserve all stock — do not discard",
+        "Fry parboiled meat in hot oil until deeply golden-brown — set aside on a plate",
+        "Pour boiling water over stockfish and soak for 30 minutes",
+        "Drain and debone stockfish thoroughly — check with your fingers for small bones",
+        "Debone smoked fish and break into large flakes",
+        "Peel and devein prawns if using — set aside separately",
+        "Wash periwinkle thoroughly under cold running water — rinse until water runs clear",
+        "Blend scotch bonnet with a small splash of water until smooth — set aside",
+        "Have all proteins in separate bowls within reach of the stove"
+      ],
+      "prep_notes": [
+        "Start the stockfish soaking first — it needs 30 minutes",
+        "Complete every protein prep step before turning on any heat for the base",
+        "Keep prawns separate — they go in at a different time from the other proteins",
+        "Use minimum water when parboiling the meat — concentrated stock is critical here because the waterleaf will dilute the soup significantly"
+      ],
+      "duration_min": 2400,
+      "duration_max": 3600,
+      "heat": "high",
+      "uses_ingredients": ["beef or assorted meat", "stockfish (okporoko)", "smoked fish", "fresh or frozen prawns", "periwinkle (isam)", "scotch bonnet pepper (ata rodo)"],
+      "sensory_cue": "All proteins should be ready and within arm's reach. Fried meat should be deeply golden-brown and smell intensely savoury. Stock should be dark, rich, and concentrated. Stockfish should be fully soft and deboned. This soup moves fast once the leaves go in — having everything ready is not optional.",
+      "failure_risk": "Vegetable soup cannot safely be paused mid-cook once the leaves are added — any interruption to prep forgotten ingredients means the leaves overcook and turn grey and slimy while you scramble. Treat the protein prep as the most important step and complete every element of it before you start the base.",
+      "stir_interval": null,
+      "skill_tags": ["prep", "organisation", "stock", "frying"]
+    },
+    {
+      "title": "Prepare the Leaves",
+      "instruction": "Wash the pumpkin leaf thoroughly — at least 3 rinses under cold running water — then pick off the tough central stem from each leaf and any thick veins. Stack several leaves at a time and shred into fine strips. Wash the waterleaf thoroughly as it carries sand and grit between the leaves — shake off most of the excess water but leave it slightly damp. Do not shred the waterleaf finely — it collapses dramatically during cooking and rough pieces are perfectly fine. Have both leaves in separate bowls, ready to go.",
+      "micro_steps": [
+        "Wash pumpkin leaf under cold water — rinse at least 3 times",
+        "Pick the tough central stem off each leaf and remove any thick veins",
+        "Stack several leaves together and shred into fine strips",
+        "Place shredded ugwu in a bowl and set aside",
+        "Wash waterleaf under cold water — rinse multiple times until water is clear",
+        "The waterleaf carries significant sand — do not rush the washing",
+        "Shake off most but not all the water — leave it slightly damp",
+        "Roughly separate the waterleaf into large handfuls — no need to shred finely",
+        "Place in a separate bowl from the ugwu",
+        "Both bowls should be within reach of the stove"
+      ],
+      "duration_min": 600,
+      "duration_max": 900,
+      "heat": "none",
+      "uses_ingredients": ["pumpkin leaf (ugwu)", "waterleaf (gbure)"],
+      "sensory_cue": "Pumpkin leaf should be bright, vivid green and finely shredded — each strip thin enough to cook through quickly and easy to pick up with swallow. Waterleaf should look clean and smell fresh and green. Remember it will collapse to roughly a quarter of its raw volume when it hits the hot pot — what looks like a massive pile is the correct amount.",
+      "failure_risk": "Sandy waterleaf in the finished soup is one of the most unpleasant textures in any dish — the grit between the teeth ruins the entire experience. Wash the waterleaf very thoroughly, rinsing multiple times and swishing it in the water to dislodge sand from between the leaves. Poorly shredded ugwu creates thick, tough strips that are hard to eat with swallow and do not cook through evenly.",
+      "stir_interval": null,
+      "skill_tags": ["prep", "leaves", "washing"]
+    },
+    {
+      "title": "Heat Palm Oil and Build the Base",
+      "instruction": "Heat the palm oil in your largest, widest pot over medium heat until it melts completely and turns clear orange — do not let it smoke or darken. If using locust beans, add them now and fry for 1 minute, stirring. Add the finely chopped onion and fry for 3 minutes until soft and translucent. Add the ground crayfish and stir for 1 minute — it will sizzle in the hot oil and release a sharp, intensely savoury aroma. Add the blended scotch bonnet and fry for 3 minutes, stirring occasionally. Pour in the meat stock and stir to combine. Add the crushed seasoning cubes and bring to a simmer.",
+      "micro_steps": [
+        "Pour ½ cup of palm oil into your largest, widest pot",
+        "Heat over medium heat until the oil melts and turns clear orange — watch it closely",
+        "Do not let it smoke or darken at any point",
+        "If using locust beans, rinse briefly then add — fry for 1 minute stirring",
+        "Add the finely chopped onion and fry for 3 minutes until soft",
+        "Add 4 tablespoons of ground crayfish — stir immediately for 1 minute",
+        "Add the blended scotch bonnet and fry for 3 minutes, stirring occasionally",
+        "Pour in 1 cup of meat stock and stir to combine",
+        "Crush 2 seasoning cubes and add — stir until dissolved",
+        "Bring to a steady simmer"
+      ],
+      "duration_min": 480,
+      "duration_max": 600,
+      "heat": "medium",
+      "uses_ingredients": ["palm oil", "locust beans (iru/dawadawa)", "onion", "ground crayfish", "scotch bonnet pepper (ata rodo)", "meat stock", "seasoning cubes"],
+      "sensory_cue": "The base with 4 tablespoons of crayfish in palm oil produces the most intensely savoury aroma of any base in these soup packs — sharp, pungent, deeply umami, and unmistakably Nigerian vegetable soup. The stock-crayfish-palm oil combination at this stage should smell exactly like the finished soup is supposed to.",
+      "failure_risk": "Burnt crayfish in hot oil turns acrid and bitter and cannot be rescued. Always add crayfish after the onion has had a few minutes in the oil — the onion slightly lowers the oil temperature and provides a buffer. Medium heat only throughout this step.",
+      "stir_interval": null,
+      "skill_tags": ["palm-oil", "base", "crayfish", "building"]
+    },
+    {
+      "title": "Add Meat and Fish",
+      "instruction": "Add the fried meat, stockfish, smoked fish, and periwinkle if using to the simmering base. Fold gently to coat everything in the base without breaking the fish apart. Let everything simmer together for 5 minutes to allow the proteins to flavour the base. Taste the soup at this point — it should taste bold, well-seasoned, and punchy. The leaves are about to dilute the seasoning significantly, so if anything needs adjusting, do it now.",
+      "micro_steps": [
+        "Add the fried meat pieces and fold gently into the base",
+        "Add the stockfish pieces and fold in carefully",
+        "Add the flaked smoked fish last — fold in very gently",
+        "Add cleaned periwinkle if using and stir in",
+        "Simmer together for 5 minutes, stirring once gently",
+        "Taste the soup — it should be bold, savoury, and slightly over-seasoned",
+        "Adjust with a pinch of salt or a small amount of crushed seasoning if needed",
+        "Fix any seasoning now — this is your last clear window before the leaves go in"
+      ],
+      "duration_min": 300,
+      "duration_max": 360,
+      "heat": "medium",
+      "uses_ingredients": ["beef or assorted meat", "stockfish (okporoko)", "smoked fish", "periwinkle (isam)"],
+      "sensory_cue": "The pot with all proteins should look full and rich — every piece coated in the dark orange base. If using periwinkle, its distinctive briny, oceanic smell adds a new dimension to the base aroma at this stage. The soup should taste intensely savoury — perhaps slightly too bold — which is exactly right before the leaves dilute it.",
+      "failure_risk": "A flat or under-seasoned base at this stage will produce a flat finished soup — the leaves dilute the flavour significantly as they release water and absorb seasoning. This 5-minute window is your last opportunity to taste and correct without the complication of leaves in the pot. Be bold with the seasoning here.",
+      "stir_interval": null,
+      "skill_tags": ["combining", "tasting", "seasoning"]
+    },
+    {
+      "title": "Add Waterleaf First",
+      "instruction": "Increase the heat to medium-high. Add all the waterleaf to the pot — it will look like far too much but it collapses rapidly. Stir it into the base immediately and continuously for 3–4 minutes as it wilts, releases its water, and reduces dramatically in volume. The soup will look noticeably more liquid temporarily as the waterleaf releases its moisture — this is expected and correct. Do not add more stock. Stir until the waterleaf has fully wilted and the soup returns to a steady boil.",
+      "micro_steps": [
+        "Increase heat to medium-high",
+        "Add all the waterleaf to the pot — it will look like a very large amount",
+        "Stir immediately to push it into the base",
+        "Stir continuously for the first minute as it begins to wilt rapidly",
+        "The soup will look more liquid as the waterleaf releases its water — do not panic",
+        "Continue stirring every 30 seconds for 3–4 minutes total",
+        "The waterleaf will collapse to roughly a quarter of its raw volume",
+        "Let the soup return to a full boil before adding the ugwu"
+      ],
+      "duration_min": 240,
+      "duration_max": 300,
+      "heat": "medium",
+      "uses_ingredients": ["waterleaf (gbure)"],
+      "sensory_cue": "The waterleaf will go from a large, leafy pile to a much smaller, darker, wilted mass within 2–3 minutes. The soup will look temporarily more liquid as the waterleaf's moisture releases into the base — the colour will deepen and turn a more intense, rich green. After 3–4 minutes the soup should be back to a rolling boil with the collapsed waterleaf distributed throughout.",
+      "failure_risk": "Adding both leaves simultaneously overwhelms the pot and causes uneven cooking — the ugwu, which needs less time, ends up overcooked while the waterleaf is still releasing its moisture. The sequence matters: waterleaf first to release its water, which the ugwu then cooks in.",
+      "stir_interval": null,
+      "skill_tags": ["leaves", "technique", "waterleaf", "sequencing"]
+    },
+    {
+      "title": "Add Ugwu and Finish",
+      "instruction": "Add all the shredded pumpkin leaf to the pot. If using prawns, add them now — they need only 3–4 minutes. Stir everything together vigorously, making sure the ugwu is pushed down into the base and fully combined with the waterleaf and proteins. Cook uncovered on medium heat for 5–7 minutes, stirring every minute. The soup should reduce and thicken as the excess water from the waterleaf cooks off and the ugwu wilts fully. Taste and add salt now. Remove from heat the moment the leaves are fully wilted, deep green, and the soup looks thick and cohesive.",
+      "micro_steps": [
+        "Add all the shredded ugwu to the pot",
+        "Add peeled prawns now if using",
+        "Stir vigorously to push all the ugwu down into the base",
+        "Cook uncovered over medium heat — do not cover",
+        "Stir every minute for 5–7 minutes total",
+        "Watch the soup reduce and thicken as the excess liquid cooks off",
+        "After 5 minutes, taste and add salt in small pinches — the waterleaf liquid has diluted the seasoning",
+        "Check consistency — the soup should be thick and hold together as a leafy mass, not drip like a broth",
+        "Check leaf colour — leaves should be deep green and just tender, not grey",
+        "Remove from heat the moment the leaves are wilted and the soup is thick"
+      ],
+      "duration_min": 300,
+      "duration_max": 420,
+      "heat": "medium",
+      "uses_ingredients": ["pumpkin leaf (ugwu)", "fresh or frozen prawns", "salt"],
+      "sensory_cue": "Finished vegetable soup should be thick, deep green and orange, and intensely savoury. Lifting a large spoonful should reveal a thick, leafy mass that holds together rather than flowing like a broth. The leaves should be deep, vivid green and just tender. The smell should be immediate and complex — palm oil, crayfish, smoked fish, and leafy greens all hitting at once.",
+      "failure_risk": "Cooking past the 7-minute window after adding the ugwu turns the leaves from vivid green to a dull grey-green and the texture from pleasantly tender to slimy. If after 7 minutes the soup is still too watery, increase to high heat for 2 minutes and stir constantly to drive off the excess liquid — do not extend the cooking time at medium heat.",
+      "stir_interval": 60,
+      "skill_tags": ["finishing", "leaves", "reduction", "timing", "seasoning"]
+    }
+  ]
+}

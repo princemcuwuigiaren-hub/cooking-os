@@ -1,0 +1,196 @@
+{
+  "dish": "Nigerian White Rice and Beans",
+  "pack_version": "2.0",
+  "tier": "free",
+  "description": "Plain white rice paired with properly cooked Nigerian honey beans — rich with palm oil, crayfish, and deep seasoning. Two separate components, one perfect plate.",
+  "emoji": "🍚",
+  "image_url": "https://source.unsplash.com/800x600/?nigerian,white,rice,beans",
+  "tags": ["classic", "beginner-friendly", "60-90min", "two-component"],
+  "occasions": ["everyday", "weeknight", "classic"],
+  "category": "rice",
+  "difficulty": "beginner",
+  "serves": "4–6",
+  "author": null,
+  "community": false,
+
+  "ingredients": [
+    { "name": "parboiled long grain rice", "quantity": "3 cups", "essential": true, "note": "Wash until water runs completely clear before cooking." },
+    { "name": "honey beans (oloyin)", "quantity": "2 cups", "essential": true, "note": "Honey beans are sweeter and creamier. Brown beans or black-eyed peas work but change the flavour significantly." },
+    { "name": "palm oil", "quantity": "3 tbsp", "essential": true, "note": "This is non-negotiable for Nigerian beans. Vegetable oil is a poor substitute — flavour will be flat." },
+    { "name": "onion", "quantity": "2 medium", "essential": true, "note": "1 for the beans, 1 sliced to fry in the beans base." },
+    { "name": "scotch bonnet pepper (ata rodo)", "quantity": "1–2", "essential": false, "note": "Blend with the onion. Skip for no heat, or use 1 small for a background warmth." },
+    { "name": "ground crayfish", "quantity": "2 tbsp", "essential": true, "note": "The defining flavour of Nigerian beans. Do not skip — this is what makes it taste right." },
+    { "name": "seasoning cubes", "quantity": "2 cubes", "essential": true, "note": "Maggi or Knorr. Crush before adding." },
+    { "name": "salt", "quantity": "to taste", "essential": true, "note": "Season beans at the end — salting too early makes beans tough and slows cooking." },
+    { "name": "smoked fish (optional)", "quantity": "1 small piece", "essential": false, "note": "Adds incredible depth. Debone and crumble into the beans. Dried catfish or smoked mackerel both work." },
+    { "name": "ponmo (cow skin)", "quantity": "100g, diced", "essential": false, "note": "Traditional addition for texture. Pre-cook until soft before adding to beans." },
+    { "name": "water", "quantity": "as needed", "essential": true, "note": "For both the beans and the rice. Keep hot water nearby for topping up beans." }
+  ],
+
+  "steps": [
+    {
+      "title": "Sort and Wash the Beans",
+      "instruction": "Spread the beans out on a flat surface and go through them carefully, picking out any stones, shrivelled beans, or debris — take your time on this, a stone in cooked beans is a genuine hazard. Rinse the sorted beans under cold running water two to three times until the water runs fairly clear. If you have at least 30 minutes, transfer to a bowl and soak in cold water before cooking — soaked beans cook noticeably faster and more evenly. Drain completely before the first boil.",
+      "micro_steps": [
+        "Spread 2 cups of honey beans on a flat plate or tray",
+        "Go through slowly and remove any stones, shrivelled beans, or debris",
+        "Transfer to a sieve and rinse under cold running water",
+        "Rinse 2–3 times, swirling the beans with your hand each time",
+        "Transfer to a bowl and cover with cold water to soak if time allows — 30 minutes minimum",
+        "Drain completely through the sieve before cooking"
+      ],
+      "prep_notes": [
+        "Start the beans first — they take significantly longer than the rice",
+        "Put the smoked fish to soak if using — it softens in warm water and is easier to debone",
+        "Pre-cook the ponmo until fully soft if using — it must be tender before joining the beans",
+        "Keep a kettle of hot water nearby for topping up the beans during the long cook"
+      ],
+      "duration_min": 300,
+      "duration_max": 1800,
+      "heat": "none",
+      "uses_ingredients": ["honey beans (oloyin)"],
+      "sensory_cue": "After soaking, beans should look noticeably plumper and almost double their dry size. The soaking water will have darkened — discard it completely. The beans should feel smooth and slightly softened on the outside when you run a thumb across one.",
+      "failure_risk": "Sorting for stones is not optional — a single small stone can chip a tooth and they are easy to miss. Take a full minute to spread and look carefully. And critically: never add salt, palm oil, or any acid to the beans at this stage or any stage before they are fully soft — salt locks the bean structure and they will never fully soften regardless of how long you cook them.",
+      "stir_interval": null,
+      "skill_tags": ["prep", "sorting"]
+    },
+    {
+      "title": "First Boil — Parboil and Drain",
+      "instruction": "Place the washed, drained beans into a large pot and cover generously with fresh cold water — about three times the volume of the beans. Bring to a hard, rolling boil over high heat and maintain it for 15 minutes. The water will foam, turn dark, and look murky — this is exactly what you want to remove. Drain everything completely through a sieve, discard all of this water, and return the beans to the pot. They are now ready for the main long cook.",
+      "micro_steps": [
+        "Place the drained beans in a large pot",
+        "Cover with cold water — at least 3 times the volume of the beans",
+        "Bring to a hard rolling boil over high heat",
+        "Boil vigorously for 15 minutes — do not reduce the heat",
+        "The water will foam and turn dark brown — this is normal and correct",
+        "Drain everything completely through a sieve",
+        "Discard all of this first water — do not cook in it",
+        "Return the drained beans to the pot"
+      ],
+      "duration_min": 900,
+      "duration_max": 1200,
+      "heat": "high",
+      "uses_ingredients": ["honey beans (oloyin)", "water"],
+      "sensory_cue": "The discarded water should be dark brown, foamy, and murky — if it looks relatively pale, the beans may not have boiled hard enough. After draining, the beans should look slightly swollen with skins beginning to loosen on some. The beans will smell cleaner and less raw after this step.",
+      "failure_risk": "Skipping this first boil and drain step leaves the compounds responsible for digestive discomfort in the beans and also leaves a subtly bitter, raw edge in the finished dish. It adds only 15 minutes to the total time and the benefit is real — do not skip it.",
+      "stir_interval": null,
+      "skill_tags": ["parboiling", "prep"]
+    },
+    {
+      "title": "Cook Beans Until Tender",
+      "instruction": "Cover the parboiled, drained beans with fresh hot water — at least 5cm above the beans — and add 1 roughly chopped onion. Cook over medium-high heat with the lid on. Check every 20 minutes: stir from the bottom and check the water level, topping up with hot water from the kettle whenever the level drops below the beans. Do not add salt, palm oil, or any other seasoning. Cook until every single bean is completely soft — press one firmly between thumb and forefinger, it should crush to a smooth paste with absolutely no resistance or gritty centre.",
+      "micro_steps": [
+        "Return drained beans to the pot",
+        "Cover with fresh hot water — at least 5cm above the beans",
+        "Add 1 roughly chopped onion directly into the water",
+        "Cover and bring to a boil over medium-high heat",
+        "Reduce to a steady medium simmer — lid on",
+        "Every 20 minutes: stir from the bottom and check the water level",
+        "Top up with hot water whenever the level drops below the beans",
+        "Do not add salt, palm oil, or any other ingredient during this stage",
+        "At 60 minutes, begin testing: press a single bean firmly between thumb and forefinger",
+        "It must crush to a completely smooth paste with zero resistance",
+        "If any resistance remains, continue cooking and test every 10 minutes"
+      ],
+      "duration_min": 2400,
+      "duration_max": 3600,
+      "heat": "medium",
+      "uses_ingredients": ["honey beans (oloyin)", "onion", "water"],
+      "sensory_cue": "A perfectly cooked bean crushes to a smooth, creamy paste between your fingers — no chalky centre, no graininess, no resistance of any kind. The cooking liquid should look thick and starchy, almost like a thin porridge. The pot should smell nutty, earthy, and distinctly bean-forward.",
+      "failure_risk": "This is the most critical step in Nigerian beans. Adding salt, palm oil, or any acidic ingredient before the beans are completely soft permanently prevents further softening — the beans will stay stubbornly firm no matter how many more hours they cook. Test multiple beans from different areas of the pot before declaring them done. One soft bean and one slightly firm bean means they are not ready.",
+      "stir_interval": 600,
+      "skill_tags": ["boiling", "patience", "testing"]
+    },
+    {
+      "title": "Make the Beans Base",
+      "instruction": "In a small pan, heat the palm oil over medium heat until it melts to a clear, fluid orange — do not let it smoke or darken. Add the sliced second onion and fry gently for 3 minutes until soft and fragrant. If using scotch bonnet, add the blended pepper now and fry for 2 more minutes. Add the ground crayfish and stir for 30 seconds until it releases its sharp savoury aroma. Remove from heat and pour the entire contents of the pan — oil and all — directly into the cooked beans. Add the deboned, flaked smoked fish and the pre-cooked ponmo if using. Stir everything together.",
+      "micro_steps": [
+        "Heat 3 tablespoons of palm oil in a small pan over medium heat",
+        "Wait until it melts to a clear, fluid orange — do not let it smoke",
+        "Add the sliced onion and fry for 3 minutes until soft and fragrant",
+        "Add blended scotch bonnet if using — fry for 2 minutes",
+        "Add 2 tablespoons of ground crayfish and stir for 30 seconds",
+        "Remove from heat immediately",
+        "Pour the entire contents of the pan into the cooked beans pot",
+        "Stir vigorously to combine the palm oil base through all the beans",
+        "Add deboned smoked fish if using and stir in gently",
+        "Add pre-cooked, diced ponmo if using and stir in"
+      ],
+      "duration_min": 300,
+      "duration_max": 420,
+      "heat": "medium",
+      "uses_ingredients": ["palm oil", "onion", "scotch bonnet pepper (ata rodo)", "ground crayfish", "smoked fish (optional)", "ponmo (cow skin)"],
+      "sensory_cue": "Palm oil melting in the pan should be a clear, fluid orange — not dark, not smoking. The crayfish hitting the hot oil releases a sharp, intensely savoury smell. The moment the palm oil base is poured into the beans the colour will shift from the pale natural bean colour to a deep, rich orange — this is the visual confirmation that it is well incorporated.",
+      "failure_risk": "Overheated palm oil turns dark and develops a harsh, acrid taste that permeates the entire pot of beans. Medium heat is firm — you are softening the onion, not deep frying. If the oil begins to smoke at any point, remove from heat immediately.",
+      "stir_interval": null,
+      "skill_tags": ["frying", "flavour-building", "palm-oil"]
+    },
+    {
+      "title": "Season and Finish the Beans",
+      "instruction": "Crush the seasoning cubes to powder and add to the beans. Now add salt — taste first, as the smoked fish and crayfish have already contributed salt. Add in very small pinches, tasting between each addition. Stir everything together well. Cook uncovered on low heat for 10–15 minutes, stirring every 3 minutes, until all the flavours have fully merged and the liquid has reduced to a thick, coating sauce. The beans should look deeply orange-red and glossy from the palm oil.",
+      "micro_steps": [
+        "Crush 2 seasoning cubes to powder and stir into the beans",
+        "Taste before adding any salt — assess how salty the beans already are",
+        "Add salt in tiny pinches — no more than ¼ tsp at a time — tasting between each addition",
+        "Place on low heat uncovered",
+        "Stir every 3 minutes to prevent sticking",
+        "Cook for 10–15 minutes until the liquid reduces to a thick, coating sauce",
+        "Check consistency by dragging a spoon through — it should leave a trail that closes slowly",
+        "Final taste — adjust salt one last time if genuinely needed",
+        "Remove from heat"
+      ],
+      "duration_min": 600,
+      "duration_max": 900,
+      "heat": "low",
+      "uses_ingredients": ["seasoning cubes", "salt"],
+      "sensory_cue": "Finished Nigerian beans should be a deep orange-red from the palm oil, smell layered and savoury — crayfish, palm oil, and smoked fish all present and in balance. The consistency should be thick and creamy with the beans and sauce unified rather than soupy. The surface should look glossy from the palm oil.",
+      "failure_risk": "Over-salting at this final stage is common and hard to fix — the smoked fish, crayfish, and seasoning cubes together already provide significant salt. Always taste before adding salt and never add more than a small pinch at a time. If the beans get too dry before the flavours have merged, add a small splash of hot water and stir.",
+      "stir_interval": 180,
+      "skill_tags": ["seasoning", "reduction", "finishing"]
+    },
+    {
+      "title": "Cook the White Rice",
+      "instruction": "While the beans is on its final simmer, bring a large pot of salted water to a full rolling boil — use roughly twice the volume of water to rice. Wash the rice under cold water until the water runs clear, then add to the boiling water. Stir once and cook uncovered over medium-high heat until the rice is just tender all the way through with no chalky centre — about 12–15 minutes for parboiled rice. Drain immediately into a sieve. Return to the pot, cover tightly, and leave off the heat for 5 minutes to steam and firm up.",
+      "micro_steps": [
+        "Bring a large pot of water to a full rolling boil — about 6 cups for 3 cups of rice",
+        "Add a generous pinch of salt to the water",
+        "Wash the rice under cold water until the water runs clear",
+        "Add the rice to the boiling water and stir once",
+        "Cook uncovered over medium-high heat for 12–15 minutes",
+        "At 12 minutes, press a grain between your fingers — it should be soft with no hard centre",
+        "Drain immediately into a sieve the moment the rice is just tender",
+        "Return the drained rice to the empty pot",
+        "Cover tightly with a lid and leave off the heat for 5 minutes",
+        "The residual steam firms up the grains and separates them"
+      ],
+      "duration_min": 900,
+      "duration_max": 1200,
+      "heat": "medium",
+      "uses_ingredients": ["parboiled long grain rice", "salt", "water"],
+      "sensory_cue": "White rice is done when a single grain pressed between thumb and forefinger is fully soft all the way through with no hard or chalky centre. The cooking water will look starchy and slightly cloudy. After steaming off the heat for 5 minutes, the grains should be fluffy, separate, and dry on the surface.",
+      "failure_risk": "Leaving rice in the cooking water after it is done continues cooking it rapidly — the grains absorb more water and turn mushy. Drain the moment the rice is just done. Residual steam in the covered pot finishes it perfectly without overcooking.",
+      "stir_interval": null,
+      "skill_tags": ["boiling", "rice", "timing"]
+    },
+    {
+      "title": "Rest and Serve",
+      "instruction": "Fluff the rice gently with a fork, lifting from the bottom to separate the grains without breaking them. Taste the beans one final time and adjust salt if needed. Serve rice and beans side by side on the same plate — the beans acts as both the sauce and the protein component of the meal.",
+      "micro_steps": [
+        "Remove the lid from the rice and fluff gently with a fork",
+        "Lift from the bottom in slow strokes to separate the grains without breaking",
+        "Taste the beans one last time — adjust salt if needed",
+        "Plate the rice on one side of the plate",
+        "Spoon beans generously alongside or over the rice",
+        "Serve immediately"
+      ],
+      "duration_min": 300,
+      "duration_max": 300,
+      "heat": "none",
+      "uses_ingredients": [],
+      "sensory_cue": "The plate should show a vivid contrast — fluffy, white rice against the deep orange-red, glossy beans. The smell rising from the beans should be warm, savoury, and distinctly Nigerian — palm oil, crayfish, and all the layers of seasoning together. One forkful of rice and beans together should taste creamy, rich, and deeply satisfying.",
+      "failure_risk": null,
+      "stir_interval": null,
+      "skill_tags": ["plating", "finishing"]
+    }
+  ]
+}
