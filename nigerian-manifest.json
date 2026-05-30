@@ -1,0 +1,229 @@
+{
+  "id": "nigerian",
+  "name": "Nigerian Food Theme",
+  "flag": "🇳🇬",
+  "description": "The complete collection of Nigerian dish packs — from everyday meals to party favourites. All dishes are always visible. Cook your way through each path to unlock the next.",
+  "version": 4,
+  "theme_notes": {
+    "browsing": "All dishes in this theme are always visible and accessible. No dish is hidden.",
+    "progression": "Progression lives inside each dish path — not at the pack or theme level.",
+    "unlocking": "Beginner path is always unlocked. Achieve a B rating or above on Beginner to unlock Intermediate. Achieve an A rating or above on Intermediate to unlock Advanced.",
+    "mastery": "Achieve an S rating on any path to earn the Master achievement on that path.",
+    "legend": "Achieve an S rating on the highest available path of a dish after completing the full journey to earn Dish Legend status on that dish."
+  },
+  "path_unlock_rules": {
+    "beginner_to_intermediate": {
+      "minRating": "B",
+      "description": "Achieve a B rating or above on the Beginner path to unlock Intermediate"
+    },
+    "intermediate_to_advanced": {
+      "minRating": "A",
+      "description": "Achieve an A rating or above on the Intermediate path to unlock Advanced"
+    }
+  },
+  "achievement_rules": {
+    "master": {
+      "trigger": "S rating on any path",
+      "description": "Achieve an S rating on any path to earn the Master achievement on that path",
+      "display": "Quiet permanent stamp on the path card — no popup"
+    },
+    "dish_legend": {
+      "trigger": "S rating on highest available path after completing full journey",
+      "description": "Achieve S on the highest available path having cooked all paths on the dish",
+      "display": "Permanent mark on the dish card in the pack browser — no popup"
+    }
+  },
+
+  "dishes": [
+
+    {
+      "id": "indomie-stir-fry",
+      "name": "Indomie Stir Fry",
+      "emoji": "🍜",
+      "category": "noodles",
+      "file": "indomie-stir-fry.json",
+      "availablePaths": ["beginner"]
+    },
+
+    {
+      "id": "indomie-jollof",
+      "name": "Indomie Jollof",
+      "emoji": "🍜",
+      "category": "noodles",
+      "file": "indomie-jollof.json",
+      "availablePaths": ["beginner"]
+    },
+
+    {
+      "id": "indomie-fried",
+      "name": "Indomie Dry Fry",
+      "emoji": "🍜",
+      "category": "noodles",
+      "file": "indomie-fried.json",
+      "availablePaths": ["beginner"]
+    },
+
+    {
+      "id": "dodo",
+      "name": "Dodo (Fried Plantain)",
+      "emoji": "🍌",
+      "category": "sides",
+      "file": "dodo.json",
+      "availablePaths": ["beginner"]
+    },
+
+    {
+      "id": "yam-and-egg-sauce",
+      "name": "Yam and Egg Sauce",
+      "emoji": "🍳",
+      "category": "sides",
+      "file": "yam-and-egg-sauce.json",
+      "availablePaths": ["beginner"]
+    },
+
+    {
+      "id": "pepper-soup",
+      "name": "Pepper Soup",
+      "emoji": "🌶️",
+      "category": "soups",
+      "file": "pepper-soup.json",
+      "availablePaths": ["beginner"]
+    },
+
+    {
+      "id": "ogbono-soup",
+      "name": "Ogbono Soup",
+      "emoji": "🍵",
+      "category": "soups",
+      "file": "ogbono-soup.json",
+      "availablePaths": ["beginner"]
+    },
+
+    {
+      "id": "white-rice-and-beans",
+      "name": "White Rice and Beans",
+      "emoji": "🍚",
+      "category": "rice",
+      "file": "white-rice-and-beans.json",
+      "availablePaths": ["beginner"]
+    },
+
+    {
+      "id": "jollof-rice",
+      "name": "Jollof Rice",
+      "emoji": "🍚",
+      "category": "rice",
+      "file": "jollof-rice.json",
+      "availablePaths": ["beginner", "intermediate", "advanced"]
+    },
+
+    {
+      "id": "beans",
+      "name": "Nigerian Beans (Ewa)",
+      "emoji": "🫘",
+      "category": "beans",
+      "file": "beans.json",
+      "availablePaths": ["beginner", "intermediate"]
+    },
+
+    {
+      "id": "fried-rice",
+      "name": "Fried Rice",
+      "emoji": "🍛",
+      "category": "rice",
+      "file": "fried-rice.json",
+      "availablePaths": ["beginner", "intermediate"]
+    },
+
+    {
+      "id": "okro-soup",
+      "name": "Okro Soup",
+      "emoji": "🥬",
+      "category": "soups",
+      "file": "okro-soup.json",
+      "availablePaths": ["beginner", "intermediate"]
+    },
+
+    {
+      "id": "vegetable-soup",
+      "name": "Vegetable Soup",
+      "emoji": "🥬",
+      "category": "soups",
+      "file": "vegetable-soup.json",
+      "availablePaths": ["beginner", "intermediate"]
+    },
+
+    {
+      "id": "egusi-soup",
+      "name": "Egusi Soup",
+      "emoji": "🥣",
+      "category": "soups",
+      "file": "egusi-soup.json",
+      "availablePaths": ["beginner", "intermediate", "advanced"]
+    },
+
+    {
+      "id": "chicken-stew",
+      "name": "Chicken Stew",
+      "emoji": "🍗",
+      "category": "stews",
+      "file": "chicken-stew.json",
+      "availablePaths": ["beginner", "intermediate"]
+    },
+
+    {
+      "id": "fish-stew",
+      "name": "Nigerian Fish Stew",
+      "emoji": "🐟",
+      "category": "stews",
+      "file": "fish-stew.json",
+      "availablePaths": ["beginner", "intermediate"]
+    },
+
+    {
+      "id": "jollof-rice-and-beans",
+      "name": "Jollof Rice and Beans",
+      "emoji": "🫘",
+      "category": "rice",
+      "file": "jollof-rice-and-beans.json",
+      "availablePaths": ["beginner", "intermediate"]
+    },
+
+    {
+      "id": "beef-stew",
+      "name": "Beef Stew",
+      "emoji": "🥩",
+      "category": "stews",
+      "file": "beef-stew.json",
+      "availablePaths": ["beginner", "intermediate"]
+    },
+
+    {
+      "id": "banga-soup",
+      "name": "Banga Soup",
+      "emoji": "🍊",
+      "category": "soups",
+      "file": "banga-soup.json",
+      "availablePaths": ["beginner", "intermediate", "advanced"]
+    },
+
+    {
+      "id": "loaded-indomie",
+      "name": "Loaded Indomie",
+      "emoji": "🍜",
+      "category": "noodles",
+      "file": "loaded-indomie.json",
+      "availablePaths": ["beginner", "intermediate"]
+    },
+
+    {
+      "id": "assorted-meat-stew",
+      "name": "Assorted Meat Stew",
+      "emoji": "🍲",
+      "category": "stews",
+      "file": "assorted-meat-stew.json",
+      "availablePaths": ["beginner", "intermediate", "advanced"]
+    }
+
+  ]
+}
