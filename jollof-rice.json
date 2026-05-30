@@ -1,0 +1,1327 @@
+{
+  "id": "jollof-rice",
+  "dish": "Jollof Rice",
+  "emoji": "🍚",
+  "description": "Nigeria's iconic one-pot tomato rice — smoky, deeply seasoned, and deeply satisfying across every skill level.",
+  "image_url": "",
+  "theme": "nigerian",
+  "category": "rice",
+  "tags": ["one-pot", "everyday", "party", "rice"],
+  "occasions": ["everyday", "family meal", "party", "owambe"],
+  "serves": "4–5 (beginner/intermediate) | 10–15 (advanced)",
+  "author": null,
+  "community": false,
+  "pack_version": 1,
+  "tier": "free",
+  "dishLegendEligible": true,
+
+  "achievements": {
+    "master": {
+      "description": "Achieve an S rating on any path to earn the Master achievement on that path",
+      "display": "Quiet permanent stamp on the path card"
+    },
+    "dish_legend": {
+      "description": "Achieve an S rating on the Advanced path having cooked all paths on this dish",
+      "display": "Permanent mark on the dish card in the pack browser"
+    }
+  },
+
+  "paths": {
+
+    "beginner": {
+      "level": "beginner",
+      "unlockedByDefault": true,
+      "unlockCondition": null,
+      "masteryAchievement": "Master — Jollof Rice (Beginner)",
+      "description": "Everyday home jollof — simple technique, forgiving timing, full flavour. The right place to start.",
+      "difficulty": "beginner",
+      "prep_notes": [
+        "Have a large bowl ready to receive the blended mix",
+        "Measure out your spices before you turn on the heat — things move fast once cooking starts",
+        "If you are using a cube for stock, dissolve it in hot water now and set aside"
+      ],
+      "ingredients": [
+        {
+          "name": "parboiled long grain rice",
+          "quantity": "2 derica cups (about 3 regular cups)",
+          "essential": true,
+          "note": "Parboiled only — regular rice will go mushy. Wash until the water runs completely clear before cooking."
+        },
+        {
+          "name": "fresh plum tomatoes (Jos tomatoes)",
+          "quantity": "5 medium",
+          "essential": true,
+          "note": "Roughly chop before blending. No need to peel."
+        },
+        {
+          "name": "red bell pepper (tatashe)",
+          "quantity": "2 medium",
+          "essential": true,
+          "note": "Gives the deep red colour and sweetness. Do not skip."
+        },
+        {
+          "name": "scotch bonnet pepper (ata rodo)",
+          "quantity": "1 (or to taste)",
+          "essential": false,
+          "note": "1 for mild heat. Remove seeds for even less. Skip for children."
+        },
+        {
+          "name": "onion",
+          "quantity": "2 medium bulbs",
+          "essential": true,
+          "note": "1 onion goes into the blender. The other is sliced into rings for frying."
+        },
+        {
+          "name": "tomato paste (Gino, De Rica, or any sachet brand)",
+          "quantity": "1 full sachet (70g) or half of a small tin",
+          "essential": true,
+          "note": "Deepens the red colour and adds body to the base."
+        },
+        {
+          "name": "vegetable oil",
+          "quantity": "a generous pour — enough to fully cover the base of the pot",
+          "essential": true,
+          "note": "Do not be stingy. The oil carries the flavour through the whole dish."
+        },
+        {
+          "name": "chicken or beef stock",
+          "quantity": "2 standard cups (about 500ml)",
+          "essential": true,
+          "note": "1 Knorr or Maggi cube dissolved in hot water works perfectly fine."
+        },
+        {
+          "name": "seasoning cubes (Maggi or Knorr)",
+          "quantity": "2 cubes",
+          "essential": true,
+          "note": "Crush into powder before adding so they dissolve evenly."
+        },
+        {
+          "name": "curry powder (the yellow tin — Nigerian curry)",
+          "quantity": "1 teaspoon",
+          "essential": true,
+          "note": "Nigerian curry powder gives the signature colour and flavour. Do not substitute with Indian curry."
+        },
+        {
+          "name": "dried thyme",
+          "quantity": "1 teaspoon",
+          "essential": true,
+          "note": "Dried thyme from any brand is fine."
+        },
+        {
+          "name": "bay leaves",
+          "quantity": "2 leaves",
+          "essential": false,
+          "note": "Adds background depth. Remove before serving — do not eat them."
+        },
+        {
+          "name": "salt",
+          "quantity": "to taste",
+          "essential": true,
+          "note": "Season the liquid before rice goes in. It should taste well-seasoned."
+        },
+        {
+          "name": "foil (optional but recommended)",
+          "quantity": "one sheet large enough to cover the pot",
+          "essential": false,
+          "note": "Pressing foil onto the rice surface before the lid traps steam and gives a better result."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Blend the Tomato Base",
+          "instruction": "Roughly chop the fresh tomatoes, red bell peppers, scotch bonnet, and one onion. Add everything into a blender — no water needed, the tomatoes have enough liquid. Blend until completely smooth. Pour into a bowl and set aside. Take your second onion and slice it into rings.",
+          "micro_steps": [
+            "Wash all your tomatoes, peppers, and onions",
+            "Roughly chop 5 plum tomatoes — no need to peel, just remove the stalk",
+            "Halve the red bell peppers, remove the seeds, and roughly chop them",
+            "Add the tomatoes, red bell pepper, scotch bonnet, and 1 onion into the blender",
+            "Do not add water — the tomatoes provide enough liquid",
+            "Blend on high for about 60 seconds until completely smooth with no chunks",
+            "Pour the blend into a bowl and set aside",
+            "Peel your second onion and slice it into thin rings — set aside"
+          ],
+          "duration_min": 480,
+          "duration_max": 900,
+          "heat": "none",
+          "uses_ingredients": [
+            "fresh plum tomatoes (Jos tomatoes)",
+            "red bell pepper (tatashe)",
+            "scotch bonnet pepper (ata rodo)",
+            "onion"
+          ],
+          "sensory_cue": "The blend should look like a thick, bright orange-red liquid with zero chunks. If you can still see pieces, blend again.",
+          "failure_risk": "If the blend looks very watery, your tomatoes were over-ripe. Pour it briefly through a sieve to remove excess water — too much water means the base will take much longer to fry down later.",
+          "stir_interval": null,
+          "skill_tags": ["prep", "blending"],
+          "checkpoints": [
+            {
+              "at_second": 300,
+              "message": "Blend should be running by now. No chunks visible? Good. If still chunky, blend for another 30 seconds.",
+              "type": "check"
+            },
+            {
+              "at_second": 480,
+              "message": "Blend poured into bowl? Now slice your second onion into thin rings before moving on.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Fry the Onions",
+          "instruction": "Heat a generous pour of vegetable oil in a large pot over medium heat until the oil shimmers. Add the sliced onion rings and fry, stirring occasionally, until they are soft, translucent, and just starting to go golden at the edges.",
+          "micro_steps": [
+            "Pour enough vegetable oil to fully cover the base of the pot",
+            "Place the pot on medium heat — let the oil heat for about 60 seconds",
+            "Drop in one ring of onion — if it sizzles immediately the oil is hot enough",
+            "Add all the sliced onion rings",
+            "Stir once to coat them in the oil",
+            "Fry stirring every 30–40 seconds until the onions look soft and slightly translucent",
+            "The edges should just begin to turn golden — stop there"
+          ],
+          "duration_min": 240,
+          "duration_max": 360,
+          "heat": "medium",
+          "uses_ingredients": ["vegetable oil", "onion"],
+          "sensory_cue": "The onions should smell sweet and mellow, not sharp and raw. They should look soft and slightly see-through with edges just starting to colour golden.",
+          "failure_risk": "If the onions start going brown quickly your heat is too high — reduce it immediately. Burnt onions will make the whole dish taste bitter no matter what you add afterwards.",
+          "stir_interval": 40,
+          "skill_tags": ["frying", "heat-control"],
+          "checkpoints": [
+            {
+              "at_second": 180,
+              "message": "Onions should look soft and starting to go see-through. Still hard and raw-looking? Stir and give it another minute.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Fry the Tomato Paste",
+          "instruction": "Add the tomato paste directly into the pot with the fried onions. Stir it in immediately and keep stirring continuously for 3–4 minutes until it darkens from bright orange-red to a deeper brick-red. This removes the raw tinny taste from the paste.",
+          "micro_steps": [
+            "Spoon the full sachet or half tin of tomato paste into the pot",
+            "Stir immediately — the paste will want to stick to the bottom",
+            "Keep stirring continuously on medium heat",
+            "Watch the colour change — bright orange-red to a darker brick-red",
+            "After 3 minutes smell it — the sharp tinny smell should be fading",
+            "The paste is ready when it looks slightly caramelised and smells cooked not raw"
+          ],
+          "duration_min": 180,
+          "duration_max": 300,
+          "heat": "medium",
+          "uses_ingredients": ["tomato paste (Gino, De Rica, or any sachet brand)"],
+          "sensory_cue": "Paste colour shifts from bright red to a deeper brick-red. The sharp tinny smell disappears and is replaced by a richer slightly sweet cooked smell.",
+          "failure_risk": "Under-frying the paste is a very common beginner mistake. If you rush this step the finished rice will have a faint tinny industrial taste. If the paste is sticking aggressively add a tiny splash of oil.",
+          "stir_interval": 30,
+          "skill_tags": ["frying", "flavour-building"],
+          "checkpoints": [
+            {
+              "at_second": 120,
+              "message": "Paste colour should be shifting darker now. Still bright orange-red? Keep stirring — do not stop.",
+              "type": "check"
+            },
+            {
+              "at_second": 240,
+              "message": "Smell the pot. Tinny smell gone? Replaced by something richer? Good — almost there.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Add Blended Mix and Reduce",
+          "instruction": "Pour the blended tomato-pepper mix into the pot and stir everything together. Let it fry on medium heat, stirring every 2 minutes, until the liquid has cooked down significantly, the colour is a deep orange-red, and the oil is visibly floating on top. This is the most important step — do not rush it.",
+          "micro_steps": [
+            "Pour the entire blended mix into the pot — stand back slightly it may splatter",
+            "Stir well to combine the blend with the fried paste and onions",
+            "Keep the heat on medium",
+            "Stir from the bottom every 2 minutes to stop it sticking",
+            "After about 10 minutes the mix should look noticeably thicker and darker",
+            "After 20–25 minutes check — you should see oil beginning to float clearly on the surface",
+            "The base is ready when it looks thick like a paste not liquid and oil is clearly floating on top",
+            "The raw tomato smell should be completely gone"
+          ],
+          "duration_min": 1500,
+          "duration_max": 2400,
+          "heat": "medium",
+          "uses_ingredients": [
+            "fresh plum tomatoes (Jos tomatoes)",
+            "red bell pepper (tatashe)",
+            "scotch bonnet pepper (ata rodo)"
+          ],
+          "sensory_cue": "Oil visibly floating on the surface is your green light. The base should look thick and paste-like not liquid. Colour should be a deep rich orange-red. Raw tomato sharpness completely gone from the smell.",
+          "failure_risk": "This is the most common failure point for beginners. If you do not fry the base down enough the finished rice will taste watery and slightly sour. The oil rising to the top is the only reliable sign it is ready. Do not move on until you see it.",
+          "stir_interval": 120,
+          "skill_tags": ["reduction", "patience", "heat-control"],
+          "checkpoints": [
+            {
+              "at_second": 600,
+              "message": "Base should look noticeably thicker and darker than when you started. Still very liquid? That is fine — keep frying.",
+              "type": "check"
+            },
+            {
+              "at_second": 1200,
+              "message": "Check the edges of the pot — oil should be starting to separate and show at the sides. Not yet? Keep going, do not rush this.",
+              "type": "check"
+            },
+            {
+              "at_second": 1800,
+              "message": "Oil should be clearly floating on top now. Base should look paste-like not liquid. Raw tomato smell completely gone? If yes you are ready for the next step.",
+              "type": "check"
+            },
+            {
+              "at_second": 2100,
+              "message": "Still no oil on top? Your heat may be too low — increase it slightly and give it 5 more minutes.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Season, Add Stock and Rice",
+          "instruction": "Add your curry powder, thyme, crushed seasoning cubes, bay leaves, and salt directly into the reduced base and stir well. Pour in the stock, stir to combine, and let it come to a gentle boil. Taste the liquid — it should be well-seasoned and slightly bold. Add the washed rice, stir so every grain is coated, then check the liquid level. It should just barely reach the surface of the rice.",
+          "micro_steps": [
+            "Add 1 teaspoon of curry powder — stir in",
+            "Add 1 teaspoon of dried thyme — stir in",
+            "Crush 2 seasoning cubes to powder and add — stir in",
+            "Add the bay leaves — press them down into the base",
+            "Add a pinch of salt — stir then taste",
+            "Pour in the stock and stir to combine everything",
+            "Let the liquid come to a gentle boil on medium heat",
+            "Taste the liquid — it should be well-seasoned. Flat? Add more salt or half a cube",
+            "Add the washed parboiled rice and stir immediately so every grain gets coated",
+            "Check the liquid level — it should just reach the surface of the rice",
+            "Stir one final time from the bottom of the pot"
+          ],
+          "duration_min": 120,
+          "duration_max": 240,
+          "heat": "medium",
+          "uses_ingredients": [
+            "curry powder (the yellow tin — Nigerian curry)",
+            "dried thyme",
+            "seasoning cubes (Maggi or Knorr)",
+            "bay leaves",
+            "salt",
+            "chicken or beef stock",
+            "parboiled long grain rice"
+          ],
+          "sensory_cue": "The liquid should look a rich vivid orange-red and smell warmly spiced and savoury. Every grain of rice should look coated and stained orange. Liquid level sitting right at the surface of the rice.",
+          "failure_risk": "Too much liquid = soggy wet jollof. Too little and the rice will not cook through before it burns. When in doubt less is more — you can always add a small splash later but you cannot take liquid out.",
+          "stir_interval": null,
+          "skill_tags": ["seasoning", "tasting", "liquid-ratio"],
+          "checkpoints": [
+            {
+              "at_second": 90,
+              "message": "Rice in and stirred? Check the liquid level now — it should be sitting right at the surface of the rice not above it.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Seal and Steam Until Done",
+          "instruction": "Press foil directly onto the surface of the rice, fold the edges over the pot rim, then put the lid on top. If no foil use a tight-fitting lid. Reduce heat to the lowest setting. Do not open the pot for the first 25 minutes. At 25 minutes open carefully, do one gentle fold from the bottom up, re-seal, and cook for a final 10 minutes. Turn off heat, rest sealed for 5 minutes, then remove bay leaves, fluff, and serve.",
+          "micro_steps": [
+            "Reduce the heat to the lowest setting your stove has",
+            "Press foil directly onto the surface of the rice, fold edges over the pot rim, put lid on top",
+            "If no foil — place the lid on as tightly as possible",
+            "Do not open the pot for the first 25 minutes",
+            "After about 15 minutes you may smell a faint smoky aroma — this is normal and correct",
+            "If you smell actual burning — bitter, sharp, acrid — reduce the heat immediately",
+            "After 25 minutes open carefully — tilt the lid away from your face, steam burns",
+            "Press a few grains — they should feel almost fully soft with just the tiniest firmness",
+            "Using a wooden spoon gently scoop from the very bottom and fold upward once — one slow fold only",
+            "Press fresh foil back on and replace the lid",
+            "Cook for a final 10 minutes on the lowest heat",
+            "Turn off the heat and rest still sealed for 5 minutes",
+            "Open, remove all bay leaves, fluff gently with a fork from the edges inward, and serve"
+          ],
+          "duration_min": 2400,
+          "duration_max": 3000,
+          "heat": "low",
+          "uses_ingredients": ["foil (optional but recommended)"],
+          "sensory_cue": "After the fold the rice should look almost fully cooked with each grain dry on top. The bottom of the pot should have a thin slightly darkened crust — not black, just lightly smoky. Final rice should be fluffy with each grain separate and stained a deep orange-red.",
+          "failure_risk": "Lifting the lid too early lets steam escape and causes uneven cooking. The only reason to open before 25 minutes is if you smell actual burning. Over-folding breaks the grains — one gentle fold is all you do.",
+          "stir_interval": null,
+          "skill_tags": ["steaming", "patience", "finishing", "resting"],
+          "checkpoints": [
+            {
+              "at_second": 900,
+              "message": "You may be smelling a faint smoky aroma from the bottom — that is the party jollof base forming. This is correct. Do not open the pot.",
+              "type": "check"
+            },
+            {
+              "at_second": 1500,
+              "message": "Open the pot now. Tilt the lid away from your face — steam burns. Do one slow fold from the bottom up, re-seal with foil and lid, then continue.",
+              "type": "warning"
+            },
+            {
+              "at_second": 2100,
+              "message": "Almost there. Heat should still be on the lowest setting. Do not open again — let the steam finish the job.",
+              "type": "check"
+            },
+            {
+              "at_second": 2400,
+              "message": "Turn off the heat now. Keep the pot sealed. Rest for 5 minutes before opening — this matters for the texture.",
+              "type": "warning"
+            }
+          ]
+        }
+      ]
+    },
+
+    "intermediate": {
+      "level": "intermediate",
+      "unlockedByDefault": false,
+      "unlockCondition": {
+        "requiredPath": "beginner",
+        "minRating": "B"
+      },
+      "masteryAchievement": "Master — Jollof Rice (Intermediate)",
+      "description": "Properly built jollof — homemade chicken stock, chicken fried and returned to the pot, garlic and ginger in the base, used frying oil, and butter at the finish. Every step is a deliberate upgrade.",
+      "difficulty": "intermediate",
+      "prep_notes": [
+        "The chicken must be seasoned and parboiled before you start the rice — plan time for this",
+        "Reserve every drop of the chicken stock after parboiling — this is the soul of the dish",
+        "After frying the chicken keep the frying oil — it replaces fresh vegetable oil in the base",
+        "Have all spices, garlic, ginger, and tomatoes prepped and measured before the base goes on",
+        "Foil is non-negotiable at this level — not optional"
+      ],
+      "ingredients": [
+        {
+          "name": "parboiled long grain rice",
+          "quantity": "2 derica cups (about 3 regular cups)",
+          "essential": true,
+          "note": "Wash until completely clear. Parboiled only."
+        },
+        {
+          "name": "whole chicken",
+          "quantity": "1 medium (about 1.2–1.5kg), cut into serving pieces",
+          "essential": true,
+          "note": "Cut into pieces before seasoning. The stock from parboiling is essential — do not discard it."
+        },
+        {
+          "name": "fresh plum tomatoes (Jos tomatoes)",
+          "quantity": "6 medium",
+          "essential": true,
+          "note": "More tomatoes than beginner — the base needs to be richer and more concentrated."
+        },
+        {
+          "name": "red bell pepper (tatashe)",
+          "quantity": "2 large",
+          "essential": true,
+          "note": "Blended into the pepper base."
+        },
+        {
+          "name": "scotch bonnet pepper (ata rodo)",
+          "quantity": "2 (or to taste)",
+          "essential": true,
+          "note": "More heat than beginner — intermediate jollof should have proper depth."
+        },
+        {
+          "name": "onion",
+          "quantity": "3 medium bulbs",
+          "essential": true,
+          "note": "1 for seasoning the chicken, 1 for blending into the base, 1 sliced for frying."
+        },
+        {
+          "name": "garlic",
+          "quantity": "4 cloves, blended or grated fine",
+          "essential": true,
+          "note": "Split between the chicken seasoning and the base blend. Adds depth the beginner version does not have."
+        },
+        {
+          "name": "fresh ginger",
+          "quantity": "a thumb-sized piece, blended or grated fine",
+          "essential": true,
+          "note": "Split between the chicken seasoning and the base. Pairs with garlic to deepen the flavour profile."
+        },
+        {
+          "name": "tomato paste (Gino, De Rica, or any sachet brand)",
+          "quantity": "1 full sachet (70g) or half of a small tin",
+          "essential": true,
+          "note": "Deepens the base colour and body."
+        },
+        {
+          "name": "chicken frying oil",
+          "quantity": "all the oil used to fry the chicken — about 4–5 tablespoons",
+          "essential": true,
+          "note": "The oil the chicken was fried in — full of chicken fat and flavour. Use this instead of fresh vegetable oil for the base. This is the single biggest upgrade over beginner."
+        },
+        {
+          "name": "vegetable oil (for frying the chicken)",
+          "quantity": "enough to shallow fry — about 2 cups in a deep frying pan",
+          "essential": true,
+          "note": "Used to fry the parboiled chicken until golden. The used oil then goes into the jollof base."
+        },
+        {
+          "name": "homemade chicken stock",
+          "quantity": "2 and a half cups (about 600ml)",
+          "essential": true,
+          "note": "The liquid from parboiling the chicken. Season the chicken well so the stock is flavourful. No cubes at this level — proper homemade stock only."
+        },
+        {
+          "name": "unsalted butter",
+          "quantity": "1 tablespoon",
+          "essential": true,
+          "note": "Goes in right before sealing for the final steam. Adds richness, sheen, and subtle creaminess."
+        },
+        {
+          "name": "curry powder (the yellow tin — Nigerian curry)",
+          "quantity": "1 and a half teaspoons",
+          "essential": true,
+          "note": "Slightly more than beginner — the richer base carries more spice."
+        },
+        {
+          "name": "dried thyme",
+          "quantity": "1 teaspoon",
+          "essential": true,
+          "note": "Good quality dried thyme makes a difference here."
+        },
+        {
+          "name": "bay leaves",
+          "quantity": "3 leaves",
+          "essential": true,
+          "note": "One more than beginner. Remove before serving."
+        },
+        {
+          "name": "seasoning cubes (Maggi or Knorr)",
+          "quantity": "2 cubes",
+          "essential": true,
+          "note": "Use carefully — the homemade stock already carries seasoning. Always taste before adding."
+        },
+        {
+          "name": "salt",
+          "quantity": "to taste",
+          "essential": true,
+          "note": "Taste at every stage. Stock and seasoning cubes both carry salt."
+        },
+        {
+          "name": "foil",
+          "quantity": "one large sheet — non-negotiable at this level",
+          "essential": true,
+          "note": "Foil is required at intermediate. You need the full steam seal for the rice to cook correctly with the chicken inside."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Season and Parboil the Chicken",
+          "instruction": "Wash the chicken pieces and place them in a pot. Season generously with curry powder, thyme, half the grated garlic and ginger, 1 sliced onion, 1 crushed seasoning cube, and salt. Mix well until every piece is coated. Let it sit for 10 minutes so the seasoning penetrates. Add just enough water to barely cover the chicken and cook on medium heat for 20–25 minutes until the chicken is cooked through but still holding its shape. Remove the chicken from the stock with a slotted spoon and set aside. Reserve every drop of the stock in a bowl.",
+          "micro_steps": [
+            "Wash all chicken pieces under cold running water",
+            "Place in a pot",
+            "Add 1 teaspoon curry powder, half teaspoon thyme, 1 crushed seasoning cube",
+            "Add half the blended or grated garlic and half the ginger",
+            "Add 1 sliced onion and a pinch of salt",
+            "Mix well until every piece is thoroughly coated in the seasoning",
+            "Cover and leave to marinate for 10 minutes before adding water",
+            "Add just enough water to barely cover the chicken — about 2 cups",
+            "Cover and cook on medium heat for 20–25 minutes",
+            "The chicken is ready when cooked through but still holding its shape — not falling off the bone",
+            "Remove the chicken pieces carefully with a slotted spoon and set aside on a plate",
+            "Pour the remaining stock through a sieve into a bowl — reserve every drop"
+          ],
+          "duration_min": 1800,
+          "duration_max": 2400,
+          "heat": "medium",
+          "uses_ingredients": [
+            "whole chicken",
+            "garlic",
+            "fresh ginger",
+            "onion",
+            "curry powder (the yellow tin — Nigerian curry)",
+            "dried thyme",
+            "seasoning cubes (Maggi or Knorr)",
+            "salt"
+          ],
+          "sensory_cue": "The parboiled chicken should look fully cooked but pale — it will get colour from frying. The stock should look a rich amber colour and smell deeply savoury and aromatic from the seasoning. If the stock smells flat or watery the chicken was under-seasoned.",
+          "failure_risk": "Under-seasoning the chicken means the stock will be weak and the final jollof will lack depth regardless of how well the base is built. Season the chicken boldly — it should taste slightly over-seasoned before cooking because the stock dilutes the flavour.",
+          "stir_interval": null,
+          "skill_tags": ["seasoning", "marinating", "parboiling", "stock-making"],
+          "checkpoints": [
+            {
+              "at_second": 600,
+              "message": "Chicken has been marinating for 10 minutes? Water added and cooking now? Stock in the pot should be developing colour and aroma.",
+              "type": "check"
+            },
+            {
+              "at_second": 1500,
+              "message": "Check the chicken — press the thickest piece with a spoon. Should feel firm and cooked through with no pink liquid running out. Almost ready to remove.",
+              "type": "check"
+            },
+            {
+              "at_second": 2100,
+              "message": "Chicken removed and stock reserved? Stock should look rich amber and smell deeply savoury. If it looks pale and watery your seasoning was too light.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Fry the Chicken and Reserve the Oil",
+          "instruction": "Heat enough vegetable oil for shallow frying in a wide frying pan on medium-high heat. Fry the parboiled chicken pieces in batches — do not crowd the pan — until they are deeply golden brown and slightly crisp on the outside. Remove each batch and set aside. When all the chicken is fried, carefully pour the used frying oil into a heatproof bowl and set aside. This oil goes into the jollof base.",
+          "micro_steps": [
+            "Pour enough vegetable oil for shallow frying into a wide pan — about 2 cups",
+            "Heat on medium-high until the oil shimmers and a drop of water flicked in sizzles immediately",
+            "Add the first batch of chicken pieces — do not crowd, fry in batches",
+            "Fry for 4–5 minutes on the first side until deeply golden brown",
+            "Flip each piece and fry the other side for 4–5 minutes",
+            "Remove and set aside on a plate — the chicken should look deeply golden, almost mahogany",
+            "Repeat with remaining batches",
+            "When all chicken is fried turn off the heat under the frying pan",
+            "Let the oil cool slightly for 2 minutes",
+            "Carefully pour the used frying oil through a sieve into a heatproof bowl",
+            "Set the bowl aside — this flavour-rich oil is the cooking fat for the entire jollof base"
+          ],
+          "duration_min": 900,
+          "duration_max": 1200,
+          "heat": "medium",
+          "uses_ingredients": [
+            "vegetable oil (for frying the chicken)",
+            "whole chicken"
+          ],
+          "sensory_cue": "The fried chicken should look deeply golden brown — almost mahogany — and smell intensely aromatic from the seasoning crisping in the oil. The reserved frying oil should look golden and smell richly of the fried chicken.",
+          "failure_risk": "Crowding the pan drops the oil temperature and steams the chicken instead of frying it — you end up with pale, soft skin instead of a golden crisp crust. Fry in batches even if it takes longer. Never rush this step.",
+          "stir_interval": null,
+          "skill_tags": ["shallow-frying", "heat-control", "batching"],
+          "checkpoints": [
+            {
+              "at_second": 300,
+              "message": "First batch frying? Chicken should be sizzling actively. If it is not sizzling the oil is not hot enough — increase heat slightly.",
+              "type": "check"
+            },
+            {
+              "at_second": 900,
+              "message": "All chicken fried and set aside? Frying oil reserved in a heatproof bowl? Both are ready. Move to the base.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Blend the Pepper Base",
+          "instruction": "Add the fresh tomatoes, red bell peppers, scotch bonnet, 1 onion, remaining garlic, and remaining ginger into the blender. Blend until completely smooth — no water needed. Pour into a bowl and set aside. Slice the remaining onion into rings.",
+          "micro_steps": [
+            "Roughly chop the tomatoes, red bell peppers, and scotch bonnet",
+            "Add them to the blender with 1 onion, the remaining garlic, and the remaining ginger",
+            "Blend until completely smooth — no water needed",
+            "Pour into a bowl and set aside",
+            "Slice the remaining onion into rings and set aside"
+          ],
+          "duration_min": 300,
+          "duration_max": 480,
+          "heat": "none",
+          "uses_ingredients": [
+            "fresh plum tomatoes (Jos tomatoes)",
+            "red bell pepper (tatashe)",
+            "scotch bonnet pepper (ata rodo)",
+            "onion",
+            "garlic",
+            "fresh ginger"
+          ],
+          "sensory_cue": "The blend should look thick, vivid orange-red, and completely smooth. The garlic and ginger should be fully integrated — no visible pieces.",
+          "failure_risk": "If the blend smells very sharp from the raw garlic and ginger that is correct — the frying stage will mellow them. Do not reduce the amount.",
+          "stir_interval": null,
+          "skill_tags": ["blending", "prep"],
+          "checkpoints": [
+            {
+              "at_second": 240,
+              "message": "Blend smooth and poured into a bowl? Onion sliced into rings? Everything ready before the base goes on.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Fry the Base in Chicken Oil",
+          "instruction": "Pour the reserved chicken frying oil into a large deep pot and heat on medium. Add the sliced onion rings and fry until soft and just starting to colour. Add the tomato paste and stir continuously for 3–4 minutes until it darkens to a deep brick-red. Pour in the blended pepper mix and stir to combine. Fry on medium heat, stirring every 2 minutes, for 25–35 minutes until the base is very thick, deeply coloured, and the oil is pooling visibly on the surface. This takes longer than beginner — the base must be more concentrated.",
+          "micro_steps": [
+            "Pour the reserved chicken frying oil into a large deep pot",
+            "Heat on medium until the oil shimmers",
+            "Add the sliced onion rings — stir immediately",
+            "Fry for 2–3 minutes until soft and just beginning to colour golden",
+            "Add the tomato paste — stir immediately and continuously",
+            "Keep stirring for 3–4 minutes until the paste darkens to deep brick-red",
+            "Pour in the blended pepper mix — stand back, it may splatter",
+            "Stir vigorously to combine everything",
+            "Keep on medium heat — do not increase to high",
+            "Stir every 2 minutes from the bottom of the pot",
+            "Fry for 25–35 minutes — this needs longer reduction than beginner",
+            "The base is ready when it is very thick, the colour is a deep dark orange-red, and the oil is clearly and abundantly pooling on top"
+          ],
+          "duration_min": 2100,
+          "duration_max": 2700,
+          "heat": "medium",
+          "uses_ingredients": [
+            "chicken frying oil",
+            "onion",
+            "tomato paste (Gino, De Rica, or any sachet brand)",
+            "fresh plum tomatoes (Jos tomatoes)",
+            "red bell pepper (tatashe)",
+            "scotch bonnet pepper (ata rodo)",
+            "garlic",
+            "fresh ginger"
+          ],
+          "sensory_cue": "The base should smell significantly richer than a beginner base — the chicken fat in the frying oil adds a layer of depth that vegetable oil cannot match. The colour should be a very deep dark orange-red. The oil pooling on top should look golden and fragrant not clear.",
+          "failure_risk": "Using fresh vegetable oil instead of the reserved chicken frying oil removes the single biggest flavour upgrade of the intermediate path. The chicken fat carries enormous flavour. If you forgot to reserve the oil go back and do the chicken again — it is that important.",
+          "stir_interval": 120,
+          "skill_tags": ["reduction", "flavour-building", "patience", "heat-control"],
+          "checkpoints": [
+            {
+              "at_second": 600,
+              "message": "Base should be visibly thickening and the garlic and ginger aroma should be coming through clearly. The smell should be more complex than a beginner base already.",
+              "type": "check"
+            },
+            {
+              "at_second": 1500,
+              "message": "Oil should be starting to separate at the surface. Base looking noticeably thicker? Still liquid? Keep frying — this base needs more time than beginner.",
+              "type": "check"
+            },
+            {
+              "at_second": 2400,
+              "message": "Oil clearly pooling on top? Base very thick and deeply coloured? This is ready. All three must be true before you move on.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Season and Add Stock",
+          "instruction": "Add the curry powder, thyme, remaining crushed seasoning cube, bay leaves, and salt to the reduced base and stir well. Pour in the homemade chicken stock gradually and stir to combine. Bring to a gentle boil. Taste carefully and confidently — the sauce should be bold, rich, and well-seasoned. This is your last chance to adjust seasoning before the chicken and rice go in. Add more salt or half a cube only if genuinely needed.",
+          "micro_steps": [
+            "Add 1 and a half teaspoons of curry powder — stir in",
+            "Add 1 teaspoon of dried thyme — stir in",
+            "Add the remaining crushed seasoning cube — stir in",
+            "Add the bay leaves — press them into the base",
+            "Add a pinch of salt",
+            "Pour in the homemade chicken stock gradually while stirring",
+            "Bring to a gentle boil on medium heat",
+            "Taste the sauce carefully — bold, rich, and well-seasoned?",
+            "If it tastes flat add more salt or half a seasoning cube now",
+            "This is your last easy chance to adjust seasoning before rice goes in"
+          ],
+          "duration_min": 300,
+          "duration_max": 480,
+          "heat": "medium",
+          "uses_ingredients": [
+            "curry powder (the yellow tin — Nigerian curry)",
+            "dried thyme",
+            "bay leaves",
+            "seasoning cubes (Maggi or Knorr)",
+            "salt",
+            "homemade chicken stock"
+          ],
+          "sensory_cue": "The sauce should look a deep rich orange-red and smell complex and deeply savoury — the homemade stock adding layers of flavour you cannot get from a cube. The aroma should already smell like a complete dish not just a base.",
+          "failure_risk": "If the stock tastes flat at this point the final rice will be underwhelming regardless of everything else. If the stock was well-seasoned from Step 1 you should not need much adjustment here. If it is flat you under-seasoned the chicken — add a seasoning cube now to compensate.",
+          "stir_interval": null,
+          "skill_tags": ["seasoning", "tasting", "stock-integration"],
+          "checkpoints": [
+            {
+              "at_second": 180,
+              "message": "Taste the sauce now. Rich, bold, well-seasoned? If it tastes flat this is the moment to fix it — not after the rice goes in.",
+              "type": "warning"
+            },
+            {
+              "at_second": 360,
+              "message": "Sauce at a gentle boil and seasoning confirmed? Ready to add the chicken and rice.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Add Chicken and Rice",
+          "instruction": "Add the fried chicken pieces directly into the sauce and push them down so they are partially submerged. Let them sit in the sauce for 5 minutes — they absorb flavour and the fried crust releases into the sauce. Add the washed parboiled rice and stir gently but thoroughly so every grain is coated in the sauce and the chicken pieces are distributed through the rice. Check the liquid level — it should just barely reach the surface of the rice. Place the butter on top of the rice. Seal immediately with foil pressed firmly onto the rice surface, fold over the pot rim, and put the lid on.",
+          "micro_steps": [
+            "Add the fried chicken pieces to the sauce — push them down",
+            "Let the chicken sit in the sauce for 5 minutes on medium-low heat",
+            "The fried crust on the chicken is releasing flavour into the sauce — this is correct",
+            "Add the washed parboiled rice",
+            "Stir gently but thoroughly so every grain is coated and the chicken is distributed",
+            "Check the liquid level — it should just barely reach the surface of the rice",
+            "If too low add a small splash of hot stock only — never cold water",
+            "Place the tablespoon of butter on top of the rice — do not stir it in yet",
+            "Press foil firmly onto the surface of the rice",
+            "Fold the foil edges tightly over the pot rim",
+            "Place the lid on firmly",
+            "Reduce to the very lowest heat"
+          ],
+          "duration_min": 600,
+          "duration_max": 780,
+          "heat": "medium",
+          "uses_ingredients": [
+            "whole chicken",
+            "parboiled long grain rice",
+            "unsalted butter",
+            "foil"
+          ],
+          "sensory_cue": "Every grain of rice after stirring should look almost burgundy-orange from the concentrated base coating it. The chicken pieces submerged in the rice should look glossy and deeply coated. The butter on top will begin to melt almost immediately from the heat.",
+          "failure_risk": "Adding too much liquid at this stage is dangerous — the butter melts and adds moisture, the chicken releases juices as it finishes cooking. Start with less liquid than you think you need. You cannot remove liquid but you can always add a small splash if needed.",
+          "stir_interval": null,
+          "skill_tags": ["layering", "liquid-ratio", "sealing"],
+          "checkpoints": [
+            {
+              "at_second": 300,
+              "message": "Chicken has been sitting in the sauce for 5 minutes? Sauce smelling even richer now? Good — add the rice now.",
+              "type": "check"
+            },
+            {
+              "at_second": 600,
+              "message": "Rice in, butter on top, foil sealed, lid on? Reduce heat to the lowest setting now.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Steam, Rest and Serve",
+          "instruction": "Cook completely sealed on the lowest heat for 30 minutes without opening. After 30 minutes open carefully, do one slow fold from the very bottom upward, taste a grain — it should be about 90% cooked — re-seal and cook for a final 10 minutes. Turn off the heat and rest completely sealed for 10 minutes. Open carefully, remove all bay leaves, fluff very gently from the edges inward. Do not scrape the bottom crust. Serve immediately with the fried chicken alongside.",
+          "micro_steps": [
+            "Cook on the lowest heat completely sealed for 30 minutes — do not open",
+            "After about 20 minutes you will smell a warm rich slightly smoky aroma — this is correct",
+            "If you smell actual burning — acrid and bitter — reduce heat immediately",
+            "After 30 minutes open carefully — tilt the lid and foil away from your face",
+            "Do one slow fold from the very bottom upward with a wooden spoon",
+            "Taste a few grains — they should feel about 90% cooked with just slight firmness remaining",
+            "Re-seal with foil and lid immediately",
+            "Cook for a final 10 minutes on the lowest heat",
+            "Turn off the heat",
+            "Leave completely sealed for 10 minutes — do not open during this rest",
+            "Open carefully after 10 minutes",
+            "Remove all bay leaves",
+            "Fluff very gently from the edges inward — one or two passes only",
+            "Do not scrape the bottom crust — leave it completely undisturbed",
+            "Taste one final time and serve immediately with the fried chicken alongside"
+          ],
+          "duration_min": 3000,
+          "duration_max": 3600,
+          "heat": "low",
+          "uses_ingredients": [],
+          "sensory_cue": "The finished rice should look deeply golden-orange, fluffy, and glistening slightly from the butter and chicken fat. Each grain should be separate and well-seasoned. The bottom crust should be thin, fragrant, and lightly smoky — not black or burnt.",
+          "failure_risk": "The 10-minute rest after turning off the heat is not optional — the residual steam finishes the rice perfectly and allows the bottom crust to firm up without burning. Opening early lets the steam escape and the bottom layer stays undercooked.",
+          "stir_interval": null,
+          "skill_tags": ["steaming", "patience", "resting", "finishing"],
+          "checkpoints": [
+            {
+              "at_second": 1800,
+              "message": "30 minutes on low done. Open carefully — fold once from the bottom. Taste a grain. About 90% cooked? Re-seal immediately and continue.",
+              "type": "warning"
+            },
+            {
+              "at_second": 2400,
+              "message": "Final 10 minutes almost done. Heat should still be on the lowest setting.",
+              "type": "check"
+            },
+            {
+              "at_second": 2600,
+              "message": "Turn off the heat now. Keep the pot completely sealed. Do not open for 10 more minutes.",
+              "type": "warning"
+            },
+            {
+              "at_second": 3200,
+              "message": "Resting done. Open now, remove bay leaves, fluff gently from the edges. Serve immediately.",
+              "type": "warning"
+            }
+          ]
+        }
+      ]
+    },
+
+    "advanced": {
+      "level": "advanced",
+      "unlockedByDefault": false,
+      "unlockCondition": {
+        "requiredPath": "intermediate",
+        "minRating": "A"
+      },
+      "masteryAchievement": "Master — Jollof Rice (Advanced)",
+      "description": "Party jollof. Tomato base pre-cooked before frying, maximum reduction in pure meat frying oil, deliberate controlled smoke at the finish. Large quantity. The owambe experience in your kitchen.",
+      "difficulty": "advanced",
+      "prep_notes": [
+        "This serves 10–15 — use your largest pot",
+        "The tomato base is pre-cooked in a separate pot before it goes into the oil — plan for this, it adds 30–45 minutes",
+        "All meat must be cooked, stock reserved, and meat fried before the base even starts",
+        "Fresh thyme is strongly preferred over dried at this level",
+        "The deliberate smoke at the end requires full attention — do not attempt it if you are distracted",
+        "Have everything prepped and within reach before the base frying begins — the large quantity moves faster than you expect"
+      ],
+      "ingredients": [
+        {
+          "name": "parboiled long grain rice",
+          "quantity": "5 derica cups (about 7–8 regular cups)",
+          "essential": true,
+          "note": "Large quantity. Wash in batches until completely clear. Parboiled only."
+        },
+        {
+          "name": "assorted meat (beef, chicken, or both)",
+          "quantity": "1.5kg total — cut into serving pieces",
+          "essential": true,
+          "note": "Season generously. Cook until tender. Reserve every drop of stock."
+        },
+        {
+          "name": "fresh plum tomatoes (Jos tomatoes)",
+          "quantity": "12–15 medium",
+          "essential": true,
+          "note": "Large quantity — the base is pre-cooked and needs volume to concentrate down properly."
+        },
+        {
+          "name": "red bell pepper (tatashe)",
+          "quantity": "4 large",
+          "essential": true,
+          "note": "Blended into the tomato base."
+        },
+        {
+          "name": "scotch bonnet pepper (ata rodo)",
+          "quantity": "3–4 (to taste)",
+          "essential": true,
+          "note": "Party jollof should have proper heat. Adjust to your crowd."
+        },
+        {
+          "name": "onion",
+          "quantity": "4 large bulbs",
+          "essential": true,
+          "note": "Distributed across meat seasoning, base blend, and frying."
+        },
+        {
+          "name": "garlic",
+          "quantity": "6 cloves, blended fine",
+          "essential": true,
+          "note": "Goes into the tomato base blend."
+        },
+        {
+          "name": "fresh ginger",
+          "quantity": "2 thumb-sized pieces, blended fine",
+          "essential": true,
+          "note": "Goes into the tomato base blend."
+        },
+        {
+          "name": "tomato paste (Gino, De Rica, or any sachet brand)",
+          "quantity": "1 full small tin (or 2 sachets)",
+          "essential": true,
+          "note": "More than intermediate — the base needs higher concentration for party jollof."
+        },
+        {
+          "name": "meat frying oil",
+          "quantity": "all the oil used to fry the meat — about half a cup",
+          "essential": true,
+          "note": "The oil from frying the meat. Non-negotiable for authentic party jollof. Do not substitute fresh oil."
+        },
+        {
+          "name": "vegetable oil (for frying the meat)",
+          "quantity": "enough to shallow fry in batches — about 3 cups",
+          "essential": true,
+          "note": "Used to fry the meat. The used oil then goes into the jollof base."
+        },
+        {
+          "name": "homemade meat stock",
+          "quantity": "5–6 cups (about 1.2–1.5 litres)",
+          "essential": true,
+          "note": "From cooking the assorted meat. Must be well-seasoned and rich. No water, no cubes — pure stock only at this level."
+        },
+        {
+          "name": "fresh thyme",
+          "quantity": "4–5 sprigs",
+          "essential": true,
+          "note": "Fresh thyme is strongly preferred over dried at this level. The quality difference in party jollof is noticeable."
+        },
+        {
+          "name": "curry powder (the yellow tin — Nigerian curry)",
+          "quantity": "2 teaspoons",
+          "essential": true,
+          "note": "Larger quantity for the larger batch."
+        },
+        {
+          "name": "bay leaves",
+          "quantity": "4 leaves",
+          "essential": true,
+          "note": "Remove before serving."
+        },
+        {
+          "name": "unsalted butter",
+          "quantity": "2 tablespoons",
+          "essential": true,
+          "note": "Goes in just before sealing for the final steam."
+        },
+        {
+          "name": "seasoning cubes (Maggi or Knorr)",
+          "quantity": "2–3 cubes to taste",
+          "essential": true,
+          "note": "Use carefully — the stock carries significant seasoning already. Always taste before adding."
+        },
+        {
+          "name": "salt",
+          "quantity": "to taste",
+          "essential": true,
+          "note": "Taste at every stage."
+        },
+        {
+          "name": "foil",
+          "quantity": "2–3 large sheets — enough to fully seal the large pot",
+          "essential": true,
+          "note": "A large pot needs more foil. Press down firmly and ensure no steam can escape."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Season and Rest the Meat",
+          "instruction": "Place all the meat in a large pot. Season very generously with curry powder, fresh thyme leaves, half the blended garlic and ginger, 1 sliced large onion, 2 crushed seasoning cubes, and salt. Mix thoroughly until every piece is completely coated. Cover and rest for at least 15 minutes before adding any water — this marinating time is not optional at this scale. The seasoning must penetrate the meat before it cooks.",
+          "micro_steps": [
+            "Place all the meat in a large pot",
+            "Add 1 teaspoon curry powder",
+            "Strip leaves from 2 thyme sprigs and add — discard the stalks",
+            "Add half the blended garlic and half the blended ginger",
+            "Add 1 large sliced onion",
+            "Add 2 crushed seasoning cubes",
+            "Add a generous pinch of salt",
+            "Mix thoroughly with clean hands or a large spoon until every piece is completely coated",
+            "Cover the pot",
+            "Rest for at least 15 minutes — do not rush this step",
+            "Use this time to wash and prep your tomatoes, peppers, and remaining onions"
+          ],
+          "duration_min": 900,
+          "duration_max": 1200,
+          "heat": "none",
+          "uses_ingredients": [
+            "assorted meat (beef, chicken, or both)",
+            "garlic",
+            "fresh ginger",
+            "onion",
+            "fresh thyme",
+            "curry powder (the yellow tin — Nigerian curry)",
+            "seasoning cubes (Maggi or Knorr)",
+            "salt"
+          ],
+          "sensory_cue": "After resting the meat should look deeply coated and slightly damp from the seasoning drawing out some moisture. The smell should be intensely aromatic — garlic, ginger, thyme, and curry all coming through clearly.",
+          "failure_risk": "Skipping or rushing the resting time at this scale means the seasoning sits on the surface rather than penetrating. The stock that forms during cooking will be shallower in flavour. 15 minutes minimum — longer is better.",
+          "stir_interval": null,
+          "skill_tags": ["seasoning", "marinating", "prep"],
+          "checkpoints": [
+            {
+              "at_second": 600,
+              "message": "Meat resting and marinating. Use this time to wash and roughly chop your tomatoes and peppers — you will need them ready before the base starts.",
+              "type": "check"
+            },
+            {
+              "at_second": 900,
+              "message": "15 minutes done. Meat should look and smell deeply seasoned. Ready to add water and cook.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Cook Meat, Reserve Stock and Fry",
+          "instruction": "Add just enough water to cover the seasoned meat. Cook on medium-high heat until fully tender — 25–35 minutes depending on the meat. Remove all the meat from the stock. Reserve every drop of the stock. Heat vegetable oil in a wide pan on medium-high and fry the meat in batches until deeply golden brown and slightly crisp. Remove and set aside. Carefully reserve all the frying oil — this is the cooking fat for the entire base.",
+          "micro_steps": [
+            "Add just enough water to barely cover the seasoned meat",
+            "Cook on medium-high heat — bring to a boil then simmer",
+            "Cook for 25–35 minutes until all the meat is fully tender",
+            "Remove all the meat with a slotted spoon — set aside on a large tray",
+            "Strain the stock through a sieve into a large bowl — reserve every drop",
+            "Taste the stock — it should be rich, well-seasoned, and deeply flavoured",
+            "Heat vegetable oil in your widest pan on medium-high",
+            "Fry the meat in batches — do not crowd the pan",
+            "Fry until deeply golden brown and slightly crisp — 5–6 minutes per side",
+            "Remove each batch and set aside",
+            "When all the meat is fried carefully pour the used frying oil through a sieve into a heatproof bowl",
+            "Set aside — this oil goes into the jollof base"
+          ],
+          "duration_min": 2400,
+          "duration_max": 3600,
+          "heat": "medium",
+          "uses_ingredients": [
+            "assorted meat (beef, chicken, or both)",
+            "vegetable oil (for frying the meat)"
+          ],
+          "sensory_cue": "The fried meat should look deeply golden brown and smell intensely rich and savoury. The reserved stock should look a rich dark amber and smell complex and deeply seasoned. The frying oil should look golden and smell of the fried meat — this is pure flavour.",
+          "failure_risk": "At this scale if the stock is weak nothing will save the final rice. Taste the stock before reserving it — if it tastes flat add another seasoning cube directly to the stock now and stir until dissolved. Do not move forward with weak stock.",
+          "stir_interval": null,
+          "skill_tags": ["parboiling", "stock-making", "frying", "batching"],
+          "checkpoints": [
+            {
+              "at_second": 1200,
+              "message": "Meat should be about halfway through cooking. Taste the stock forming in the pot — is it developing depth and rich colour? If it tastes flat add another cube now.",
+              "type": "check"
+            },
+            {
+              "at_second": 2400,
+              "message": "Meat fully cooked and now being fried in batches? Stock reserved and tasted? Keep the frying oil from every batch.",
+              "type": "check"
+            },
+            {
+              "at_second": 3300,
+              "message": "All meat fried and set aside? All frying oil in a bowl? Stock in a bowl? Everything ready for the base. This is where the real work begins.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Pre-Cook the Tomato Base Separately",
+          "instruction": "Blend all the tomatoes, red bell peppers, scotch bonnet, 2 onions, remaining garlic and ginger until completely smooth. Pour the entire blend into a separate clean pot with no oil. Cook on medium heat uncovered, stirring every 3–4 minutes, until the volume has reduced by at least half and the raw tomato sharpness is completely gone. This pre-cooking concentrates the flavour before it even touches the oil — it is the single most important difference between party jollof and regular jollof.",
+          "micro_steps": [
+            "Add all the tomatoes, red bell peppers, scotch bonnet, 2 large onions, remaining garlic and ginger to the blender",
+            "Blend in batches if necessary until completely smooth",
+            "You should have a large volume of bright orange-red liquid",
+            "Pour the entire blend into a separate clean pot — no oil",
+            "Place on medium heat",
+            "Bring to a boil stirring occasionally",
+            "Cook uncovered — stirring every 3–4 minutes",
+            "Watch the volume reduce significantly",
+            "After 20 minutes the colour should be deepening and the raw sharpness fading",
+            "After 30–40 minutes the blend should look noticeably thicker and more concentrated",
+            "The raw tomato smell should be completely gone — replaced by a deeper richer cooked aroma",
+            "The volume should have reduced by at least half",
+            "Remove from heat and set aside — this is your pre-cooked base"
+          ],
+          "duration_min": 1800,
+          "duration_max": 2700,
+          "heat": "medium",
+          "uses_ingredients": [
+            "fresh plum tomatoes (Jos tomatoes)",
+            "red bell pepper (tatashe)",
+            "scotch bonnet pepper (ata rodo)",
+            "onion",
+            "garlic",
+            "fresh ginger"
+          ],
+          "sensory_cue": "The pre-cooked base should look noticeably thicker and deeper in colour than the raw blend — a rich dark orange-red. The raw tomato sharpness completely gone. It should smell like deeply cooked slightly sweet concentrated tomatoes and peppers.",
+          "failure_risk": "Skipping this pre-cooking step and going straight to frying is the most fundamental difference between party jollof and regular jollof. Do not skip or rush it. The more concentrated the base before frying the deeper and more complex the final flavour will be.",
+          "stir_interval": 180,
+          "skill_tags": ["pre-cooking", "reduction", "concentration", "patience"],
+          "checkpoints": [
+            {
+              "at_second": 900,
+              "message": "Base should be visibly reducing and darkening. Starting to stick slightly at the bottom? That is correct — it is concentrating. Stir well.",
+              "type": "check"
+            },
+            {
+              "at_second": 1800,
+              "message": "Volume reduced by roughly half now? Raw tomato smell gone? Colour deeper and richer? Almost ready for the frying stage.",
+              "type": "check"
+            },
+            {
+              "at_second": 2400,
+              "message": "Base thick, deeply coloured, smelling rich and cooked? Remove from heat. Ready to fry.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Fry the Base in Meat Oil",
+          "instruction": "Heat the reserved meat frying oil in your largest pot over medium heat. Add the tomato paste and stir continuously for 4–5 minutes until it darkens to a very deep brick-red. Pour in the pre-cooked tomato base and stir vigorously to combine. Fry on medium heat, stirring every 2–3 minutes, for 35–50 minutes until the base is extremely thick, deeply concentrated, almost paste-like, and the oil is pooling heavily and abundantly on the surface. This is the longest single step in the recipe — do not rush it under any circumstances.",
+          "micro_steps": [
+            "Pour all the reserved meat frying oil into your largest pot",
+            "Heat on medium until the oil shimmers",
+            "Add the tomato paste — stir immediately and continuously",
+            "Fry the paste for 4–5 minutes until it darkens to a very deep brick-red",
+            "Pour in the entire pre-cooked tomato base — stand back, it will splatter",
+            "Stir vigorously to combine with the paste and oil",
+            "Keep on medium heat — never increase to high",
+            "Stir every 2–3 minutes from the very bottom of the pot",
+            "After 20 minutes the base should be significantly thicker than when you started",
+            "After 35 minutes check — oil should be pooling noticeably on the surface",
+            "Keep going until the base is extremely thick, almost paste-like",
+            "Oil should be pooling heavily and abundantly — not just a thin film on top",
+            "Colour should be an extremely deep dark red — deeper than anything you have seen before",
+            "This step can take up to 50 minutes — do not move on before the oil pools heavily"
+          ],
+          "duration_min": 2700,
+          "duration_max": 4200,
+          "heat": "medium",
+          "uses_ingredients": [
+            "meat frying oil",
+            "tomato paste (Gino, De Rica, or any sachet brand)"
+          ],
+          "sensory_cue": "The base should look like a very thick very dark orange-red paste with oil pooling heavily on the surface. The smell should be intensely rich and deeply savoury — the meat fat in the oil adding a layer of complexity that no other cooking fat can match. This should smell fundamentally different from any beginner or intermediate base.",
+          "failure_risk": "Rushing this step produces a base that looks ready but is not. The oil pooling on top must be heavy and abundant — not just a thin film. Party jollof gets its characteristic richness from this deeply fried and concentrated base. If the oil is not pooling generously keep frying.",
+          "stir_interval": 150,
+          "skill_tags": ["deep-reduction", "patience", "heat-control", "flavour-concentration"],
+          "checkpoints": [
+            {
+              "at_second": 1200,
+              "message": "Base should be noticeably thicker and the meat fat in the oil should be giving a deeper richer aroma than vegetable oil alone. Keep stirring from the bottom.",
+              "type": "check"
+            },
+            {
+              "at_second": 2400,
+              "message": "Oil starting to pool on the surface? Base looking very thick and paste-like? Getting close — but do not rush the final stage.",
+              "type": "check"
+            },
+            {
+              "at_second": 3600,
+              "message": "Oil pooling heavily and abundantly? Base extremely thick and deeply concentrated? Colour extremely deep dark red? All three must be true. If not — keep going.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Season and Add Stock",
+          "instruction": "Add the remaining curry powder, remaining fresh thyme leaves stripped from the stalks, bay leaves, and seasoning cubes to the reduced base and stir well. Pour in the homemade meat stock gradually — start with 4 cups and stir as you go. The sauce should look thick, rich, and deeply coloured. Bring to a gentle boil. Taste with full confidence — at this scale under-seasoning at this moment is a significant problem. The sauce should taste bold and slightly over-seasoned because the large quantity of rice will absorb and mellow it.",
+          "micro_steps": [
+            "Add 2 teaspoons of curry powder — stir in",
+            "Strip the remaining thyme leaves from the stalks and add — discard the stalks",
+            "Add 4 bay leaves — press them into the base",
+            "Add 1 crushed seasoning cube — stir in",
+            "Add a pinch of salt",
+            "Pour in 4 cups of hot homemade stock gradually while stirring",
+            "Stir well to combine everything",
+            "Bring to a gentle boil on medium heat",
+            "Taste the sauce confidently — it should taste bold and deeply flavoured",
+            "If it tastes flat add another half cube and more salt",
+            "Add more stock gradually only if the sauce looks too thick to stir — do not make it watery",
+            "The sauce should look extremely thick and richly coloured even with the stock added"
+          ],
+          "duration_min": 480,
+          "duration_max": 720,
+          "heat": "medium",
+          "uses_ingredients": [
+            "curry powder (the yellow tin — Nigerian curry)",
+            "fresh thyme",
+            "bay leaves",
+            "seasoning cubes (Maggi or Knorr)",
+            "salt",
+            "homemade meat stock"
+          ],
+          "sensory_cue": "The sauce with stock added should look an extremely deep rich orange-red — darker and more intense than any beginner or intermediate sauce. The aroma should already fill the kitchen. The taste should be bold, complex, and deeply savoury.",
+          "failure_risk": "Under-seasoning at this stage across a large batch is very hard to fix after the rice goes in. Taste confidently and season boldly. The rice will absorb and mellow the seasoning — what tastes bold now will taste perfect when the rice is done.",
+          "stir_interval": null,
+          "skill_tags": ["seasoning", "tasting", "scaling", "stock-integration"],
+          "checkpoints": [
+            {
+              "at_second": 300,
+              "message": "Taste the sauce now. Bold, rich, deeply flavoured? If it tastes flat at this scale add seasoning immediately — this is your last easy chance before the rice goes in.",
+              "type": "warning"
+            },
+            {
+              "at_second": 600,
+              "message": "Sauce seasoned, boiling gently, smelling deeply rich? Ready to add the meat and rice.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Add Meat and Rice",
+          "instruction": "Add all the fried meat pieces to the sauce and push them down. Let them sit in the sauce for 5 minutes on medium-low heat. Add the washed parboiled rice and stir thoroughly from the bottom so every grain is completely coated and the meat is evenly distributed. Check the liquid level — for a large batch it should just barely reach the surface of the rice. Place the butter on top. Seal with 2–3 sheets of foil pressed firmly onto the rice surface ensuring no gaps. Place the lid on firmly. Reduce to the lowest heat.",
+          "micro_steps": [
+            "Add all the fried meat pieces to the sauce",
+            "Push them down so they are submerged in the sauce",
+            "Let them sit for 5 minutes on medium-low heat",
+            "The fried crust is releasing flavour into the sauce — stir gently once after 3 minutes",
+            "Add all the washed parboiled rice",
+            "Stir very thoroughly from the very bottom of the pot — every grain must be coated",
+            "At this scale stirring thoroughly takes more effort — do not rush it",
+            "Check the liquid level — just barely reaching the surface of the rice",
+            "If too low add a small splash of hot stock — never cold water",
+            "Place 2 tablespoons of butter on top of the rice",
+            "Layer 2–3 sheets of foil pressing firmly onto the rice surface",
+            "Ensure the foil is sealed with no gaps around the edges",
+            "Place the lid on firmly",
+            "Reduce to the absolute lowest heat"
+          ],
+          "duration_min": 600,
+          "duration_max": 900,
+          "heat": "medium",
+          "uses_ingredients": [
+            "assorted meat (beef, chicken, or both)",
+            "parboiled long grain rice",
+            "unsalted butter",
+            "foil"
+          ],
+          "sensory_cue": "Every grain of rice after stirring should look almost burgundy-orange from the concentrated base. At this scale the pot will look very full and very rich. The butter will begin melting immediately from the heat of the rice.",
+          "failure_risk": "At this scale stirring the rice thoroughly is more physically demanding — do not take shortcuts. Grains that are not coated in the base will cook unevenly and taste plain. Take the time to stir properly from the very bottom of the pot.",
+          "stir_interval": null,
+          "skill_tags": ["layering", "liquid-ratio", "sealing", "scaling"],
+          "checkpoints": [
+            {
+              "at_second": 300,
+              "message": "Meat has been sitting in sauce for 5 minutes? Add the rice now. Stir thoroughly from the very bottom — at this scale it takes more effort.",
+              "type": "check"
+            },
+            {
+              "at_second": 720,
+              "message": "Rice stirred, butter on top, foil sealed with no gaps, lid on firmly? Reduce heat to the lowest setting now.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Steam Then Deliberately Smoke",
+          "instruction": "Cook completely sealed on the lowest heat for 30 minutes without opening. After 30 minutes open carefully, do one slow fold from the very bottom, taste a grain — it should be about 90% cooked — re-seal and cook for 15 more minutes on low. Then — increase the heat to medium for exactly 3–5 minutes to create the deliberate smoke. Keep the pot sealed. You will hear the sizzle intensify and smell a deep toasty smoky aroma. This is the party jollof signature. Watch it continuously — the line between perfect smoke and burnt is narrow. The moment the aroma smells deep and toasty reduce back to low immediately and turn off after 2 minutes.",
+          "micro_steps": [
+            "Cook completely sealed on the lowest heat for 30 minutes",
+            "Do not open the pot during this time",
+            "After about 20 minutes a warm rich aroma will build from the bottom — correct, do not open",
+            "After 30 minutes open carefully — tilt everything away from your face",
+            "Do one slow fold from the very bottom upward",
+            "Taste a few grains from different parts of the pot — about 90% cooked with slight firmness?",
+            "Re-seal with foil and lid immediately",
+            "Cook for 15 more minutes on the lowest heat",
+            "Now increase the heat to medium — keep the pot sealed",
+            "Stand close and watch — do not walk away",
+            "After 2 minutes smell the pot actively — toasty, smoky, slightly caramelised?",
+            "This is the party smoke — it should smell intentional and appetising not acrid and burnt",
+            "Hold the medium heat for 3–5 minutes maximum",
+            "The moment the aroma smells deep and toasty — reduce back to low immediately",
+            "Turn off the heat after 2 more minutes on low",
+            "Leave completely sealed and undisturbed for 10 minutes"
+          ],
+          "duration_min": 3600,
+          "duration_max": 4800,
+          "heat": "low",
+          "uses_ingredients": [],
+          "sensory_cue": "The deliberate smoke phase should produce a toasty, slightly caramelised, deeply savoury aroma — like the bottom crust of a well-made paella. It should smell intentional and appetising. If it smells acrid, bitter, or sharp you have gone too far — reduce heat immediately.",
+          "failure_risk": "The deliberate smoke phase is the highest-risk moment in the entire recipe. The margin between perfect smoky crust and ruined burnt rice is about 60–90 seconds at medium heat. Watch and smell continuously during those 3–5 minutes. If you are not confident skip the deliberate smoke — the rice will still be outstanding without it.",
+          "stir_interval": null,
+          "skill_tags": ["steaming", "smoking", "heat-control", "advanced-timing", "patience"],
+          "checkpoints": [
+            {
+              "at_second": 1800,
+              "message": "30 minutes on low done. Open carefully and fold once from the very bottom. Taste a grain — 90% cooked? Re-seal immediately and continue on low.",
+              "type": "warning"
+            },
+            {
+              "at_second": 2700,
+              "message": "15 more minutes on low done. Now increase to medium heat. Keep the pot sealed. Watch and smell continuously from this point — do not walk away.",
+              "type": "warning"
+            },
+            {
+              "at_second": 2880,
+              "message": "Smell the pot actively now. Toasty and smoky? That is the party smoke developing. Hold for 1–2 more minutes maximum then reduce back to low immediately.",
+              "type": "warning"
+            },
+            {
+              "at_second": 3000,
+              "message": "Reduce heat back to low right now. Turn off after 2 minutes. Rest completely sealed for 10 minutes before opening.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Rest and Serve",
+          "instruction": "After the 10-minute rest open the pot carefully. Remove all bay leaves and any thyme stalks. Fluff very gently from the edges inward — one or two passes only across the large pot. Do not scrape the bottom crust under any circumstances — it belongs to the last person served. Taste one final time. Serve immediately and generously. This is party food.",
+          "micro_steps": [
+            "After 10 minutes of resting open the pot carefully",
+            "Remove all bay leaves",
+            "Remove any visible thyme stalks",
+            "Fluff very gently with a large fork or wooden spoon from the edges inward",
+            "Work across the large pot — one or two gentle passes only",
+            "Do not scrape the bottom crust — leave it completely undisturbed",
+            "Taste one final time — adjust salt only if genuinely needed at this point",
+            "The bottom crust is the most prized part of the entire pot",
+            "Serve immediately and generously alongside fried chicken, moi moi, coleslaw, or plantain"
+          ],
+          "duration_min": 600,
+          "duration_max": 720,
+          "heat": "none",
+          "uses_ingredients": [],
+          "sensory_cue": "The rice should look a deep burgundy-orange and smell like an owambe — that unmistakable combination of smoke, meat fat, and deeply seasoned tomato. Each grain should be separate, glistening, and deeply coloured. The bottom crust should look dark, caramelised, and slightly crisp.",
+          "failure_risk": "Scraping the bottom crust aggressively at this scale breaks bitter fragments through a large pot of rice. Leave it completely. Serve the top first. The bottom crust comes out last — it is the reward.",
+          "stir_interval": null,
+          "skill_tags": ["resting", "finishing", "serving"],
+          "checkpoints": [
+            {
+              "at_second": 480,
+              "message": "Still resting. Do not open yet — the residual steam is still working through the large batch.",
+              "type": "check"
+            },
+            {
+              "at_second": 600,
+              "message": "Open now. Remove bay leaves and thyme stalks. Fluff gently from the edges. Serve immediately.",
+              "type": "warning"
+            }
+          ]
+        }
+      ]
+    }
+
+  }
+}
