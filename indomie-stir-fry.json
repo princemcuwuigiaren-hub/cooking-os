@@ -1,0 +1,235 @@
+{
+  "id": "indomie-stir-fry",
+  "dish": "Indomie Stir Fry",
+  "emoji": "🍜",
+  "description": "Nigerian instant noodles tossed in a hot pan with vegetables, egg, and the classic seasoning packet — quick, satisfying, and endlessly customisable.",
+  "image_url": "",
+  "theme": "nigerian",
+  "category": "noodles",
+  "tags": ["beginner", "quick", "everyday", "noodles"],
+  "occasions": ["everyday", "quick meal", "late night"],
+  "serves": "1–2",
+  "author": null,
+  "community": false,
+  "pack_version": 1,
+  "tier": "free",
+  "dishLegendEligible": true,
+
+  "achievements": {
+    "master": {
+      "description": "Achieve an S rating on the Beginner path to earn the Master achievement",
+      "display": "Quiet permanent stamp on the path card"
+    },
+    "dish_legend": {
+      "description": "Achieve an S rating on the Beginner path — the only and highest path for this dish",
+      "display": "Permanent mark on the dish card in the pack browser"
+    }
+  },
+
+  "paths": {
+
+    "beginner": {
+      "level": "beginner",
+      "unlockedByDefault": true,
+      "unlockCondition": null,
+      "masteryAchievement": "Master — Indomie Stir Fry",
+      "description": "Classic Nigerian stir fry noodles — slightly crisp at the edges, packed with vegetables and egg, seasoned with the iconic Indomie packet.",
+      "difficulty": "beginner",
+      "prep_notes": [
+        "Have all your vegetables chopped and your egg beaten before turning on the heat — stir frying moves fast",
+        "Use your widest pan or wok — the noodles need space to fry not steam",
+        "Do not overcook the noodles during boiling — they will finish cooking in the pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Indomie instant noodles",
+          "quantity": "2 packs",
+          "essential": true,
+          "note": "Use both the seasoning sachets — the powder, the liquid seasoning, and the oil sachet all go in."
+        },
+        {
+          "name": "egg",
+          "quantity": "2 medium",
+          "essential": true,
+          "note": "Beat lightly with a pinch of salt before cooking."
+        },
+        {
+          "name": "onion",
+          "quantity": "half a medium bulb",
+          "essential": true,
+          "note": "Slice into thin rings or dice finely."
+        },
+        {
+          "name": "green onion (spring onion)",
+          "quantity": "2 stalks",
+          "essential": false,
+          "note": "Slice thinly. Adds freshness and colour at the finish."
+        },
+        {
+          "name": "green pepper",
+          "quantity": "half a medium",
+          "essential": false,
+          "note": "Slice into thin strips. Adds colour and mild flavour."
+        },
+        {
+          "name": "scotch bonnet or fresh pepper",
+          "quantity": "1 small (to taste)",
+          "essential": false,
+          "note": "Slice thinly. Skip if you want it mild."
+        },
+        {
+          "name": "vegetable oil",
+          "quantity": "2 tablespoons",
+          "essential": true,
+          "note": "Just enough to coat the pan — stir fry needs less oil than frying."
+        },
+        {
+          "name": "soy sauce",
+          "quantity": "1 teaspoon",
+          "essential": false,
+          "note": "Optional but adds a nice depth. Any brand works."
+        },
+        {
+          "name": "salt",
+          "quantity": "a small pinch if needed",
+          "essential": false,
+          "note": "The Indomie seasoning packets are already salty — taste before adding any salt."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Boil the Noodles",
+          "instruction": "Bring a pot of water to a boil. Add the noodles and cook for exactly 2 minutes — they should be just barely cooked through and still slightly firm. Do not cook them fully soft. Drain immediately through a sieve and rinse briefly under cold water to stop the cooking. Shake the sieve well to remove as much water as possible. Set the drained noodles aside.",
+          "micro_steps": [
+            "Fill a small pot with water and bring to a boil on high heat",
+            "Add both packs of noodles — break them in half first if needed to fit",
+            "Cook for exactly 2 minutes — set a timer",
+            "The noodles should be just barely cooked — still slightly firm to the touch",
+            "Do not cook them fully soft at this stage",
+            "Drain immediately through a sieve",
+            "Rinse briefly under cold water to stop the cooking",
+            "Shake the sieve firmly to remove as much water as possible",
+            "Set the drained noodles aside — do not leave them sitting in water"
+          ],
+          "duration_min": 180,
+          "duration_max": 300,
+          "heat": "medium",
+          "uses_ingredients": ["Indomie instant noodles"],
+          "sensory_cue": "The noodles should look just cooked — pale yellow and slightly firm. They should not look translucent or fully soft. When you bite one it should have just a little resistance left.",
+          "failure_risk": "Overcooking the noodles at this stage makes them mushy and they will fall apart during stir frying. 2 minutes is enough. When in doubt pull them out early — they will finish cooking in the hot pan.",
+          "stir_interval": null,
+          "skill_tags": ["boiling", "timing", "draining"],
+          "checkpoints": [
+            {
+              "at_second": 120,
+              "message": "2 minutes done — drain the noodles now. Do not wait. Rinse under cold water immediately.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Fry the Vegetables",
+          "instruction": "Heat the vegetable oil in your widest pan on medium-high heat. Add the sliced onion and fresh pepper and stir fry for 1–2 minutes until the onion softens slightly and the edges just begin to colour. Add the green pepper strips and stir fry for another minute. The vegetables should look bright and slightly softened — not fully cooked down.",
+          "micro_steps": [
+            "Heat 2 tablespoons of vegetable oil in your widest pan on medium-high",
+            "Let the oil heat until it shimmers — about 30 seconds",
+            "Add the sliced onion and fresh pepper",
+            "Stir fry continuously for 1–2 minutes",
+            "The onion should soften and the edges just start to colour",
+            "Add the green pepper strips",
+            "Stir fry for another minute",
+            "Everything should look bright, slightly softened, and fragrant"
+          ],
+          "duration_min": 120,
+          "duration_max": 180,
+          "heat": "medium",
+          "uses_ingredients": [
+            "vegetable oil",
+            "onion",
+            "green pepper",
+            "scotch bonnet or fresh pepper"
+          ],
+          "sensory_cue": "The vegetables should look bright and slightly softened — not grey or fully cooked down. The onion should smell sweet and the pan should be sizzling actively.",
+          "failure_risk": "Overcooking the vegetables at this stage means they will be completely soft and lifeless by the time the noodles are added. Keep the heat high and the time short — stir fry moves fast.",
+          "stir_interval": 20,
+          "skill_tags": ["stir-frying", "heat-control", "vegetables"],
+          "checkpoints": [
+            {
+              "at_second": 120,
+              "message": "Vegetables looking bright and just softened? Good — add the noodles now.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Add Noodles and Season",
+          "instruction": "Add the drained noodles to the pan and toss immediately to combine with the vegetables. Add all the Indomie seasoning packets — the powder sachet, the liquid seasoning, and the oil sachet. Add the soy sauce if using. Toss and stir fry continuously for 2–3 minutes so the noodles pick up colour and heat through completely. The noodles should look glossy, evenly coated in the seasoning, and slightly crisp at a few edges.",
+          "micro_steps": [
+            "Add the drained noodles directly into the pan with the vegetables",
+            "Toss immediately using tongs or two forks to combine",
+            "Add the powder seasoning sachet — toss to distribute",
+            "Add the liquid seasoning sachet — toss again",
+            "Add the oil sachet — toss again",
+            "Add 1 teaspoon of soy sauce if using",
+            "Keep tossing and stir frying continuously on medium-high heat",
+            "Spread the noodles across the pan occasionally and let them sit for 20–30 seconds before tossing — this creates the slightly crisp edges",
+            "Stir fry for 2–3 minutes total until the noodles look glossy and evenly coated"
+          ],
+          "duration_min": 120,
+          "duration_max": 180,
+          "heat": "medium",
+          "uses_ingredients": [
+            "Indomie instant noodles",
+            "soy sauce"
+          ],
+          "sensory_cue": "The noodles should look glossy and evenly coated in the orange-red seasoning. A few strands at the edges of the pan should look slightly crisp and golden. The smell should be savoury and deeply familiar — that classic Indomie aroma intensified by the heat.",
+          "failure_risk": "Not spreading the noodles flat occasionally means they steam in a pile instead of frying — you lose the crisp edges. Spread them flat, let them sit briefly, then toss. Repeat this pattern for the best texture.",
+          "stir_interval": 25,
+          "skill_tags": ["stir-frying", "tossing", "seasoning"],
+          "checkpoints": [
+            {
+              "at_second": 90,
+              "message": "Noodles looking glossy and evenly coated? A few edges starting to crisp? Good — almost ready for the egg.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Add Egg and Finish",
+          "instruction": "Push the noodles to one side of the pan to create a small clear space. Pour the beaten eggs into the clear space and let them sit for 15 seconds until the edges just begin to set. Then gently scramble them into large soft curds before folding them into the noodles. Add the sliced spring onion, toss once or twice, taste, and serve immediately.",
+          "micro_steps": [
+            "Push the noodles to one side of the pan",
+            "Pour the beaten egg into the clear space",
+            "Let the egg sit for 15 seconds until the edges just start to set",
+            "Using a spatula or fork gently scramble the egg into large soft curds",
+            "Fold the egg curds into the noodles with 2–3 gentle folds",
+            "Add the sliced spring onion — toss once",
+            "Taste the noodles — do they need salt? The seasoning packets are salty so you may not need any",
+            "Add a tiny pinch of salt only if genuinely needed",
+            "Turn off the heat and serve immediately"
+          ],
+          "duration_min": 60,
+          "duration_max": 120,
+          "heat": "medium",
+          "uses_ingredients": [
+            "egg",
+            "green onion (spring onion)",
+            "salt"
+          ],
+          "sensory_cue": "The egg should be visible as distinct golden pieces distributed through the noodles — not tiny dry fragments. The spring onion should look bright green. The finished dish should look glossy, colourful, and smell deeply savoury.",
+          "failure_risk": "Over-scrambling the egg before folding breaks it into tiny unrecognisable pieces. Scramble gently into large curds first then fold — you want visible pieces of egg through the noodles.",
+          "stir_interval": null,
+          "skill_tags": ["egg-work", "folding", "finishing"],
+          "checkpoints": [
+            {
+              "at_second": 60,
+              "message": "Egg folded in and distributed? Spring onion added? Taste now — season only if needed. Serve immediately.",
+              "type": "warning"
+            }
+          ]
+        }
+      ]
+    }
+
+  }
+}

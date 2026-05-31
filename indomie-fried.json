@@ -1,0 +1,230 @@
+{
+  "id": "indomie-fried",
+  "dish": "Indomie Dry Fry",
+  "emoji": "🍜",
+  "description": "Parboiled instant noodles fried dry in a hot pan until slightly crisp and golden at the edges — the most texturally satisfying way to eat Indomie.",
+  "image_url": "",
+  "theme": "nigerian",
+  "category": "noodles",
+  "tags": ["beginner", "quick", "everyday", "noodles", "crispy"],
+  "occasions": ["everyday", "quick meal", "late night"],
+  "serves": "1–2",
+  "author": null,
+  "community": false,
+  "pack_version": 1,
+  "tier": "free",
+  "dishLegendEligible": true,
+
+  "achievements": {
+    "master": {
+      "description": "Achieve an S rating on the Beginner path to earn the Master achievement",
+      "display": "Quiet permanent stamp on the path card"
+    },
+    "dish_legend": {
+      "description": "Achieve an S rating on the Beginner path — the only and highest path for this dish",
+      "display": "Permanent mark on the dish card in the pack browser"
+    }
+  },
+
+  "paths": {
+
+    "beginner": {
+      "level": "beginner",
+      "unlockedByDefault": true,
+      "unlockCondition": null,
+      "masteryAchievement": "Master — Indomie Dry Fry",
+      "description": "Noodles parboiled, drained very well, then fried dry until the edges crisp up and the seasoning caramelises slightly in the hot pan.",
+      "difficulty": "beginner",
+      "prep_notes": [
+        "Draining the noodles thoroughly is the most important step — wet noodles steam instead of fry",
+        "Use your widest pan — the noodles need to spread out flat to fry properly",
+        "Have the seasoning sachets open and ready before the noodles go into the pan — timing matters"
+      ],
+      "ingredients": [
+        {
+          "name": "Indomie instant noodles",
+          "quantity": "2 packs",
+          "essential": true,
+          "note": "Keep all seasoning sachets — powder, liquid, and oil."
+        },
+        {
+          "name": "vegetable oil",
+          "quantity": "2 tablespoons",
+          "essential": true,
+          "note": "Slightly more oil than stir fry — the dry fry method needs enough oil to crisp the edges."
+        },
+        {
+          "name": "onion",
+          "quantity": "half a medium bulb, sliced into thin rings",
+          "essential": true,
+          "note": "Thin rings fry faster and distribute better through the noodles."
+        },
+        {
+          "name": "scotch bonnet or fresh pepper",
+          "quantity": "1 small, sliced thinly (to taste)",
+          "essential": false,
+          "note": "Adds heat. Slice very thinly so it fries quickly."
+        },
+        {
+          "name": "egg",
+          "quantity": "2 medium",
+          "essential": true,
+          "note": "Beat lightly with a pinch of salt. The egg is essential for dry fry — it binds slightly and adds richness."
+        },
+        {
+          "name": "green onion (spring onion)",
+          "quantity": "2 stalks, sliced thinly",
+          "essential": false,
+          "note": "Added at the very end."
+        },
+        {
+          "name": "salt",
+          "quantity": "a tiny pinch if needed",
+          "essential": false,
+          "note": "The seasoning packets are salty. Taste before adding."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Parboil and Drain the Noodles",
+          "instruction": "Bring a pot of water to a boil. Add the noodles and cook for exactly 90 seconds — they should be barely softened, not fully cooked. Drain immediately through a sieve. Rinse under cold water to stop the cooking. Shake the sieve firmly and repeatedly to remove as much water as possible. Spread the noodles flat on a plate or tray and leave for 2 minutes to dry out slightly before frying.",
+          "micro_steps": [
+            "Fill a small pot with water and bring to a full boil",
+            "Add both packs of noodles",
+            "Cook for exactly 90 seconds — set a timer",
+            "The noodles should be barely softened — still quite firm",
+            "Drain immediately through a sieve",
+            "Rinse under cold running water to stop the cooking completely",
+            "Shake the sieve firmly and repeatedly — remove as much water as you can",
+            "Spread the noodles out flat on a plate or tray",
+            "Leave for 2 minutes — the surface moisture will evaporate slightly"
+          ],
+          "duration_min": 240,
+          "duration_max": 360,
+          "heat": "medium",
+          "uses_ingredients": ["Indomie instant noodles"],
+          "sensory_cue": "The drained noodles should look pale, slightly firm, and not glistening with water. When you touch them they should feel damp but not wet. If they look like they are dripping with water drain and shake again.",
+          "failure_risk": "Wet noodles in a hot pan create steam instead of frying — you get soft soggy noodles with no crisp edges at all. The draining and drying step is the most important in this entire recipe. Take your time with it.",
+          "stir_interval": null,
+          "skill_tags": ["parboiling", "draining", "prep"],
+          "checkpoints": [
+            {
+              "at_second": 90,
+              "message": "90 seconds done — drain the noodles immediately. Rinse under cold water now. Do not leave them in the hot water.",
+              "type": "warning"
+            },
+            {
+              "at_second": 300,
+              "message": "Noodles drained, rinsed, and spread out? Do they look dry enough? If still dripping shake the sieve again before frying.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Fry the Onion and Pepper",
+          "instruction": "Heat the vegetable oil in your widest pan on medium-high heat. Add the sliced onion rings and pepper. Stir fry for 1–2 minutes until the onion softens and just starts to colour at the edges. Do not fully cook the onion down — it should still have some bite.",
+          "micro_steps": [
+            "Heat 2 tablespoons of vegetable oil in your widest pan on medium-high",
+            "Let the oil heat until it shimmers",
+            "Add the sliced onion rings and pepper",
+            "Stir fry continuously for 1–2 minutes",
+            "The onion should soften and the edges just start to colour",
+            "Remove from the pan and set aside briefly — the noodles go in next"
+          ],
+          "duration_min": 60,
+          "duration_max": 120,
+          "heat": "medium",
+          "uses_ingredients": [
+            "vegetable oil",
+            "onion",
+            "scotch bonnet or fresh pepper"
+          ],
+          "sensory_cue": "Onion should look soft and slightly golden at the edges. The pan should smell sweet and fragrant from the frying onion.",
+          "failure_risk": "Fully cooking down the onion at this stage means it will be completely soft and almost invisible by the time the noodles are done. Keep it slightly underdone now — it finishes in the pan with the noodles.",
+          "stir_interval": 20,
+          "skill_tags": ["stir-frying", "heat-control"],
+          "checkpoints": [
+            {
+              "at_second": 90,
+              "message": "Onion soft and just starting to colour? Good — add the noodles to the pan now.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Fry the Noodles Dry",
+          "instruction": "Add the drained noodles to the pan with the onion. Spread them out flat across the entire surface of the pan. Add all the Indomie seasoning packets immediately — powder, liquid, and oil sachet. Toss to coat then spread flat again. Let the noodles sit undisturbed for 30–40 seconds so the bottom layer makes direct contact with the hot pan and starts to crisp. Then toss and spread again. Repeat this pattern — spread flat, let sit, toss — for 3–4 minutes until the noodles are fully cooked through and golden at the edges.",
+          "micro_steps": [
+            "Add the drained noodles to the pan with the onion",
+            "Spread them out flat across the full surface of the pan immediately",
+            "Add the powder seasoning sachet — toss quickly to distribute",
+            "Add the liquid seasoning sachet — toss",
+            "Add the oil sachet — toss",
+            "Spread the noodles flat again across the pan",
+            "Let them sit undisturbed for 30–40 seconds — resist the urge to stir",
+            "You should hear the sizzle intensify as the bottom layer fries",
+            "Toss the noodles then spread flat again",
+            "Repeat: spread flat, let sit 30 seconds, toss",
+            "Do this for 3–4 minutes total",
+            "The noodles are ready when they look golden and slightly crisp at the edges and smell toasty"
+          ],
+          "duration_min": 180,
+          "duration_max": 300,
+          "heat": "medium",
+          "uses_ingredients": ["Indomie instant noodles"],
+          "sensory_cue": "The noodles should look golden at the edges and slightly caramelised from the seasoning frying in the hot pan. The smell should be toasty and deeply savoury — the Indomie seasoning caramelising slightly is what makes dry fry distinct. You should hear a steady active sizzle throughout.",
+          "failure_risk": "Constantly stirring and tossing without letting the noodles sit flat means they never make sustained contact with the hot pan and you never develop the crisp edges. The spread-sit-toss pattern is the technique. Trust it.",
+          "stir_interval": 35,
+          "skill_tags": ["dry-frying", "texture", "heat-control"],
+          "checkpoints": [
+            {
+              "at_second": 120,
+              "message": "Noodles should be starting to look golden at the edges. Can you smell the seasoning caramelising slightly? Good — keep the spread-sit-toss pattern going.",
+              "type": "check"
+            },
+            {
+              "at_second": 240,
+              "message": "Noodles fully cooked through and golden at the edges? Smelling toasty and savoury? Ready for the egg.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Add Egg and Finish",
+          "instruction": "Push the noodles to one side of the pan. Pour the beaten egg into the clear space and let it sit for 10 seconds. Scramble gently into large curds then fold into the noodles with 2–3 slow folds. Add the sliced spring onion and toss once. Taste — add a tiny pinch of salt only if genuinely needed. Turn off the heat and serve immediately.",
+          "micro_steps": [
+            "Push the noodles to one side of the pan to create a clear space",
+            "Pour the beaten egg into the clear space",
+            "Let it sit for 10 seconds until the edges just set",
+            "Scramble gently into large soft curds",
+            "Fold the egg curds into the noodles with 2–3 slow gentle folds",
+            "Add the sliced spring onion",
+            "Toss once",
+            "Taste — add a tiny pinch of salt only if genuinely needed",
+            "Turn off the heat and serve immediately"
+          ],
+          "duration_min": 60,
+          "duration_max": 90,
+          "heat": "medium",
+          "uses_ingredients": [
+            "egg",
+            "green onion (spring onion)",
+            "salt"
+          ],
+          "sensory_cue": "The egg should be visible as distinct golden pieces through the crispy noodles. The spring onion should look bright green against the golden noodles. The finished dish should look textured — some soft pieces, some crisp edges, golden throughout.",
+          "failure_risk": "Over-folding after adding the egg breaks the crispy edges you spent the last 4 minutes building. Two or three gentle folds maximum. Stop as soon as the egg is distributed.",
+          "stir_interval": null,
+          "skill_tags": ["egg-work", "folding", "finishing"],
+          "checkpoints": [
+            {
+              "at_second": 60,
+              "message": "Egg folded in? Spring onion added? Serve immediately — dry fry loses its texture quickly as it sits.",
+              "type": "warning"
+            }
+          ]
+        }
+      ]
+    }
+
+  }
+}

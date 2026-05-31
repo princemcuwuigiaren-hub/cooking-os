@@ -1,0 +1,285 @@
+{
+  "id": "yam-and-egg-sauce",
+  "dish": "Yam and Egg Sauce",
+  "emoji": "🍳",
+  "description": "Boiled yam served alongside a rich, savoury tomato and egg stew — a classic Nigerian breakfast and comfort meal that comes together in under 30 minutes.",
+  "image_url": "",
+  "theme": "nigerian",
+  "category": "sides",
+  "tags": ["beginner", "breakfast", "everyday", "comfort", "quick"],
+  "occasions": ["breakfast", "everyday", "quick meal"],
+  "serves": "2–3",
+  "author": null,
+  "community": false,
+  "pack_version": 1,
+  "tier": "free",
+  "dishLegendEligible": true,
+
+  "achievements": {
+    "master": {
+      "description": "Achieve an S rating on the Beginner path to earn the Master achievement",
+      "display": "Quiet permanent stamp on the path card"
+    },
+    "dish_legend": {
+      "description": "Achieve an S rating on the Beginner path — the only and highest path for this dish",
+      "display": "Permanent mark on the dish card in the pack browser"
+    }
+  },
+
+  "paths": {
+
+    "beginner": {
+      "level": "beginner",
+      "unlockedByDefault": true,
+      "unlockCondition": null,
+      "masteryAchievement": "Master — Yam and Egg Sauce",
+      "description": "Perfectly boiled yam — soft through but not falling apart — with a rich tomato and egg sauce that is well-seasoned and slightly bold.",
+      "difficulty": "beginner",
+      "prep_notes": [
+        "The yam and egg sauce cook at roughly the same speed — start the yam first then make the sauce while it boils",
+        "White yam (the most common variety) is what you want — not water yam or yellow yam, both of which behave differently",
+        "Yam cooking time depends significantly on the thickness of the slices and the age of the yam — older yams take longer"
+      ],
+      "ingredients": [
+        {
+          "name": "white yam (Nigerian yam)",
+          "quantity": "about 500g — roughly 4–5 medium slices",
+          "essential": true,
+          "note": "Peel thickly — the outer layer just under the skin can be bitter. Cut into slices about 3–4cm thick for even cooking."
+        },
+        {
+          "name": "eggs",
+          "quantity": "3 medium",
+          "essential": true,
+          "note": "Beat lightly with a pinch of salt before cooking."
+        },
+        {
+          "name": "fresh plum tomatoes",
+          "quantity": "3 medium, blended or finely chopped",
+          "essential": true,
+          "note": "Blended gives a smoother sauce. Finely chopped gives a chunkier texture. Either works."
+        },
+        {
+          "name": "red bell pepper (tatashe)",
+          "quantity": "half a medium, blended or finely chopped",
+          "essential": false,
+          "note": "Adds sweetness and depth to the sauce. Skip if unavailable."
+        },
+        {
+          "name": "scotch bonnet or fresh pepper",
+          "quantity": "1 small (to taste)",
+          "essential": false,
+          "note": "Blend with the tomatoes or chop finely. Skip for a mild sauce."
+        },
+        {
+          "name": "onion",
+          "quantity": "1 medium bulb",
+          "essential": true,
+          "note": "Half finely chopped for the egg sauce. The other half sliced and added to the yam boiling water for flavour."
+        },
+        {
+          "name": "vegetable oil",
+          "quantity": "3 tablespoons",
+          "essential": true,
+          "note": "For frying the tomato base of the egg sauce."
+        },
+        {
+          "name": "seasoning cube (Maggi or Knorr)",
+          "quantity": "1 cube",
+          "essential": true,
+          "note": "Crush to powder before adding to the sauce."
+        },
+        {
+          "name": "salt",
+          "quantity": "to taste",
+          "essential": true,
+          "note": "Season the yam boiling water generously. Season the sauce to taste."
+        },
+        {
+          "name": "green onion (spring onion)",
+          "quantity": "1 stalk, sliced",
+          "essential": false,
+          "note": "Added at the very end of the egg sauce for freshness."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Peel and Boil the Yam",
+          "instruction": "Peel the yam thickly — remove a generous layer so no skin or tough outer layer remains. Cut into slices about 3–4cm thick. Place the slices in a pot, add the sliced half onion, and cover with cold water. Add a generous pinch of salt to the water. Bring to a boil on medium-high heat then reduce to a steady simmer. Cook until the yam is fully tender when pierced with a fork — about 15–25 minutes depending on thickness.",
+          "micro_steps": [
+            "Peel the yam thickly — use a knife not a peeler, remove a generous layer",
+            "Rinse the peeled yam under cold water",
+            "Cut into slices about 3–4cm thick — consistent thickness helps them cook evenly",
+            "Place the yam slices in a pot",
+            "Add the sliced half onion — this adds flavour to the yam as it cooks",
+            "Cover with cold water — the water should sit about 2cm above the yam",
+            "Add a generous pinch of salt to the water",
+            "Bring to a boil on medium-high heat",
+            "Reduce to a steady simmer once boiling",
+            "Cook for 15–25 minutes",
+            "After 15 minutes pierce a thick slice with a fork — it should go through with some resistance",
+            "Continue cooking until the fork goes through cleanly with no resistance",
+            "Do not overcook — the yam should hold its shape not fall apart"
+          ],
+          "duration_min": 900,
+          "duration_max": 1500,
+          "heat": "medium",
+          "uses_ingredients": [
+            "white yam (Nigerian yam)",
+            "onion",
+            "salt"
+          ],
+          "sensory_cue": "The yam is ready when a fork slides through a thick slice cleanly with no resistance. The flesh should look white and opaque throughout — not translucent or grey in the centre. The water should smell slightly sweet and earthy from the yam.",
+          "failure_risk": "Undercooked yam is chalky and starchy in the centre — unpleasant to eat. Always test with a fork before removing from the heat. Overcooked yam falls apart completely and becomes waterlogged. The window between perfectly cooked and overcooked is about 3–5 minutes so check regularly after the 15-minute mark.",
+          "stir_interval": null,
+          "skill_tags": ["boiling", "timing", "testing"],
+          "checkpoints": [
+            {
+              "at_second": 900,
+              "message": "15 minutes done. Test the yam with a fork now — does it go through with some resistance? Still firm? Give it 5 more minutes then test again.",
+              "type": "check"
+            },
+            {
+              "at_second": 1200,
+              "message": "Fork going through cleanly with no resistance? Yam is done — remove from heat and drain. If not done keep simmering and test every 3 minutes.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Blend and Fry the Tomato Base",
+          "instruction": "While the yam is boiling make the sauce. Blend the tomatoes, red bell pepper, scotch bonnet, and the finely chopped half onion until smooth — no water needed. Heat the vegetable oil in a pan on medium heat. Pour in the blended mix and fry, stirring every minute, for 6–8 minutes until the sauce thickens, darkens slightly, and the raw tomato sharpness is gone.",
+          "micro_steps": [
+            "Add the tomatoes, red bell pepper, scotch bonnet, and finely chopped half onion to the blender",
+            "Blend until smooth — no water needed",
+            "Heat 3 tablespoons of vegetable oil in a wide pan on medium heat",
+            "Pour in the blended tomato mix — stand back slightly, it may splatter",
+            "Stir immediately to combine with the oil",
+            "Fry on medium heat, stirring every minute",
+            "Fry for 6–8 minutes until the sauce is noticeably thicker and darker",
+            "The raw tomato sharpness should be completely gone from the smell",
+            "The oil should just be starting to separate at the surface"
+          ],
+          "duration_min": 360,
+          "duration_max": 600,
+          "heat": "medium",
+          "uses_ingredients": [
+            "fresh plum tomatoes",
+            "red bell pepper (tatashe)",
+            "scotch bonnet or fresh pepper",
+            "onion",
+            "vegetable oil"
+          ],
+          "sensory_cue": "The tomato base should look thicker and darker than when it went in — a rich dark orange-red. The raw tomato sharpness should be gone, replaced by a cooked, slightly sweet tomato smell. The oil should just be beginning to separate at the surface.",
+          "failure_risk": "Under-frying the tomato base leaves a raw sharp taste in the egg sauce. Give it the full 6–8 minutes even though it is a small quantity. The oil separating is the sign it is ready.",
+          "stir_interval": 60,
+          "skill_tags": ["blending", "frying", "reduction"],
+          "checkpoints": [
+            {
+              "at_second": 300,
+              "message": "Sauce thickening and darkening? Raw tomato smell fading? Give it another 2–3 minutes to fully cook out.",
+              "type": "check"
+            },
+            {
+              "at_second": 540,
+              "message": "Raw tomato smell completely gone? Oil just separating at the surface? Ready for the seasoning and eggs.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Season the Sauce",
+          "instruction": "Add the crushed seasoning cube and a pinch of salt to the fried tomato base. Stir well and let it cook for 1 minute. Taste the sauce — it should be well-seasoned and slightly bold since the eggs will mellow it. Adjust with more salt if needed.",
+          "micro_steps": [
+            "Add the crushed seasoning cube to the tomato base — stir in well",
+            "Add a pinch of salt — stir",
+            "Cook for 1 minute on medium heat",
+            "Taste the sauce carefully",
+            "It should taste well-seasoned and slightly bold — the eggs will absorb and mellow the flavour",
+            "Add more salt if it tastes flat",
+            "Confirm the seasoning before the eggs go in — it is easier to adjust now"
+          ],
+          "duration_min": 60,
+          "duration_max": 120,
+          "heat": "medium",
+          "uses_ingredients": [
+            "seasoning cube (Maggi or Knorr)",
+            "salt"
+          ],
+          "sensory_cue": "The sauce should smell deeply savoury and rich. The taste should be bold and well-seasoned — not flat or bland.",
+          "failure_risk": "Under-seasoning at this stage is the most common mistake with egg sauce. The eggs absorb and dilute the seasoning — what tastes just right now will taste bland after the eggs go in. Season boldly.",
+          "stir_interval": null,
+          "skill_tags": ["seasoning", "tasting"],
+          "checkpoints": [
+            {
+              "at_second": 90,
+              "message": "Taste the sauce now. Bold and well-seasoned? Good — add the eggs. Flat? Add more salt before the eggs go in.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Add Eggs and Finish the Sauce",
+          "instruction": "Reduce the heat to medium-low. Pour the beaten eggs directly into the tomato sauce and stir immediately and continuously for about 1 minute until the eggs are fully cooked through and distributed through the sauce in small pieces. Add the sliced spring onion. Taste one final time and adjust salt if needed. The egg sauce is done.",
+          "micro_steps": [
+            "Reduce the heat to medium-low",
+            "Pour the beaten eggs into the tomato sauce",
+            "Stir immediately and continuously — do not let the egg set in a large lump",
+            "Keep stirring for about 60 seconds until the eggs are fully cooked",
+            "The egg should look like small cooked pieces distributed through the sauce",
+            "The sauce should look thicker and richer now with the egg cooked through",
+            "Add the sliced spring onion — stir once",
+            "Taste one final time — adjust salt if needed",
+            "Turn off the heat"
+          ],
+          "duration_min": 60,
+          "duration_max": 120,
+          "heat": "medium",
+          "uses_ingredients": [
+            "eggs",
+            "green onion (spring onion)",
+            "salt"
+          ],
+          "sensory_cue": "The finished egg sauce should look rich, thick, and deeply coloured — orange-red from the tomatoes with visible pieces of cooked egg throughout. It should smell deeply savoury. The egg pieces should look fully cooked — no wet or runny parts.",
+          "failure_risk": "Pouring the eggs in without stirring immediately causes them to set in one large mass that is difficult to break up. Stir the moment the eggs hit the hot sauce and keep stirring until they are fully cooked and distributed.",
+          "stir_interval": null,
+          "skill_tags": ["egg-work", "finishing", "tasting"],
+          "checkpoints": [
+            {
+              "at_second": 60,
+              "message": "Eggs fully cooked and distributed? Sauce looking thick and rich? Spring onion added? Taste one final time then serve with the yam.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Drain the Yam and Serve",
+          "instruction": "Drain the cooked yam through a sieve or carefully pour off the water. Place the yam slices on a serving plate. Serve immediately alongside the egg sauce. The yam and sauce should hit the table at the same time — time your sauce to finish just as the yam is done.",
+          "micro_steps": [
+            "Drain the cooked yam through a sieve or pour off the boiling water carefully",
+            "Place the yam slices on a serving plate",
+            "The yam should look white and opaque — soft through but holding its shape",
+            "Spoon the egg sauce generously alongside or on top of the yam",
+            "Serve immediately while both are hot"
+          ],
+          "duration_min": 60,
+          "duration_max": 90,
+          "heat": "none",
+          "uses_ingredients": ["white yam (Nigerian yam)"],
+          "sensory_cue": "The boiled yam should look white and slightly glossy. It should smell clean and slightly earthy. When you press a slice gently with a fork it should yield easily with no resistance throughout.",
+          "failure_risk": "Leaving the cooked yam sitting in the hot water after it is done continues cooking it and it will become waterlogged and fall apart. Drain it as soon as it is cooked.",
+          "stir_interval": null,
+          "skill_tags": ["draining", "plating", "serving"],
+          "checkpoints": [
+            {
+              "at_second": 60,
+              "message": "Yam drained and plated? Egg sauce ready? Serve immediately while everything is hot.",
+              "type": "warning"
+            }
+          ]
+        }
+      ]
+    }
+
+  }
+}

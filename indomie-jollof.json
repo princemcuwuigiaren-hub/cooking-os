@@ -1,0 +1,226 @@
+{
+  "id": "indomie-jollof",
+  "dish": "Indomie Jollof",
+  "emoji": "🍜",
+  "description": "Instant noodles cooked in a rich tomato-based sauce — the noodle version of jollof rice, deeply seasoned and ready in minutes.",
+  "image_url": "",
+  "theme": "nigerian",
+  "category": "noodles",
+  "tags": ["beginner", "quick", "everyday", "noodles", "one-pot"],
+  "occasions": ["everyday", "quick meal", "late night"],
+  "serves": "1–2",
+  "author": null,
+  "community": false,
+  "pack_version": 1,
+  "tier": "free",
+  "dishLegendEligible": true,
+
+  "achievements": {
+    "master": {
+      "description": "Achieve an S rating on the Beginner path to earn the Master achievement",
+      "display": "Quiet permanent stamp on the path card"
+    },
+    "dish_legend": {
+      "description": "Achieve an S rating on the Beginner path — the only and highest path for this dish",
+      "display": "Permanent mark on the dish card in the pack browser"
+    }
+  },
+
+  "paths": {
+
+    "beginner": {
+      "level": "beginner",
+      "unlockedByDefault": true,
+      "unlockCondition": null,
+      "masteryAchievement": "Master — Indomie Jollof",
+      "description": "Noodles cooked directly in a quick tomato sauce — one pot, minimal effort, maximum flavour.",
+      "difficulty": "beginner",
+      "prep_notes": [
+        "This is a one-pot dish — the noodles cook directly in the sauce, not separately",
+        "The liquid ratio is critical — too much water makes soup, too little burns the noodles before they cook",
+        "Have everything measured and ready before the heat goes on — this cooks in under 15 minutes total"
+      ],
+      "ingredients": [
+        {
+          "name": "Indomie instant noodles",
+          "quantity": "2 packs",
+          "essential": true,
+          "note": "Keep all the seasoning sachets — powder, liquid, and oil all go in."
+        },
+        {
+          "name": "fresh plum tomatoes",
+          "quantity": "2 medium, blended or finely chopped",
+          "essential": true,
+          "note": "Blended gives a smoother sauce. Finely chopped gives a chunkier texture. Either works."
+        },
+        {
+          "name": "scotch bonnet or tatashe",
+          "quantity": "1 small (to taste)",
+          "essential": false,
+          "note": "Blend with the tomatoes or chop finely."
+        },
+        {
+          "name": "onion",
+          "quantity": "half a medium bulb, finely chopped",
+          "essential": true,
+          "note": "Finely chopped — it fries quickly in this dish."
+        },
+        {
+          "name": "vegetable oil",
+          "quantity": "1 tablespoon",
+          "essential": true,
+          "note": "Just enough to fry the onion and tomato base."
+        },
+        {
+          "name": "water",
+          "quantity": "about three quarters of a cup (180ml)",
+          "essential": true,
+          "note": "This is the cooking liquid for the noodles. The exact amount depends on how saucy you want the final dish — start with three quarters of a cup."
+        },
+        {
+          "name": "egg",
+          "quantity": "1–2 medium (optional)",
+          "essential": false,
+          "note": "Cracked directly into the pot near the end and stirred through. Adds richness."
+        },
+        {
+          "name": "green onion (spring onion)",
+          "quantity": "1 stalk, sliced",
+          "essential": false,
+          "note": "Added at the very end for freshness."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Fry the Tomato Base",
+          "instruction": "Heat the vegetable oil in a medium pot on medium heat. Add the finely chopped onion and fry for 1–2 minutes until soft. Add the blended or chopped tomatoes and scotch bonnet. Stir and fry for 4–5 minutes until the tomatoes have cooked down, the raw sharpness is gone, and the sauce looks thicker and slightly darker.",
+          "micro_steps": [
+            "Heat 1 tablespoon of vegetable oil in a medium pot on medium heat",
+            "Add the finely chopped onion — stir immediately",
+            "Fry for 1–2 minutes until the onion softens",
+            "Add the blended or chopped tomatoes and scotch bonnet",
+            "Stir well to combine",
+            "Fry on medium heat for 4–5 minutes, stirring every minute",
+            "The sauce should look thicker and slightly darker",
+            "The raw tomato sharpness should smell cooked and mellow"
+          ],
+          "duration_min": 240,
+          "duration_max": 420,
+          "heat": "medium",
+          "uses_ingredients": [
+            "vegetable oil",
+            "onion",
+            "fresh plum tomatoes",
+            "scotch bonnet or tatashe"
+          ],
+          "sensory_cue": "The tomato sauce should look darker and thicker than when it went in. The raw tomato sharpness should be gone from the smell — replaced by a sweeter cooked tomato aroma.",
+          "failure_risk": "Not cooking the tomato base down enough leaves a raw sharp taste in the finished noodles. Give the base the full 4–5 minutes even though it is a small quantity.",
+          "stir_interval": 60,
+          "skill_tags": ["frying", "reduction", "flavour-building"],
+          "checkpoints": [
+            {
+              "at_second": 240,
+              "message": "Sauce looking thicker and darker? Raw tomato smell gone? Good — ready for the water and seasoning.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Add Water and Seasoning",
+          "instruction": "Pour three quarters of a cup of water into the pot and stir to combine with the tomato base. Add all the Indomie seasoning packets — the powder, the liquid, and the oil sachet. Stir everything together and bring to a gentle boil. Taste the sauce — it should be well-seasoned and slightly bold. The Indomie packets are salty so you likely will not need extra salt.",
+          "micro_steps": [
+            "Pour three quarters of a cup of water into the pot",
+            "Stir to combine with the tomato base",
+            "Add the powder seasoning sachet — stir in",
+            "Add the liquid seasoning sachet — stir in",
+            "Add the oil sachet — stir in",
+            "Bring to a gentle boil on medium heat",
+            "Taste the sauce — well-seasoned and slightly bold?",
+            "The sauce should look like a light but well-flavoured tomato broth"
+          ],
+          "duration_min": 120,
+          "duration_max": 180,
+          "heat": "medium",
+          "uses_ingredients": [
+            "water",
+            "Indomie instant noodles"
+          ],
+          "sensory_cue": "The sauce should smell deeply savoury and look a rich orange-red from the tomato and seasoning combined. It should be boiling gently — not aggressively.",
+          "failure_risk": "Adding too much water at this stage makes the noodles absorb too much liquid and the dish ends up watery. Three quarters of a cup is the right starting point — you can always add a tiny splash more if the noodles look too dry before they finish cooking.",
+          "stir_interval": null,
+          "skill_tags": ["seasoning", "liquid-ratio"],
+          "checkpoints": [
+            {
+              "at_second": 120,
+              "message": "Sauce boiling gently and smelling savoury? Seasoning tasted and confirmed? Add the noodles now.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Add Noodles and Cook",
+          "instruction": "Add both blocks of dry noodles directly into the boiling sauce. Do not break them — let them soften naturally and push them down gently as they do. Stir to coat them in the sauce as they begin to soften. Cover the pot and cook on medium-low heat for 2–3 minutes. Lift the lid and stir gently — the noodles should have absorbed most of the sauce and look fully cooked and evenly coated.",
+          "micro_steps": [
+            "Add both blocks of dry noodles to the boiling sauce",
+            "Do not break them — let them soften into the sauce naturally",
+            "After 30 seconds gently push them down into the sauce as they start to soften",
+            "Stir gently to coat them in the sauce",
+            "Cover the pot",
+            "Cook on medium-low heat for 2–3 minutes",
+            "After 2 minutes lift the lid and stir gently from the bottom",
+            "The noodles should look fully cooked and evenly coated in the sauce",
+            "Most of the liquid should be absorbed — not sitting in a pool at the bottom"
+          ],
+          "duration_min": 120,
+          "duration_max": 180,
+          "heat": "medium",
+          "uses_ingredients": ["Indomie instant noodles"],
+          "sensory_cue": "The noodles should look fully cooked — soft and deeply stained orange-red from the tomato sauce. They should look glossy and coated, not sitting in liquid. The smell should be that classic Indomie jollof aroma — deeply savoury and slightly tomatoey.",
+          "failure_risk": "If the sauce dries up completely before the noodles finish cooking add a tiny splash of water and cover again. If there is too much liquid left when the noodles are cooked remove the lid and cook on medium heat for another minute to reduce it.",
+          "stir_interval": null,
+          "skill_tags": ["absorption", "timing", "one-pot"],
+          "checkpoints": [
+            {
+              "at_second": 120,
+              "message": "Lift the lid and check. Noodles fully soft and coated? Sauce mostly absorbed? If yes move to the egg. If still very liquid cook uncovered for another minute.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Add Egg and Finish",
+          "instruction": "If using egg, crack it directly into the pot over the cooked noodles. Stir immediately and continuously for about 30 seconds until the egg is fully cooked through and distributed through the noodles in small pieces. Add the sliced spring onion, give one final toss, and serve immediately.",
+          "micro_steps": [
+            "Reduce heat to medium-low",
+            "Crack the egg directly into the pot over the noodles",
+            "Stir immediately and continuously",
+            "Keep stirring for about 30 seconds until the egg is fully cooked and distributed",
+            "The egg should look like small cooked pieces throughout the noodles — not a runny pool",
+            "Add the sliced spring onion",
+            "Toss once gently",
+            "Turn off the heat and serve immediately"
+          ],
+          "duration_min": 60,
+          "duration_max": 90,
+          "heat": "medium",
+          "uses_ingredients": [
+            "egg",
+            "green onion (spring onion)"
+          ],
+          "sensory_cue": "The egg should look fully cooked and distributed as small golden pieces through the noodles. The spring onion should look bright green. The finished dish should look deeply coloured, glossy, and smell completely savoury.",
+          "failure_risk": "Not stirring immediately after cracking the egg causes it to set in one large lump on top of the noodles. Stir the moment it hits the hot noodles.",
+          "stir_interval": null,
+          "skill_tags": ["egg-work", "finishing"],
+          "checkpoints": [
+            {
+              "at_second": 60,
+              "message": "Egg cooked and distributed? Spring onion added? Serve immediately.",
+              "type": "warning"
+            }
+          ]
+        }
+      ]
+    }
+
+  }
+}

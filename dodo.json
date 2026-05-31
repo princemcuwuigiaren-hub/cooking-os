@@ -1,0 +1,166 @@
+{
+  "id": "dodo",
+  "dish": "Dodo (Fried Plantain)",
+  "emoji": "🍌",
+  "description": "Sweet ripe plantain sliced and shallow fried until golden and caramelised — Nigeria's most beloved side dish and one of the most satisfying things you can cook in 10 minutes.",
+  "image_url": "",
+  "theme": "nigerian",
+  "category": "sides",
+  "tags": ["beginner", "quick", "side", "everyday", "sweet"],
+  "occasions": ["everyday", "party", "side dish", "breakfast"],
+  "serves": "2–3",
+  "author": null,
+  "community": false,
+  "pack_version": 1,
+  "tier": "free",
+  "dishLegendEligible": true,
+
+  "achievements": {
+    "master": {
+      "description": "Achieve an S rating on the Beginner path to earn the Master achievement",
+      "display": "Quiet permanent stamp on the path card"
+    },
+    "dish_legend": {
+      "description": "Achieve an S rating on the Beginner path — the only and highest path for this dish",
+      "display": "Permanent mark on the dish card in the pack browser"
+    }
+  },
+
+  "paths": {
+
+    "beginner": {
+      "level": "beginner",
+      "unlockedByDefault": true,
+      "unlockCondition": null,
+      "masteryAchievement": "Master — Dodo",
+      "description": "Perfect fried plantain — golden, caramelised, and slightly crisp on the outside with a soft sweet interior. The right plantain ripeness makes all the difference.",
+      "difficulty": "beginner",
+      "prep_notes": [
+        "Plantain ripeness is everything — you want yellow plantain with significant black spots or patches. Fully yellow with no black spots is too early. Fully black is overripe and will fall apart when frying.",
+        "The skin should feel slightly soft when you press it gently — not rock hard, not mushy",
+        "Do not use unripe green plantain for dodo — that is a different dish entirely (boiled or roasted)"
+      ],
+      "ingredients": [
+        {
+          "name": "ripe plantain",
+          "quantity": "2 medium",
+          "essential": true,
+          "note": "Yellow with significant black spots — this is the correct ripeness for dodo. The blacker the skin the sweeter the flesh. Avoid completely green or completely black plantains."
+        },
+        {
+          "name": "vegetable oil",
+          "quantity": "enough to fill the pan about 1cm deep",
+          "essential": true,
+          "note": "Shallow frying — the plantain should sit in the oil not float in it. Vegetable oil, sunflower oil, or any neutral oil works."
+        },
+        {
+          "name": "salt",
+          "quantity": "a very small pinch (optional)",
+          "essential": false,
+          "note": "A tiny pinch of salt on the sliced plantain before frying is a personal preference. It contrasts with the sweetness. Completely optional."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Peel and Slice the Plantain",
+          "instruction": "Cut off both ends of the plantain. Score the skin lengthwise with a knife — do not cut into the flesh, just score the skin. Peel the skin off. Slice the plantain into rounds at a slight diagonal angle — about 1 to 1.5 centimetres thick. Diagonal cuts give more surface area and a better shape. If you want to add salt, sprinkle a very small pinch over the slices now.",
+          "micro_steps": [
+            "Cut off the top and bottom ends of each plantain",
+            "Score the skin lengthwise with a knife — one or two cuts along the length",
+            "Peel the skin away from the flesh — it should come off easily if ripe",
+            "Place the peeled plantain on a cutting board",
+            "Slice into rounds at a slight diagonal angle",
+            "Each slice should be about 1 to 1.5 centimetres thick — not too thin or they crisp up too hard, not too thick or the outside burns before the inside cooks",
+            "If using salt: sprinkle a very small pinch over the slices and toss lightly"
+          ],
+          "duration_min": 120,
+          "duration_max": 240,
+          "heat": "none",
+          "uses_ingredients": [
+            "ripe plantain",
+            "salt"
+          ],
+          "sensory_cue": "The peeled plantain flesh should look a deep yellow colour — the riper the plantain the more vibrant and golden the flesh. It should smell distinctly sweet and fruity. The flesh should feel soft but still hold its shape when sliced.",
+          "failure_risk": "Slicing the plantain too thin (under 8mm) causes the slices to become hard and dry when fried. Too thick (over 2cm) and the outside burns before the inside is fully cooked through. Aim for 1 to 1.5cm consistently.",
+          "stir_interval": null,
+          "skill_tags": ["prep", "knife-work"],
+          "checkpoints": [
+            {
+              "at_second": 120,
+              "message": "Plantain sliced consistently at 1–1.5cm thick? Good — heat the oil now.",
+              "type": "check"
+            }
+          ]
+        },
+        {
+          "title": "Heat the Oil and Fry",
+          "instruction": "Pour enough oil to fill the pan about 1cm deep. Heat on medium heat until the oil is hot enough — test by dropping a small piece of plantain in; if it sizzles actively the oil is ready. Add the plantain slices in a single layer — do not stack or overlap them. Fry undisturbed for 2–3 minutes until the bottom face is a deep golden brown. Flip each slice carefully with tongs or a fork and fry the other side for 2–3 minutes until equally golden. Remove and drain on a paper towel.",
+          "micro_steps": [
+            "Pour oil into a wide frying pan to about 1cm depth",
+            "Heat on medium heat — not high",
+            "Test the oil: drop a small piece of plantain in — active immediate sizzle means ready",
+            "If the oil smokes before you add the plantain it is too hot — reduce the heat",
+            "Add the plantain slices in a single layer",
+            "Do not stack or overlap — each slice needs direct contact with the oil",
+            "Fry undisturbed for 2–3 minutes — do not move them",
+            "After 2–3 minutes check the underside of one slice — it should be a deep golden brown",
+            "If not golden yet leave for another minute",
+            "Flip each slice carefully with tongs or a fork",
+            "Fry the second side for 2–3 minutes until equally golden",
+            "Remove each slice and place on a plate lined with paper towel to drain"
+          ],
+          "duration_min": 360,
+          "duration_max": 480,
+          "heat": "medium",
+          "uses_ingredients": [
+            "vegetable oil",
+            "ripe plantain"
+          ],
+          "sensory_cue": "The fried side should look a deep golden brown — not pale yellow, not dark brown or black. It should smell sweet and slightly caramelised from the natural sugars in the plantain. When you flip a slice the underside should look like the colour of caramel.",
+          "failure_risk": "Frying on high heat burns the outside before the inside has time to cook through — you get a dark crust with an undercooked centre. Medium heat is non-negotiable for dodo. Also do not flip too early — the slice should release naturally from the pan when it is ready. If it sticks and tears when you try to flip it needs more time.",
+          "stir_interval": null,
+          "skill_tags": ["shallow-frying", "heat-control", "timing"],
+          "checkpoints": [
+            {
+              "at_second": 180,
+              "message": "Check the underside of one slice. Deep golden brown like caramel? Ready to flip. Still pale? Leave for another minute.",
+              "type": "check"
+            },
+            {
+              "at_second": 360,
+              "message": "Both sides golden? Remove from the oil and drain on paper towel. Serve immediately.",
+              "type": "warning"
+            }
+          ]
+        },
+        {
+          "title": "Drain and Serve",
+          "instruction": "Remove the fried plantain from the oil and place on a plate lined with paper towel. Leave for 1 minute to drain any excess oil. Serve immediately while hot — dodo is best eaten fresh from the pan. Serve as a side with rice and stew, jollof rice, beans, or eat on its own.",
+          "micro_steps": [
+            "Remove each slice from the oil with tongs",
+            "Place on a plate lined with paper towel",
+            "Leave for 1 minute to drain excess oil",
+            "Serve immediately while hot and slightly crisp",
+            "Best served alongside jollof rice, beans, white rice and stew, or on its own"
+          ],
+          "duration_min": 60,
+          "duration_max": 90,
+          "heat": "none",
+          "uses_ingredients": [],
+          "sensory_cue": "The finished dodo should look deep golden brown on both sides, slightly caramelised, and glossy. It should feel slightly firm on the outside and soft when you press gently. The smell should be sweet and deeply caramelised.",
+          "failure_risk": "Dodo left sitting too long after frying loses its slight crispness and becomes fully soft. Serve it immediately — it does not hold well.",
+          "stir_interval": null,
+          "skill_tags": ["draining", "finishing", "serving"],
+          "checkpoints": [
+            {
+              "at_second": 60,
+              "message": "Drained for 1 minute? Serve immediately — dodo is best eaten hot and fresh.",
+              "type": "warning"
+            }
+          ]
+        }
+      ]
+    }
+
+  }
+}
